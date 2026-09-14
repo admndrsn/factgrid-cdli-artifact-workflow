@@ -1,0 +1,79 @@
+metric,value,live_period_label,expected_period_label,live_period_qid,correct_period_qid,count
+repair_candidate_rows,1085.0,,,,,
+repair_candidate_items,1085.0,,,,,
+,,Persian Period,Neo-Babylonian Period,Q512162,Q512161,398.0
+,,Middle Hittite Period,Old Babylonian Period,Q512153,Q512152,221.0
+,,Old Babylonian Period,Old Assyrian Period,Q512152,Q512151,53.0
+,,Late Babylonian Period,Neo-Assyrian Period,Q512159,Q512158,42.0
+,,Middle Assyrian Period,Middle Babylonian Period,Q512155,Q512154,35.0
+,,Selucid Period,Hellenistic Period,Q512165,Q512164,33.0
+,,Middle Elamite Period,Middle Assyrian Period,Q512156,Q512155,30.0
+,,Ur III Period,Old Babylonian Period,Q512148,Q512152,27.0
+,,Old Assyrian Period,Early Old Babylonian Period,Q512151,Q512150,24.0
+,,Ur III Period,Middle Hittite Period,Q512148,Q512153,15.0
+,,Isin-Larsa Period,Ur III Period,Q512149,Q512148,14.0
+,,Lagash II Period,Ur III Period,Q512146,Q512148,13.0
+,,Ur III Period,Neo-Assyrian Period,Q512148,Q512158,13.0
+,,Lagash II Period,Old Babylonian Period,Q512146,Q512152,12.0
+,,Ur III Period,Neo-Babylonian Period,Q512148,Q512161,10.0
+,,Early Old Babylonian Period,Old Babylonian Period,Q512150,Q512152,9.0
+,,Neo-Assyrian Period,Old Babylonian Period,Q512158,Q512152,7.0
+,,Lagash II Period,Middle Babylonian Period,Q512146,Q512154,7.0
+,,Lagash II Period,Neo-Assyrian Period,Q512146,Q512158,6.0
+,,Neo-Assyrian Period,Ur III Period,Q512158,Q512148,6.0
+,,Ur III Period,Achaemenid Period,Q512148,Q512163,5.0
+,,Ur III Period,Middle Babylonian Period,Q512148,Q512154,5.0
+,,Lagash II Period,Neo-Babylonian Period,Q512146,Q512161,5.0
+,,Early Old Babylonian Period,Neo-Babylonian Period,Q512150,Q512161,5.0
+,,Early Old Babylonian Period,Ur III Period,Q512150,Q512148,5.0
+,,Neo-Assyrian Period,Neo-Babylonian Period,Q512158,Q512161,4.0
+,,Middle Assyrian Period,Neo-Assyrian Period,Q512155,Q512158,4.0
+,,Neo-Assyrian Period,Middle Babylonian Period,Q512158,Q512154,3.0
+,,Early Old Babylonian Period,Uruk III Period,Q512150,Q512134,3.0
+,,Ur III Period,Lagash II Period,Q512148,Q512146,3.0
+,,Ur III Period,Ebla Period,Q512148,Q512143,3.0
+,,Lagash II Period,Early Old Babylonian Period,Q512146,Q512150,3.0
+,,Lagash II Period,Middle Hittite Period,Q512146,Q512153,3.0
+,,Ur III Period,Early Old Babylonian Period,Q512148,Q512150,2.0
+,,Old Babylonian Period,Ur III Period,Q512152,Q512148,2.0
+,,Old Babylonian Period,Early Old Babylonian Period,Q512152,Q512150,2.0
+,,Ur III Period,Proto-Elamite Period,Q512148,Q512135,2.0
+,,Neo-Assyrian Period,Middle Hittite Period,Q512158,Q512153,2.0
+,,Neo-Assyrian Period,Ebla Period,Q512158,Q512143,2.0
+,,Ur III Period,Uruk III Period,Q512148,Q512134,2.0
+,,Neo-Assyrian Period,Middle Assyrian Period,Q512158,Q512155,2.0
+,,Ur III Period,Uruk IV Period,Q512148,Q512132,2.0
+,,Middle Assyrian Period,Old Babylonian Period,Q512155,Q512152,2.0
+,,Middle Assyrian Period,Ur III Period,Q512155,Q512148,2.0
+,,Harappan Period,Lagash II Period,Q512147,Q512146,2.0
+,,Early Old Babylonian Period,Middle Hittite Period,Q512150,Q512153,2.0
+,,Lagash II Period,Hellenistic Period,Q512146,Q512164,2.0
+,,Early Old Babylonian Period,Lagash II Period,Q512150,Q512146,2.0
+,,Early Neo-Babylonian Period,Early Neo-Babylonian Period,Q512157,Q512158,2.0
+,,Early Old Babylonian Period,Middle Babylonian Period,Q512150,Q512154,1.0
+,,Ur III Period,Neo-Elamite Period,Q512148,Q512160,1.0
+,,Early Old Babylonian Period,Achaemenid Period,Q512150,Q512163,1.0
+,,Lagash II Period,Middle Assyrian Period,Q512146,Q512155,1.0
+,,Early Old Babylonian Period,Neo-Assyrian Period,Q512150,Q512158,1.0
+,,Early Old Babylonian Period,Proto-Elamite Period,Q512150,Q512135,1.0
+,,Early Old Babylonian Period,Uruk IV Period,Q512150,Q512132,1.0
+,,Ur III Period,Middle Assyrian Period,Q512148,Q512155,1.0
+,,Harappan Period,Harappan Period,Q512147,Q512148,1.0
+,,Lagash II Period,Ebla Period,Q512146,Q512143,1.0
+,,Neo-Assyrian Period,Hellenistic Period,Q512158,Q512164,1.0
+,,Lagash II Period,Uruk III Period,Q512146,Q512134,1.0
+,,Lagash II Period,Proto-Elamite Period,Q512146,Q512135,1.0
+,,Neo-Assyrian Period,Achaemenid Period,Q512158,Q512163,1.0
+,,Linear Elamite Period,Linear Elamite Period,Q512145,Q512146,1.0
+,,Old Babylonian Period,Neo-Babylonian Period,Q512152,Q512161,1.0
+,,Old Babylonian Period,Neo-Assyrian Period,Q512152,Q512158,1.0
+,,Old Babylonian Period,Ebla Period,Q512152,Q512143,1.0
+,,Middle Assyrian Period,Neo-Babylonian Period,Q512155,Q512161,1.0
+,,Old Assyrian Period,Ur III Period,Q512151,Q512148,1.0
+,,Old Assyrian Period,Neo-Assyrian Period,Q512151,Q512158,1.0
+,,Neo-Babylonian Period,Ur III Period,Q512161,Q512148,1.0
+,,Neo-Babylonian Period,Neo-Assyrian Period,Q512161,Q512158,1.0
+,,Middle Assyrian Period,Uruk III Period,Q512155,Q512134,1.0
+,,Middle Babylonian Period,Early Neo-Babylonian Period,Q512154,Q512158,1.0
+,,Middle Babylonian Period,Middle Hittite Period,Q512154,Q512153,1.0
+,,Early Dynastic I Period,Uruk III Period,Q512137,Q512134,1.0

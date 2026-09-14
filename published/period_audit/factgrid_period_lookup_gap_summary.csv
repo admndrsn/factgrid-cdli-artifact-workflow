@@ -1,0 +1,3 @@
+audit_status,period_id,period,period_time_range,statement_status,live_period_qid,live_period_label,count
+no_expected_no_live,,,,,,,1993
+unexpected_live_period,,,,,Q512152,Old Babylonian Period,1

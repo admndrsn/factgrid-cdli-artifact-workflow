@@ -1,0 +1,10 @@
+metric,value,live_period_label,expected_period_label,live_period_qid,correct_period_qid,count
+repair_candidate_rows,12.0,,,,,
+repair_candidate_items,12.0,,,,,
+,,Ur III Period,ED IIIa,Q512148,Q512140,4.0
+,,Ur III Period,Old Akkadian Period,Q512148,Q512144,3.0
+,,Early Old Babylonian Period,ED IIIb,Q512150,Q512142,1.0
+,,Lagash II Period,Linear Elamite Period,Q512146,Q512145,1.0
+,,Lagash II Period,Old Akkadian Period,Q512146,Q512144,1.0
+,,Middle Babylonian Period,ED I-II,Q512154,Q512137,1.0
+,,Ur III Period,ED I-II,Q512148,Q512137,1.0

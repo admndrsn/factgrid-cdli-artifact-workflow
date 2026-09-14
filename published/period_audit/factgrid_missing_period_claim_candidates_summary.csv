@@ -1,0 +1,8 @@
+metric,value,period_qid,expected_period_label,count
+missing_period_candidate_rows,67.0,,,
+missing_period_candidate_items,67.0,,,
+,,Q512144,Old Akkadian Period,32.0
+,,Q512142,ED IIIb,14.0
+,,Q512137,ED I-II,13.0
+,,Q1349999,modern,4.0
+,,Q512140,ED IIIa,4.0

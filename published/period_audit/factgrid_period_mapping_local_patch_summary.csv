@@ -1,0 +1,27 @@
+file,label,old_qid,new_qid,rows
+CDLI_Period.csv,Ebla Period,Q512144,Q512143,1
+CDLI_Period.csv,Lagash II Period,Q512147,Q512146,1
+CDLI_Period.csv,Ur III Period,Q512149,Q512148,1
+CDLI_Period.csv,Early Old Babylonian Period,Q512151,Q512150,1
+CDLI_Period.csv,Old Assyrian Period,Q512152,Q512151,1
+CDLI_Period.csv,Old Babylonian Period,Q512153,Q512152,1
+CDLI_Period.csv,Middle Hittite Period,Q512154,Q512153,1
+CDLI_Period.csv,Middle Babylonian Period,Q512155,Q512154,1
+CDLI_Period.csv,Middle Assyrian Period,Q512156,Q512155,1
+CDLI_Period.csv,Middle Elamite Period,Q512157,Q512156,1
+CDLI_Period.csv,Neo-Assyrian Period,Q512159,Q512158,1
+CDLI_Period.csv,Neo-Elamite Period,Q512161,Q512160,1
+CDLI_Period.csv,Hellenistic Period,Q512165,Q512164,1
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Ebla Period,Q512144,Q512143,376
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Lagash II Period,Q512147,Q512146,255
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Ur III Period,Q512149,Q512148,6635
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Early Old Babylonian Period,Q512151,Q512150,565
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Old Assyrian Period,Q512152,Q512151,503
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Old Babylonian Period,Q512153,Q512152,4282
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Middle Hittite Period,Q512154,Q512153,953
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Middle Babylonian Period,Q512155,Q512154,849
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Middle Assyrian Period,Q512156,Q512155,331
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Middle Elamite Period,Q512157,Q512156,37
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Neo-Assyrian Period,Q512159,Q512158,2166
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Neo-Elamite Period,Q512161,Q512160,54
+published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv,Hellenistic Period,Q512165,Q512164,225

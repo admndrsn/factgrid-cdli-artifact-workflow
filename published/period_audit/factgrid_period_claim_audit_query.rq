@@ -1,0 +1,33 @@
+PREFIX fg: <https://database.factgrid.de/entity/>
+PREFIX fgt: <https://database.factgrid.de/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?item ?itemLabel ?itemDescription ?cdliId ?periodProperty ?period ?periodLabel WHERE {
+  VALUES ?item { fg:Q2162061 fg:Q2162062 fg:Q2162063 fg:Q2162064 fg:Q2162065 fg:Q2162066 fg:Q2162067 fg:Q2162068 fg:Q2162069 fg:Q2162070 fg:Q2162071 fg:Q2162072 fg:Q2162073 fg:Q2162074 fg:Q2162075 fg:Q2162076 fg:Q2045444 fg:Q2162077 fg:Q2162078 fg:Q2162079 fg:Q2162080 fg:Q1982557 fg:Q2162081 fg:Q2062996 fg:Q1966191 fg:Q2162082 fg:Q1924419 fg:Q2011875 fg:Q2162083 fg:Q2162084 fg:Q2162085 fg:Q2162086 fg:Q2162087 fg:Q2162088 fg:Q2025968 fg:Q2162089 fg:Q1369776 fg:Q2162090 fg:Q2162091 fg:Q2162092 fg:Q2162093 fg:Q2162094 fg:Q2007293 fg:Q2162095 fg:Q2162096 fg:Q2162097 fg:Q2162098 fg:Q2162099 fg:Q2162100 fg:Q2162101 fg:Q2006026 fg:Q2162102 fg:Q2162103 fg:Q2162104 fg:Q2063471 fg:Q2001594 fg:Q2162105 fg:Q2162106 fg:Q1975493 fg:Q2162107 fg:Q1370717 fg:Q2162108 fg:Q2162109 fg:Q2162110 fg:Q2162111 fg:Q2066481 fg:Q2162112 fg:Q2162113 fg:Q1969729 fg:Q2162114 fg:Q2162115 fg:Q2162116 fg:Q2162117 fg:Q1980871 fg:Q2162118 fg:Q2162119 fg:Q2162120 fg:Q2162121 fg:Q2055858 fg:Q2162122 fg:Q2162123 fg:Q2162124 fg:Q2162125 fg:Q2162126 fg:Q2162127 fg:Q2058675 fg:Q2162128 fg:Q2162129 fg:Q2162130 fg:Q2162131 fg:Q1928495 fg:Q2162132 fg:Q2162133 fg:Q2025073 fg:Q2031042 fg:Q1973479 fg:Q1995966 fg:Q1952036 fg:Q2051668 fg:Q2162134 }
+  OPTIONAL { ?item fgt:P692 ?cdliId . }
+  OPTIONAL {
+    {
+      ?item fgt:P853 ?period .
+      BIND("P853" AS ?periodProperty)
+    }
+    UNION
+    {
+      ?item fgt:P583 ?period .
+      BIND("P583" AS ?periodProperty)
+    }
+  }
+  OPTIONAL {
+    ?period rdfs:label ?periodLabel .
+    FILTER(LANG(?periodLabel) = "en")
+  }
+  OPTIONAL {
+    ?item rdfs:label ?itemLabel .
+    FILTER(LANG(?itemLabel) = "en")
+  }
+  OPTIONAL {
+    ?item schema:description ?itemDescription .
+    FILTER(LANG(?itemDescription) = "en")
+  }
+}
+ORDER BY ?item ?periodProperty ?period
