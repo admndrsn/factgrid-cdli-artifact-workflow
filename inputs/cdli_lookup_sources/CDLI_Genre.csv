@@ -1,0 +1,297 @@
+July_2023,cdli_genre,P121,P608,,P155,Other genres (not included in CDLI),Label
+current_count,cdli_genre,Typeofwork,FG_qid_2,FG_qid_3,P155,,
+10k+,Administrative,Q394396,Q394396,,,,
+0,Astronomical,Q390194,Q246207,,,,
+55,Historical,Q314062,Q39130,,,,
+10k+,Legal,Q388465,,,,,
+10k+,Letter,Q10510,,,,,
+8273,Lexical,Q537054,,,,,
+10k+,Literary,Q245823,,,,,
+2098,Mathematical,Q146582,,,,,
+1054,Medical,Q76112,,,,,
+0,Monumental,Q537039,,,,,
+0,Omen,Q246074,Q246174,,,,
+0,Prayer/Incantation,Q10315,Q246184,,,,
+1194,Prayer,Q10315,,,,,
+281,Incantation,Q246184,,,,,
+0,Private,Q173099,,,,,
+1578,Ritual,Q77545,,,,,
+3,Royal,Q537039,,,,,
+0,School,Q246098,,,,,
+8538,Scientific,Q245824,,,,,
+17,Votive,Q537055,,,,,
+0,administative,Q394396,,,,,
+0,Administrative ?,Q394396,,,Q22757,,
+,Administrative Record,Q394396,,,,,
+,Administrative?,Q394396,,,Q22757,,
+,Astronomical ?,Q390194,Q246074,,Q22757,,
+,"Astronomical, Omen",Q390194,Q246174,,,,
+,Legal ?,Q388465,,,Q22757,,
+,Legal?,Q388465,,,,,
+,Letter ?,Q10510,,,Q22757,,
+,Letter?,Q10510,,,,,
+,Lexical,Q537054,,,,,
+,Lexical ?,Q537054,,,Q22757,,
+,Lexical; Literary,Q537054,Q245823,,,,
+,Lexical; Literary; Mathematical,Q537054,Q245823,Q146582,,,
+,Lexical; Mathematical,Q537054,Q146582,,,,
+,Lexical; School,Q537054,,,,,
+,Literary ?,Q245823,,,Q22757,,
+,Literary; Administrative,Q245823,Q394396,,,,
+,Literary; Letter,Q245823,Q10510,,,,
+,Literary; Lexical,Q245823,,,,,
+,Literary; Mathematical,Q245823,Q146582,,,,
+,Mathematical,Q146582,,,,,
+,Mathematical ?,Q146582,,,Q22757,,
+,Omen ?,Q246074,,,Q22757,,
+,Omens,Q246074,,,,,
+,Omens,Q246074,,,,,
+,Pottery (seal),Q512065,,,,,
+,Prayer/Incantation,Q10315,Q246184,,,,
+,Prayer/Incantation ?,Q10315,Q246184,,Q22757,,
+,Private/Votive,Q537055,,,,,
+,Private/Votive ?,Q537055,,,Q22757,,
+,Ritual,Q77545,Q246074,,,,
+,Ritual ?,Q77545,Q246074,,Q22757,,
+,Royal/Monumental,Q537039,,,,,
+,Royal/Monumental ?,Q537039,,,Q22757,,
+,Royal/Monumental; Literary,Q537039,Q245823,,,,
+,Royal/Votive,Q537039,,,,,
+,School ?,Q246098,,,Q22757,,
+,School; Literary,Q246098,Q245823,,,,
+,School?,Q246098,,,Q22757,,
+,Scientific ?,Q245824,,,Q22757,,
+,Votive,Q537055,,,,,
+,uncertain,,,,,,
+,Other (see subgenre),,,,,,
+,,,,,,,
+,,,,,,https://database.factgrid.de/entity/Q394396,Administration
+,,,,,,https://database.factgrid.de/entity/Q393384,Administrative law
+,,,,,,https://database.factgrid.de/entity/Q245822,Agriculture
+,,,,,,https://database.factgrid.de/entity/Q246110,Agronomy
+,,,,,,https://database.factgrid.de/entity/Q102217,Alchemy
+,,,,,,https://database.factgrid.de/entity/Q246198,Alcohol production
+,,,,,,https://database.factgrid.de/entity/Q468119,Algebra
+,,,,,,https://database.factgrid.de/entity/Q246161,Anatomy
+,,,,,,https://database.factgrid.de/entity/Q245696,Ancient Celtic religion
+,,,,,,https://database.factgrid.de/entity/Q246134,Andrology
+,,,,,,https://database.factgrid.de/entity/Q245483,Anthropology
+,,,,,,https://database.factgrid.de/entity/Q246093,Arboriculture
+,,,,,,https://database.factgrid.de/entity/Q245486,Archaeology
+,,,,,,https://database.factgrid.de/entity/Q245900,Architecture
+,,,,,,https://database.factgrid.de/entity/Q468118,Aristocratic education
+,,,,,,https://database.factgrid.de/entity/Q246079,arithmetic
+,,,,,,https://database.factgrid.de/entity/Q246099,art of memory
+,,,,,,https://database.factgrid.de/entity/Q246143,Art of writing
+,,,,,,https://database.factgrid.de/entity/Q37098,Artes liberales
+,,,,,,https://database.factgrid.de/entity/Q246207,Astrological forecasting
+,,,,,,https://database.factgrid.de/entity/Q246137,Astrology
+,,,,,,https://database.factgrid.de/entity/Q246150,Autopsy
+,,,,,,https://database.factgrid.de/entity/Q246270,autopsy
+,,,,,,https://database.factgrid.de/entity/Q246121,balneotherapy
+,,,,,,https://database.factgrid.de/entity/Q246076,Barber craft
+,,,,,,https://database.factgrid.de/entity/Q252653,Beauty
+,,,,,,https://database.factgrid.de/entity/Q246111,bee-keeping
+,,,,,,https://database.factgrid.de/entity/Q246169,blessing
+,,,,,,https://database.factgrid.de/entity/Q468122,Book of Nature
+,,,,,,https://database.factgrid.de/entity/Q246142,Bookkeeping
+,,,,,,https://database.factgrid.de/entity/Q246155,Botany
+,,,,,,https://database.factgrid.de/entity/Q246204,Buiatrics
+,,,,,,https://database.factgrid.de/entity/Q246160,Calendrical calculation
+,,,,,,https://database.factgrid.de/entity/Q164808,Cameralistics
+,,,,,,https://database.factgrid.de/entity/Q183962,Canon law
+,,,,,,https://database.factgrid.de/entity/Q246073,cardiology
+,,,,,,https://database.factgrid.de/entity/Q245689,Cartography
+,,,,,,https://database.factgrid.de/entity/Q246131,Catoptromancy
+,,,,,,https://database.factgrid.de/entity/Q246095,Chronology
+,,,,,,https://database.factgrid.de/entity/Q481213,Civil law
+,,,,,,https://database.factgrid.de/entity/Q246118,Classical element
+,,,,,,https://database.factgrid.de/entity/Q468130,Classical philology
+,,,,,,https://database.factgrid.de/entity/Q246108,coining
+,,,,,,https://database.factgrid.de/wiki/Item:Q257175,Commerce
+,,,,,,https://database.factgrid.de/entity/Q245541,constitutional law
+,,,,,,https://database.factgrid.de/entity/Q246145,Construction craft
+,,,,,,https://database.factgrid.de/entity/Q246268,conversational skill
+,,,,,,https://database.factgrid.de/entity/Q246147,Cooking
+,,,,,,https://database.factgrid.de/entity/Q246165,court arts
+,,,,,,https://database.factgrid.de/entity/Q246199,court manners
+,,,,,,https://database.factgrid.de/entity/Q246101,crystal gazing
+,,,,,,https://database.factgrid.de/entity/Q456368,Culinary art
+,,,,,,https://database.factgrid.de/entity/Q418474,Culture
+,,,,,,https://database.factgrid.de/entity/Q424995,Data science
+,,,,,,https://database.factgrid.de/entity/Q385285,Demonology
+,,,,,,https://database.factgrid.de/entity/Q245828,dentistry
+,,,,,,https://database.factgrid.de/entity/Q246089,Dentistry
+,,,,,,https://database.factgrid.de/entity/Q246191,dialectic
+,,,,,,https://database.factgrid.de/entity/Q246339,dialoguing
+,,,,,,https://database.factgrid.de/entity/Q468126,Didactics
+,,,,,,https://database.factgrid.de/entity/Q398948,Digital Humanities
+,,,,,,https://database.factgrid.de/entity/Q246195,dike-construction
+,,,,,,https://database.factgrid.de/entity/Q246071,Distillation
+,,,,,,https://database.factgrid.de/entity/Q246074,divination
+,,,,,,https://database.factgrid.de/entity/Q146580,Dogmatic theology
+,,,,,,https://database.factgrid.de/entity/Q246157,dosage
+,,,,,,https://database.factgrid.de/entity/Q246188,dream interpretation
+,,,,,,https://database.factgrid.de/entity/Q468131,Dress code
+,,,,,,https://database.factgrid.de/entity/Q246098,Education
+,,,,,,https://database.factgrid.de/entity/Q452641,Electricity
+,,,,,,https://database.factgrid.de/entity/Q246096,embryology
+,,,,,,https://database.factgrid.de/entity/Q245809,engineering
+,,,,,,https://database.factgrid.de/entity/Q162619,English studies
+,,,,,,https://database.factgrid.de/entity/Q252650,Entertainment
+,,,,,,https://database.factgrid.de/entity/Q246148,Entomology
+,,,,,,https://database.factgrid.de/entity/Q246210,Equine medicine
+,,,,,,https://database.factgrid.de/entity/Q468127,Ethics
+,,,,,,https://database.factgrid.de/entity/Q246154,Ethnology
+,,,,,,https://database.factgrid.de/entity/Q451488,Etymology
+,,,,,,https://database.factgrid.de/entity/Q246124,Falconry
+,,,,,,https://database.factgrid.de/entity/Q246192,fertility
+,,,,,,https://database.factgrid.de/entity/Q464975,Finances
+,,,,,,https://database.factgrid.de/entity/Q246388,Firework
+,,,,,,https://database.factgrid.de/entity/Q246102,Fishing
+,,,,,,https://database.factgrid.de/entity/Q245487,Folklore Studies
+,,,,,,https://database.factgrid.de/entity/Q246106,Food science
+,,,,,,https://database.factgrid.de/entity/Q246144,Forestry
+,,,,,,https://database.factgrid.de/entity/Q245808,forestry
+,,,,,,https://database.factgrid.de/entity/Q246164,Fortification
+,,,,,,https://database.factgrid.de/entity/Q246170,four temperaments
+,,,,,,https://database.factgrid.de/entity/Q246094,fowling
+,,,,,,https://database.factgrid.de/entity/Q248777,Gematria
+,,,,,,https://database.factgrid.de/entity/Q246128,Gemology
+,,,,,,https://database.factgrid.de/entity/Q220451,General economics
+,,,,,,https://database.factgrid.de/entity/Q152260,Geography
+,,,,,,https://database.factgrid.de/entity/Q246075,Geology
+,,,,,,https://database.factgrid.de/entity/Q246181,geomancy
+,,,,,,https://database.factgrid.de/entity/Q246179,Geometry
+,,,,,,https://database.factgrid.de/entity/Q246088,German language education
+,,,,,,https://database.factgrid.de/entity/Q162620,German studies
+,,,,,,https://database.factgrid.de/entity/Q246125,Goldsmithing
+,,,,,,https://database.factgrid.de/entity/Q246180,Grammar
+,,,,,,https://database.factgrid.de/entity/Q246175,Growing seasons
+,,,,,,https://database.factgrid.de/entity/Q246090,Gynaecology
+,,,,,,https://database.factgrid.de/entity/Q246189,Handicraft
+,,,,,,https://database.factgrid.de/entity/Q405235,Health
+,,,,,,https://database.factgrid.de/entity/Q246187,Herbal medicine
+,,,,,,https://database.factgrid.de/entity/Q246083,Hippology
+,,,,,,https://database.factgrid.de/entity/Q467701,Historical European martial arts
+,,,,,,https://database.factgrid.de/entity/Q249725,Historical period
+,,,,,,https://database.factgrid.de/entity/Q385286,Historical periodisation
+,,,,,,https://database.factgrid.de/entity/Q39130,History
+,,,,,,https://database.factgrid.de/entity/Q152261,History of art
+,,,,,,https://database.factgrid.de/entity/Q160368,Horsemanship
+,,,,,,https://database.factgrid.de/entity/Q246159,Horticulture
+,,,,,,https://database.factgrid.de/entity/Q246173,housekeeping
+,,,,,,https://database.factgrid.de/entity/Q246136,Human reproduction
+,,,,,,https://database.factgrid.de/entity/Q246140,Hunting
+,,,,,,https://database.factgrid.de/entity/Q245682,hydrology
+,,,,,,https://database.factgrid.de/entity/Q246105,hygiene
+,,,,,,https://database.factgrid.de/entity/Q464985,Individuality
+,,,,,,https://database.factgrid.de/entity/Q246203,infant care
+,,,,,,https://database.factgrid.de/entity/Q246114,instruction in Latin
+,,,,,,https://database.factgrid.de/entity/Q245902,Jewish theology
+,,,,,,https://database.factgrid.de/entity/Q80665,Journey
+,,,,,,https://database.factgrid.de/entity/Q248778,Jurisdiction
+,,,,,,https://database.factgrid.de/entity/Q102237,Kabbalah
+,,,,,,https://database.factgrid.de/entity/Q451104,Larger period of early modern epoch formation
+,,,,,,https://database.factgrid.de/entity/Q481212,Law
+,,,,,,https://database.factgrid.de/entity/Q246087,Leather crafting
+,,,,,,https://database.factgrid.de/entity/Q246202,life rule
+,,,,,,https://database.factgrid.de/entity/Q452613,Literary art
+,,,,,,https://database.factgrid.de/entity/Q245823,Literature
+,,,,,,https://database.factgrid.de/entity/Q246122,lithotherapy
+,,,,,,https://database.factgrid.de/entity/Q172218,Logic
+,,,,,,https://database.factgrid.de/entity/Q102236,Magic
+,,,,,,https://database.factgrid.de/entity/Q246206,magical plant
+,,,,,,https://database.factgrid.de/entity/Q246080,martial arts
+,,,,,,https://database.factgrid.de/entity/Q146582,Mathematics
+,,,,,,https://database.factgrid.de/entity/Q220452,Mechanical engineering
+,,,,,,https://database.factgrid.de/entity/Q22684,Medical condition
+,,,,,,https://database.factgrid.de/entity/Q246113,Medical diagnosis
+,,,,,,https://database.factgrid.de/entity/Q246127,Medical ethics
+,,,,,,https://database.factgrid.de/entity/Q246201,Medical practice
+,,,,,,https://database.factgrid.de/entity/Q76112,Medicine
+,,,,,,https://database.factgrid.de/entity/Q398954,Medieval studies
+,,,,,,https://database.factgrid.de/entity/Q246171,melothesia
+,,,,,,https://database.factgrid.de/entity/Q246082,Metallurgy
+,,,,,,https://database.factgrid.de/entity/Q246129,Meteorology
+,,,,,,https://database.factgrid.de/entity/Q246120,Military science
+,,,,,,https://database.factgrid.de/entity/Q246123,Military tactics
+,,,,,,https://database.factgrid.de/entity/Q246196,Mill-construction
+,,,,,,https://database.factgrid.de/entity/Q246185,Mineralogy
+,,,,,,https://database.factgrid.de/entity/Q246156,Mining
+,,,,,,https://database.factgrid.de/entity/Q245825,Modern language
+,,,,,,https://database.factgrid.de/entity/Q246205,moon magic
+,,,,,,https://database.factgrid.de/entity/Q451059,Moral improvement
+,,,,,,https://database.factgrid.de/entity/Q246211,mummification
+,,,,,,https://database.factgrid.de/entity/Q11245,Music
+,,,,,,https://database.factgrid.de/entity/Q173478,Musical performance
+,,,,,,https://database.factgrid.de/entity/Q246055,Mysticism
+,,,,,,https://database.factgrid.de/entity/Q245695,Mythology
+,,,,,,https://database.factgrid.de/entity/Q246178,Natural disaster
+,,,,,,https://database.factgrid.de/entity/Q246177,Natural history
+,,,,,,https://database.factgrid.de/entity/Q39266,Natural law
+,,,,,,https://database.factgrid.de/entity/Q246097,natural phenomena
+,,,,,,https://database.factgrid.de/entity/Q394224,Natural philosophy
+,,,,,,https://database.factgrid.de/entity/Q245824,Natural science
+,,,,,,https://database.factgrid.de/entity/Q246072,navigation
+,,,,,,https://database.factgrid.de/entity/Q245826,Near Eastern languages
+,,,,,,https://database.factgrid.de/entity/Q246135,Necromancy
+,,,,,,https://database.factgrid.de/entity/Q246162,Obstetrics
+,,,,,,https://database.factgrid.de/entity/Q246132,Occupational hygiene
+,,,,,,https://database.factgrid.de/entity/Q246163,onomancy
+,,,,,,https://database.factgrid.de/entity/Q246197,orcharding
+,,,,,,https://database.factgrid.de/entity/Q246119,organotherapy
+,,,,,,https://database.factgrid.de/entity/Q468139,Orthography
+,,,,,,https://database.factgrid.de/entity/Q246092,paediatrics
+,,,,,,https://database.factgrid.de/entity/Q246115,palmistry
+,,,,,,https://database.factgrid.de/entity/Q245901,Pedagogy
+,,,,,,https://database.factgrid.de/entity/Q246167,Pharmacy
+,,,,,,https://database.factgrid.de/entity/Q452643,Phenomenon
+,,,,,,https://database.factgrid.de/entity/Q146581,Philology
+,,,,,,https://database.factgrid.de/entity/Q144735,Philosophy
+,,,,,,https://database.factgrid.de/entity/Q456340,Philosophy of law
+,,,,,,https://database.factgrid.de/entity/Q452642,Physical phenomenon
+,,,,,,https://database.factgrid.de/entity/Q246186,physiognomy
+,,,,,,https://database.factgrid.de/entity/Q246107,pilgrimage
+,,,,,,https://database.factgrid.de/entity/Q246100,polemology
+,,,,,,https://database.factgrid.de/entity/Q245827,political sciences
+,,,,,,https://database.factgrid.de/entity/Q246112,Preventive healthcare
+,,,,,,https://database.factgrid.de/entity/Q246174,Prognostication
+,,,,,,https://database.factgrid.de/entity/Q246117,Pronunciation
+,,,,,,https://database.factgrid.de/entity/Q246126,Prophecy
+,,,,,,https://database.factgrid.de/entity/Q234043,Religion
+,,,,,,https://database.factgrid.de/entity/Q465011,Religious studies
+,,,,,,https://database.factgrid.de/entity/Q398947,Research data management
+,,,,,,https://database.factgrid.de/entity/Q230309,rhetoric
+,,,,,,https://database.factgrid.de/entity/Q249695,Scrying
+,,,,,,https://database.factgrid.de/entity/Q246085,sculpting
+,,,,,,https://database.factgrid.de/entity/Q246139,seamanship
+,,,,,,https://database.factgrid.de/entity/Q451057,Secrets of politics
+,,,,,,https://database.factgrid.de/entity/Q451056,Secrets of trade
+,,,,,,https://database.factgrid.de/entity/Q468937,sepulcral culture
+,,,,,,https://database.factgrid.de/entity/Q404297,Sexology
+,,,,,,https://database.factgrid.de/entity/Q464984,Sexuality
+,,,,,,https://database.factgrid.de/entity/Q246172,soap-making
+,,,,,,https://database.factgrid.de/entity/Q220450,Sociology
+,,,,,,https://database.factgrid.de/entity/Q398951,Software
+,,,,,,https://database.factgrid.de/entity/Q246190,sorcery
+,,,,,,https://database.factgrid.de/entity/Q246138,Sports
+,,,,,,https://database.factgrid.de/entity/Q246149,Surgery
+,,,,,,https://database.factgrid.de/entity/Q246182,Surveying
+,,,,,,https://database.factgrid.de/entity/Q246166,table manners
+,,,,,,https://database.factgrid.de/entity/Q173689,Taxation Authority
+,,,,,,https://database.factgrid.de/entity/Q246078,technology
+,,,,,,https://database.factgrid.de/entity/Q246077,textile arts
+,,,,,,https://database.factgrid.de/entity/Q246084,The art of painting
+,,,,,,https://database.factgrid.de/entity/Q246208,theft mantics
+,,,,,,https://database.factgrid.de/entity/Q76110,Theology
+,,,,,,https://database.factgrid.de/entity/Q468128,Theory of knowledge
+,,,,,,https://database.factgrid.de/entity/Q467730,Town privilege
+,,,,,,https://database.factgrid.de/entity/Q219530,Trade
+,,,,,,https://database.factgrid.de/entity/Q246109,Veterinary medicine
+,,,,,,https://database.factgrid.de/entity/Q246130,Viticulture
+,,,,,,https://database.factgrid.de/entity/Q246116,weather forecast
+,,,,,,https://database.factgrid.de/entity/Q246209,well-construction
+,,,,,,https://database.factgrid.de/entity/Q246151,Wrestling
+,,,,,,https://database.factgrid.de/entity/Q175370,Writing
+,,,,,,https://database.factgrid.de/entity/Q246153,Zoology

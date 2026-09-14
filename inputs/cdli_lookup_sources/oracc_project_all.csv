@@ -1,0 +1,145 @@
+Working,project,oracc_link,projectname,Period,count,num,ipynb1,ipynb2,2022_json,note,words_df,df_cat,Translation,FG_upload
+FALSE,ARIo: Achaemenid Royal Inscriptions online,,ario,Ach,175,9.00,,,https://drive.google.com/file/d/1tuxJ0ORKZ4C5WlHUqb_7FNcXwsdH6ddc/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Babylon 8: The Inscriptions of Cyrus II and His Successors,,ribo/babylon8,Ach,26,93.00,,,https://drive.google.com/file/d/1zF1vc-81fiGS8IoKPoGlChYKiZsV4OVI/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Electronic Corpus of Urartian Texts (eCUT) Project,,ecut,Ach,742,56.00,,,https://drive.google.com/file/d/1xEWABctw7eNjptoniZSmeBonLJ5ZwQ9u/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,ARMEP: Ancient Records of Middle Eastern Polities,,armep,ALL,51019,10.00,,,https://drive.google.com/file/d/1uC5Uv-Ige5bzSNz1dYEaOVfVEvBB7wiG/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,CDLI: The Cuneiform Digital Library Initiative,,cdli,ALL,353283,40.00,https://colab.research.google.com/drive/1AqjMHayt1FF9B5rqtUTsfe39-DuKgZlc?usp=sharing,,https://drive.google.com/file/d/1wgNIc1D8VW9IK89Q4pgeLrR01j0BzQOd/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,DCCLT/signlists: DCCLT/Reading the Signs,,dcclt/signlists,ALL,2337,53.00,,,https://drive.google.com/file/d/1wvdXG4nmsYs_csiI4H5YddbDPI-DGTkQ/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Digital Corpus of Cuneiform Mathematical Texts,,dccmt,ALL,1420,54.00,,,https://drive.google.com/file/d/1x6gfwqyfJ9nickzDCepvuqHHoPqVdAey/view?usp=share_link,apparently no PNs...,FALSE,FALSE,FALSE,FALSE
+TRUE,ePSD2: electronic PSD 2nd Edition,http://oracc.museum.upenn.edu/json/epsd2.zip,epsd2,ALL,154787,58.00,,,,,FALSE,FALSE,FALSE,FALSE
+TRUE,LaOCOST: Law and Order: Cuneiform Online Sustainable Tool,,lacost,ALL,13,77.00,,,https://drive.google.com/file/d/1y1VdFbZE6LnvGmFDvt-t7KZBrD1JjJA8/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Qcat: The Q Catalogue,,qcat,ALL,9398,82.00,,,https://drive.google.com/file/d/1yLwSyBekO5WHEEr93RPeMadZasDIXI20/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,DCCLT/ebla: DCCLT/Ebla Lexical Texts,,dcclt/ebla,Ebla,264,50.00,,,https://drive.google.com/file/d/1wtcUo9fn0ClPQO4x7rWqqOSyRmNEZ-WG/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Administrative Corpus Ebla,http://oracc.museum.upenn.edu/json/epsd2-admin-ebla.zip,epsd2/admin/ebla,Ebla,157,59.00,,,,,FALSE,FALSE,FALSE,FALSE
+TRUE,ePSD2 Administrative Corpus ED I-II,http://oracc.museum.upenn.edu/json/epsd2-admin-ed12.zip,epsd2/admin/ed12,ED,89,60.00,,,,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Administrative Corpus ED IIIa,http://oracc.museum.upenn.edu/json/epsd2-admin-ed3a.zip,epsd2/admin/ed3,ED,840,61.00,,,,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Administrative Corpus ED IIIb,http://oracc.museum.upenn.edu/json/epsd2-admin-ed3b.zip,epsd2/admin/ed3b,ED,3477,62.00,,,,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Administrative Corpus Lagash II,http://oracc.museum.upenn.edu/json/epsd2-admin-lagash2.zip,epsd2/admin/lagash2,L2,769,63.00,,,,,FALSE,FALSE,FALSE,FALSE
+TRUE,BabCity: Corpus of Babylonian Texts Concerning the Urban Landscape,,babcity,LB,200,29.00,https://colab.research.google.com/drive/1J1epvc2xlOOup2_0YR99r54s1ZH4Z5SV?usp=share_link,,https://drive.google.com/file/d/1vHAGdFfaNHIjj7ZTZMZQQb6NV-c2siQQ/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,blms: Bilinguals in Late Mesopotamian Scholarship,,blms,LB,1804,30.00,,,https://drive.google.com/file/d/1vWS7XipL_aXYOIVFWXrdAcLnQjxLgIw_/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,"HBTIN: Hellenistic Babylonia: Texts, Iconography, Names",,hbtin,LB,572,76.00,,,https://drive.google.com/file/d/1xX7xO1daB5ugMWQakoh8-NT9APCn97y9/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,aemw/amarna: The Amarna Letters,,aemw/amarna,MA,218,6.00,,,https://drive.google.com/file/d/1u6r6OWKo2dJ3BUA-rx8TGG1rT-skJ8dF/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,aemw/idrimi: Statue of Idrimi,,aemw/alalakh/idrimi,MA,1,7.00,,,https://drive.google.com/file/d/1tsUejmIl9cRmWnzP9zDm1YXVi1Ob4NxW/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,TCMA: Text Corpus of Middle Assyrian,,tcma,MA,1871,128.00,https://colab.research.google.com/drive/1cW10DpL3Wnnatl56toD8s974-DLPqTAM?usp=share_link,,https://drive.google.com/file/d/10e3-REnMd-Gtd44akVGTDB77MXGCOM-2/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Glass: Corpus of Glass Technological Texts,,glass,MA - NA,20,75.00,,,https://drive.google.com/file/d/1xJGEkfjn2h4zUN6yMeLpfqJaifNKt3he/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,CKST: Corpus of Kassite Sumerian Texts,,ckst,MB,339,41.00,https://colab.research.google.com/drive/103q9Wwq-METLtEg3DZl1Kj2ovgADqA4J?usp=sharing,,https://drive.google.com/file/d/1w5_Q_ZLD62KsH6Jyrk7Psxd5Gd6fQl-o/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Suhu: The Inscriptions of Suhu online,,suhu,MB,33,127.00,,,https://drive.google.com/file/d/10UkqX6ZckTun1Fs3WXkujXXyqQA3Onne/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,adsd/adart1: adsd/Astronomical Diaries and Related Texts 1,,adsd/adart1,NA,89,1.00,,,https://drive.google.com/file/d/1v_fU3I7wYMppiL5_Ds1Ky6MOH_oMGnkf/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,adsd/adart2: adsd/Astronomical Diaries and Related Texts 2,,adsd/adart2,NA,162,2.00,,,https://drive.google.com/file/d/1gYDi1Y85I3_DE5pyMZmt-aoiTCeEYnx6/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,adsd/adart3: adsd/Astronomical Diaries and Related Texts 3,,adsd/adart3,NA,156,3.00,,,https://drive.google.com/file/d/1-6Yw99ScQf6R8ZsX8d9C8rxkRKYxMH6g/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,adsd/adart5: adsd/Astronomical Diaries and Related Texts 5,,adsd/adart5,NA,105,4.00,,,https://drive.google.com/file/d/1UKkEWbcn9xfIJXP8O4ZUDZOSgDogj0WY/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,adsd/adart6: adsd/Astronomical Diaries and Related Texts 6,,adsd/adart6,NA,180,5.00,,,https://drive.google.com/file/d/1-PoMgkeTId-x_KYmt-0XpGSoKnGhK9u3/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Assur: Neo-Assyrian Archival Texts from Assur,,atae/assur,NA,820,13.00,,,https://drive.google.com/file/d/1uao4cz0OqU79gU147jGcK-ToQmEFXUXF/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Burmarina: Neo-Assyrian Archival Texts from Burmarina,,atae/burmarina,NA,44,14.00,,,https://drive.google.com/file/d/1uQLSHBLx-mP_BuBbMAiYsXlYLFrrg_aY/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Dur-Katlimmu: Neo-Assyrian Archival Texts from Dur-Katlimmu,,atae/durkatlimmu,NA,408,15.00,https://colab.research.google.com/drive/1apIkPN1LPzWNTWUyuUvqN1oEffpX-Hrd?usp=share_link,,https://drive.google.com/file/d/1uj_QxQzTFlZKbb6NdK3k6aeVaBO7Ry-k/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Dur-Šarrukin: Neo-Assyrian Archival Texts from Dur-Šarrukin,,atae/durszarrukin,NA,8,16.00,,,https://drive.google.com/file/d/1udhgJJc5-e_KtRhZHVRdoBuP9HfJV0Dj/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Guzana: Neo-Assyrian Archival Texts from Guzana,,atae/guzana,NA,212,17.00,,,https://drive.google.com/file/d/1ubWRtT9-sZA-USJCvcOOMY1G_wpZKbzb/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Huzirina: Neo-Assyrian Archival Texts from Huzirina,,atae/huzirina,NA,19,18.00,,,https://drive.google.com/file/d/1uvHerGpeIqVLY_-QHzlnJ1HRUAexPVnE/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Imgur-Enlil: Neo-Assyrian Archival Texts from Imgur-Enlil,,atae/imgurenlil,NA,30,19.00,,,https://drive.google.com/file/d/1uthc-gAIjzwBnjtXQJA75RZC_i8jrOMB/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Kalhu: Neo-Assyrian Archival Texts from Kalhu,,atae/kalhu,NA,55,20.00,,,https://drive.google.com/file/d/1v6uNFzk3Lm49wJc_GOKADLSBHRQS7QCk/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Kunalia: Neo-Assyrian Archival Texts from Kunalia/Kunulua/Kullania,,atae/kunalia,NA,1,21.00,,,https://drive.google.com/file/d/1uzMViO3ttC5-a8IvrRTkkkRZRPwT8PE7/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Ma'allanate: Neo-Assyrian Archival Texts from Ma'allanate,,atae/mallanate,NA,74,22.00,,,https://drive.google.com/file/d/1uzGehxShIhc9CobKj3tkZ6JdO-ZASw64/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Marqasu: Neo-Assyrian Archival Texts from Marqasu,,atae/marqasu,NA,46,23.00,,,https://drive.google.com/file/d/1v82RRehgB7ETD0BXOpu6B7qQvzTWVIwS/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Nineveh: Neo-Assyrian Archival Texts from Nineveh,,atae/nineveh,NA,4726,24.00,,,https://drive.google.com/file/d/1v8xdz3tvHwWNVD2o_GRESbyJEhrZv51_/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,NinMed: The Nineveh Medical Encyclopaedia,,asbp/ninmed,NA,408,11.00,https://colab.research.google.com/drive/1DxCspgS4zCabpFnDHfa4TbFUo_R65i9Z?usp=sharing,,https://drive.google.com/file/d/1uLaXAFHVVSo0mF3sV5fvcA9EwxQW1qZC/view?usp=share_link,The corpusjson doesn't have the lemmatization fields we need. Contact Steve / project admin to see if they can include it for the texts that are lemmatized,FALSE,FALSE,FALSE,FALSE
+TRUE,RINAP 1: Tiglath-pileser III and Shalmaneser V,http://oracc.museum.upenn.edu/rinap/rinap1,rinap/rinap1,NA,96,97.00,,,https://drive.google.com/file/d/1zSBaTH6Tqc1FhOwaOSC8Bh33cKdaGTFK/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,RINAP 2: Sargon II,http://oracc.museum.upenn.edu/rinap/rinap2,rinap/rinap2,NA,151,98.00,,,https://drive.google.com/file/d/1zUrmzg2wXfxTRYT6j_4TAxZH0lwif_28/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,RINAP 3: Sennacherib,http://oracc.museum.upenn.edu/rinap/rinap3,rinap/rinap3,NA,261,99.00,,,https://drive.google.com/file/d/1zZN5HZJ4d7pVl9FWYI9g6uP_h9WEhkL9/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,RINAP 4: Esarhaddon,http://oracc.museum.upenn.edu/rinap/rinap4,rinap/rinap4,NA,183,100.00,,,https://drive.google.com/file/d/1zaTRhfYqCVWp62QcvvKeOd9y1WX1sh5M/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,RINAP 5: Ashurbanipal and Successors,http://oracc.museum.upenn.edu/rinap/rinap5,rinap/rinap5,NA,346,101.00,,,https://drive.google.com/file/d/1zdrtHM94LGTpnSLZv4feu91hoZFz_SUB/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,RINAP Scores,http://oracc.museum.upenn.edu/rinap/scores,rinap/scores,NA,130,102.00,,,https://drive.google.com/file/d/1zfSvd0WyemVZd_LjhKx_rLwo9cYiSlE2/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,RINAP Sources,http://oracc.museum.upenn.edu/rinap/sources,rinap/sources,NA,2250,103.00,,,https://drive.google.com/file/d/1zvW3WVL954XO53HPQ0X5WXiNL8M76IgJ/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,RLAsb: Reading the Library of Ashurbanipal project,,asbp/rlasb,NA,26,12.00,,,https://drive.google.com/file/d/1uIaPebMWwcM6c6O5HbET8kFkABZCPqZg/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,"SAAo/SAA01: The Correspondence of Sargon II, Part I: Letters from Assyria and the West",http://oracc.museum.upenn.edu/saao/saa01/,saao/saa01,NA,256,105.00,,,https://drive.google.com/file/d/1-Ed0vZGtfq4VDEx8Ho0i1fpn8d8b2shd/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,SAAo/SAA02: Neo-Assyrian Treaties and Loyalty Oaths,,saao/saa02,NA,15,106.00,,,https://drive.google.com/file/d/1-KMyVv6Nv_JRILVAKVQnYnL7heAPU5q1/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,SAAo/SAA03: Court Poetry and Literary Miscellanea,,saao/saa03,NA,52,107.00,,,https://drive.google.com/file/d/1-NFDjLwMUmESEE8QQSy0DZBwwy-0A606/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,SAAo/SAA04: Queries to the Sungod: Divination and Politics in Sargonid Assyria,,saao/saa04,NA,353,108.00,,,https://drive.google.com/file/d/1-ZIxd2e4VPwPt6uI7dXT7aU4oVc_XYTf/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,"SAAo/SAA05: The Correspondence of Sargon II, Part II: Letters from the Northern and Northeastern Provinces",,saao/saa05,NA,300,109.00,,,https://drive.google.com/file/d/1-QjfoqtRQodTaJ1U8FBCOtQtcNz5GBgW/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,"SAAo/SAA06: Legal Transactions of the Royal Court of Nineveh, Part I: Tiglath-Pileser III through Esarhaddon",,saao/saa06,NA,350,110.00,,,https://drive.google.com/file/d/1-_JDmCmKyzzNbEbVmAMuhkocp5F0vMI7/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,"SAAo/SAA07: Imperial Administrative Records, Part I: Palace and Temple Administration",,saao/saa07,NA,219,111.00,,,https://drive.google.com/file/d/1-gOTikyJ-i4RNYk2fdhwbpm9IL9TiYk3/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,SAAo/SAA08: Astrological Reports to Assyrian Kings,,saao/saa08,NA,568,112.00,,,https://drive.google.com/file/d/1-s8D5dMmKiN-flDz8sbZk6Kg159jM0y3/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,SAAo/SAA09: Assyrian Prophecies,,saao/saa09,NA,11,113.00,,,https://drive.google.com/file/d/1-p7dSQIMDYDQIOzyJA4Z7xMD3KPfs5Ha/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,SAAo/SAA10: Letters from Assyrian and Babylonian Scholars,,saao/saa10,NA,389,114.00,https://colab.research.google.com/drive/1PqGOTtcZ-BI_gd0JMjvvfCoDhrRkWPpD?usp=share_link,,https://drive.google.com/file/d/1-tnfXGOJAbZeFUS1jLSgL_w1AeWDMgbQ/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,"SAAo/SAA11: Imperial Administrative Records, Part II: Provincial and Militar Administration",,saao/saa11,NA,234,115.00,,,https://drive.google.com/file/d/1-y5kYqOlVSliFx1bFFE8P7-Xn6RuZLUu/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,"SAAo/SAA12: Grants, Decres and Gifts of the Neo-Assyrian Period",,saao/saa12,NA,98,116.00,,,https://drive.google.com/file/d/1-wtQN5KjQoKPnrKkFC3ObSTg6ED6u0wn/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,SAAo/SAA13: Letters from Assyrian and Babylonian Priests to Kings Esarhaddon and Assurbanipal,,saao/saa13,NA,210,117.00,,,https://drive.google.com/file/d/100zrzDXS91zUxKlF-_OmWa77LfikQjIG/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,"SAAo/SAA14: Legal Transactions of the Royal Court of Nineveh, Part II: Assurbanipal Through Sin-šarru-iškun",,saao/saa14,NA,479,118.00,,,https://drive.google.com/file/d/1053k7NnmjTSYJonXPghYTXKAohmCjP-Y/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,"SAAo/SAA15: The Correspondence of Sargon II, Part III: Letters from Babylonia and the Eastern Provinces",,saao/saa15,NA,390,119.00,,,https://drive.google.com/file/d/107cnDtGdRUBm2TH3CdvJgXottMaVx8_N/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,SAAo/SAA16: The Political Correspondence of Esarhaddon,,saao/saa16,NA,246,120.00,,,https://drive.google.com/file/d/10Bv0ghQP3tQSbyBd2jOWOzeMSslYwlMc/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,SAAo/SAA17: The Neo-Babylonian Correspondence of Sargon and Sennacherib,,saao/saa17,NA,207,121.00,,,https://drive.google.com/file/d/1086Ymgn37h2I3vNl4XV5bZzEuZPr1BJb/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,SAAo/SAA18: The Babylonian Correspondence of Esarhaddon and Letters to Assurbanipal and Sin-šarru-iškun from Northern and Central Babylonia,,saao/saa18,NA,205,122.00,,,https://drive.google.com/file/d/10G_tTVZOwSL36RTRM-2tkH36zkSzk4jS/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,SAAo/SAA19: The Correspondence of Tiglath-Pileser III and Sargon II from Calah/Nimrud,,saao/saa19,NA,229,123.00,,,https://drive.google.com/file/d/10TsqfO9bCAkcGRsIYe_xD2klNY-MX5qs/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,SAAo/SAA20: Assyrian Royal Rituals and Cultic Texts,,saao/saa20,NA,55,124.00,,,https://drive.google.com/file/d/10ZMMlC-zkW-cWll6D_J8MhUd8YVXbfIc/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,"SAAo/SAA21: The Correspondence of Assurbanipal, Part I: Letters from Assyria, Babylonia, and Vassal States",,saao/saa21,NA,161,125.00,,,https://drive.google.com/file/d/10VHotu9956mX4amq-pXJols9yeAyNdBV/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,SAAo/SAAS2: SAAo/Assyrian Eponym List,,saao/saas2,NA,23,126.00,,,https://drive.google.com/file/d/10UvZzkJ9eZeizYmFw0b07RU7au_rcqCG/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Sam’al: Neo-Assyrian Archival Texts from Sam’al,,atae/samal,NA,2,25.00,,,https://drive.google.com/file/d/1vGrwpt8j6QCg_DJCMUxk0TntexBlaDnt/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Šibaniba: Neo-Assyrian Archival Texts from Šibaniba,,atae/szibaniba,NA,22,26.00,,,https://drive.google.com/file/d/1vGmpkfYLaXu5MyL1dDAN1hQH1W6pgOnD/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Til-Barsip: Neo-Assyrian Archival Texts from Til-Barsip,,atae/tilbarsip,NA,22,27.00,,,https://drive.google.com/file/d/1vAltQzyWDfjg9yDp0M-UzmTyT1W_Tgxv/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,TSAE: Textual Sources of the Assyrian Empire,,tsae,NA,8157,129.00,,,https://drive.google.com/file/d/10qmIpUIMw4pqzYsPExp70vvRPQR6Am2z/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Tušhan: Neo-Assyrian Archival Texts from Tušhan,,atae/tuszhan,NA,33,28.00,,,https://drive.google.com/file/d/1v9QBL2L9Wu_Wdt-rt8kgQeddXUlsSYTB/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,"CTIJ: Cuneiform Texts Mentioning Israelites, Judeans, and Other Related Groups",,ctij,NA - Ach,174,48.00,https://colab.research.google.com/drive/18K4h3IGRcHimYGlJ2_NuNnrK32GDwyuF?authuser=1#scrollTo=v82DSqKgIPgg,,https://drive.google.com/file/d/1wgjGkE31ow1qxmP0PClfraiZRZPO_M0K/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,CAMS/Ludlul,,cams/ludlul,NA - NB,59,37.00,,,https://drive.google.com/file/d/1vvWEBPcQI9oYw00gwM4ZaY2f9i_mwm3F/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Xcat: The X Catalogue,,xcat,NA - Sel,16,130.00,,,https://drive.google.com/file/d/11-JOZg_yGQIATdghyqe76aHZbRKdsNEJ/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,CAMS/GKAB: CAMS Geography of Knowledge Corpus,,cams/gkab,NA+,579,36.00,,,https://drive.google.com/file/d/1ver20KlzmkbxknMsWos8bdOoxdDOicWL/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,DCCLT/Nineveh: DCCLT/Lexical Texts in the Royal Libraries at Nineveh,,dcclt/nineveh,NA+,1049,52.00,,,https://drive.google.com/file/d/1x0YBpob8L5W6j-DjRlZJp9sXQuXRujQN/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,HIST3109: Temple Life in Assyria and Babylonia,,cams/tlab,NA+,342,39.00,,,https://drive.google.com/file/d/1vxhu8b4RB7p9eL5-_fSgaeANWUO1dhXA/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Babylon 10: The Borsippa Inscription of Antiochus I Soter,,ribo/babylon10,NB,1,86.00,,,https://drive.google.com/file/d/1yXGXYxO7-U0qhlxIGRLFV95Ym_tzAaDN/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Babylon 2: The Inscriptions of the Second Dynasty of Isin,,ribo/babylon2,NB,38,87.00,,,https://drive.google.com/file/d/1ygNaQ29FaLjOJI3dWs89P9fM_7UHlaR2/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Babylon 3: The Inscriptions of the Second Dynasty of the Sealand,,ribo/babylon3,NB,4,88.00,,,https://drive.google.com/file/d/1yhZ-A9D9G-y6NOPrikzYIumzZCBrI0JQ/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Babylon 4: The Inscriptions of the Bazi Dynasty,,ribo/babylon4,NB,6,89.00,,,https://drive.google.com/file/d/1yhXVnT30RFVlELZySw9-mn6zGnvuQ1RU/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Babylon 5: The Inscriptions of the Elamite Dynasty,,ribo/babylon5,NB,1,90.00,,,https://drive.google.com/file/d/1yhsLaW2c8T7RIl9UApYreVktZkMu5qms/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Babylon 6: The Inscriptions of the Period of the Uncertain Dynasties,,ribo/babylon6,NB,126,91.00,,,https://drive.google.com/file/d/1yz_J3_8wqKZZG00fBW9zSw2IPdg6BTck/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,Babylon 7: The Inscriptions of the Neo-Babylonian Dynasty,,ribo/babylon7,NB,1927,92.00,,,https://drive.google.com/file/d/1zJI-4dmlxaZl-xGqbZiLXQKCx6UonYy9/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,BTTo: Babylonian Topographical Texts Online,,btto,NB,44,31.00,,,https://drive.google.com/file/d/1vVLlsKwLsH7-hAl3OAuZLSbA3K0uyTcH/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,RIBo Sources: Sources for Inscriptions of the Rulers of Babylonia,,ribo/sources,NB,155,94.00,,,https://drive.google.com/file/d/1zAk3ozOUVAXCzjHrwxomy5QWHpBTCNVJ/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,RIBo: Royal Inscriptions of Babylon online,,ribo,NB,0,84.00,,,https://drive.google.com/file/d/1ydQP0VLcGasx_wRBwYfkGat24cNwaZCy/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Scores: Scores of the Inscriptions of the Neo-Babylonian Dynasty,,ribo/bab7scores,NB,18,85.00,,,https://drive.google.com/file/d/1yYnWh5sS9MQO2JWRcnzgSp5Koujn2TIH/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,eISL: electronic ISL: A Corpus of First Millennium Emesal Liturgies,,eisl,NB+,356,57.00,,,,,FALSE,FALSE,FALSE,FALSE
+TRUE,akklove: Akkadian Love Literature,,akklove,OAkk,32,8.00,,,https://drive.google.com/file/d/1u-eWZtUtNjtoJ1csbQ3GgymG3PD4EexW/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Administrative Corpus OAkk,http://oracc.museum.upenn.edu/json/epsd2-admin-oakk.zip,epsd2/admin/oakk,OAkk,219,64.00,,,,,FALSE,FALSE,FALSE,FALSE
+TRUE,RIAo: Royal Inscriptions of Assyria online,,riao,OAkk - NA,891,83.00,,,https://drive.google.com/file/d/1yTvpbtcDBm1nfFqVT-xMeTXqRiR7DURS/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,CAMS/Barutu,,cams/barutu,OB,3,34.00,,,https://drive.google.com/file/d/1v_S4nvg723RNHcdtQV1wXx7XgvEpns2D/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 OB Literature,http://oracc.museum.upenn.edu/json/epsd2-literary.zip,epsd2/literary,OB,,68.00,,,,,FALSE,FALSE,FALSE,FALSE
+FALSE,NERE: Near Eastern Royal Epics,,nere,OB,1,78.00,,,https://drive.google.com/file/d/1xj6f-M1ewaQJWvWDW5QwRAVmNR6LUKNF/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,obel: Old Babylonian Emesal Liturgies,,obel,OB,167,79.00,,,https://drive.google.com/file/d/1xibGLj-3NplqbfEC9FhZiopamJw_lVUT/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,OBMC: Old Babylonian Model Contracts,,obmc,OB,359,80.00,,,https://drive.google.com/file/d/1xgNgpd7gaRJTPDhPPkPiqQHtrzO4HNjs/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,OBTA: Old Babylonian Tabular Accounts,,obta,OB,118,81.00,https://colab.research.google.com/drive/18K4h3IGRcHimYGlJ2_NuNnrK32GDwyuF?authuser=1#scrollTo=v82DSqKgIPgg,,https://drive.google.com/file/d/1yHaCzQPYaZ80qX1RKL10LRLn8zyFg3cS/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,Rīm-Anum: The House of Prisoners,,rimanum,OB,378,95.00,,,https://drive.google.com/file/d/1zORr1_lz7tvBa1zNRmWPiQLjqxn94Odi/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,"dcclt/Jena: dcclt/Lexical Texts in the Hilprecht Collection, Jena",,dcclt/jena,OB+,211,51.00,,,https://drive.google.com/file/d/1wrLNu9M-DlYSTb06Hnd-9pP2uwaDPptD/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,DSSt: Datenbank sumerischer Streitliteratur,,dsst,OB+,25,55.00,,,https://drive.google.com/file/d/1xCKI-gaDNHZKdO-NfbJjj4fkfFmcwI57/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Administrative Corpus OB,http://oracc.museum.upenn.edu/json/epsd2-admin/oldbab.zip,epsd2/admin/oldbab,OB+,2810,65.00,,,,,FALSE,FALSE,FALSE,FALSE
+FALSE,CAMS/Anzu,,cams/anzu,SB,3,33.00,,,https://drive.google.com/file/d/1vborQUBLQ5yhK0PpyCDygZDOWkW15jJY/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,CAMS/Etana: The Standard Babylonian Epic of Etana,,cams/etana,SB,20,35.00,,,https://drive.google.com/file/d/1vX9j_5uloBdJI89cXGSyo73ijXXq3Ceu/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,CAMS/SelBI: CAMS/Seleucid Building Inscriptions,,cams/selbi,Sel,3,38.00,,,https://drive.google.com/file/d/1vpKvmBj83RoZ_HbloOHruyV7VC7hmN1u/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Early Literature,http://oracc.museum.upenn.edu/json/epsd2-earlylit.zip,epsd2/literary,Sux,,67.00,,,,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Incantations,http://oracc.museum.upenn.edu/json/epsd2-praxis.zip,epsd2/literary,Sux,,70.00,,,,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Liturgies,http://oracc.museum.upenn.edu/json/epsd2-praxis-liturgy.zip,epsd2/literary,Sux,,72.00,,,,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Practical Varia,http://oracc.museum.upenn.edu/json/epsd2-praxis-varia.zip,epsd2/literary,Sux,,73.00,,,,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Royal,http://oracc.museum.upenn.edu/json/epsd2-royal.zip,epsd2/literary,Sux,,69.00,,,,,FALSE,FALSE,FALSE,FALSE
+FALSE,ePSD2 Udughul,http://oracc.museum.upenn.edu/json/epsd2-praxis-udughul.zip,epsd2/literary,Sux,,71.00,,,,,FALSE,FALSE,FALSE,FALSE
+TRUE,Translation,,etcsri,Sux,1451,74.00,https://colab.research.google.com/drive/103q9Wwq-METLtEg3DZl1Kj2ovgADqA4J?usp=sharing,,https://drive.google.com/file/d/1xMvKGjRNmzOIWHaKecSPgvirphaQm_Hd/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,ePSD2 Administrative Corpus Ur III,http://oracc.museum.upenn.edu/json/epsd2-admin-ur3.zip,epsd2/admin/ur3,Ur3,80181,66.00,https://colab.research.google.com/drive/1l6NG2ZC0dZPuIkqwpUBfWBAVrsoZmDlQ?usp=sharing,,,,FALSE,FALSE,FALSE,FALSE
+NA,Amarna: The Amarna Texts,,contrib/amarna,,378,47.00,,,https://drive.google.com/file/d/1wfBcIb0XF9SKYZhxuclth0aFohLXIpqz/view?usp=share_link,not lemmatized,,,,
+NA,AMGG: Ancient Mesopotamian Gods and Goddesses,,0,,0,0.00,,,https://drive.google.com/file/d/1tzyfmzmMLkLvfdScmqEeQMu6GACK4w7A/view?usp=share_link,no corpusjson,,,,
+NA,ARRIM Digital Archive: Digital Archive of the Annual Review of the Royal Inscriptions of Mesopotamia,,0,,0,0.00,,,https://drive.google.com/file/d/1uCBQg-evuTgK0G_RcNUB_sRjM3d4a5DQ/view?usp=share_link,no corpusjson,,,,
+NA,Assyrian Empire Builders,,saao/aebp,,0,0.00,,,https://drive.google.com/file/d/1-1yskO8-QwnnTkjorgo1L70mhNGO9WcN/view?usp=share_link,no corpusjson,,,,
+NA,BTMAo: Babylonian Temples and Monumental Architecture online,,0,,0,0.00,,,,no corpusjson,,,,
+NA,cams/akno: Ancient Knowledge Networks online,,cams/akno,,361,32.00,,,https://drive.google.com/file/d/1vKZZehiwO5gsqUGPFk3P2joI3nKtVhED/view?usp=share_link,no corpusjson,,,,
+NA,CASPo: Corpus of Akkadian Shuila-Prayers online,,0,,339,0.00,,,,different format,,,,
+NA,CASPo/akkpm: CASPo/Akkadian Prayer Miscellany,,0,,12,0.00,,,,no corpusjson,,,,
+NA,CCPo: Cuneiform Commentaries Project on ORACC,,0,,0,0.00,,,,no corpusjson,,,,
+TRUE,"CMAwRo 1: Corpus of Mesopotamian Anti-witchcraft Rituals, vol. 1",,cmawro/cmawr1,,49,43.00,,,https://drive.google.com/file/d/1wTmsMeXFr5-vsinMGtkilCM2eaC7LTWS/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,"CMAwRo 2: Corpus of Mesopotamian Anti-witchcraft Rituals, vol. 2",,cmawro/cmawr2,,82,44.00,,,https://drive.google.com/file/d/1wAWmELpbB3m-Sfk_wdvuqAQHOcIiIlfk/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+TRUE,"CMAwRo 3: Corpus of Mesopotamian Anti-witchcraft Rituals, vol. 3",,cmawro/cmawr3,,124,45.00,,,https://drive.google.com/file/d/1wdUfyLog_aIaskjEEoSfXZQNU72CY_GY/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+NA,contrib/lambert: The Notebooks of W.G. Lambert,,0,,0,0.00,,,https://drive.google.com/file/d/1wfdtwfUDaLJfHxNsw6HlJ4nWnv9Ry1jk/view?usp=share_link,metadata.json,,,,
+NA,Corpus of Mesopotamian Anti-witchcraft Rituals online,,cmawro,,0,42.00,,,https://drive.google.com/file/d/1wU4WQiXh4LBNNrDZqO4Mz_0eBv6CTgYP/view?usp=share_link,no corpusjson,,,,
+NA,DCCLT: Digital Corpus of Cuneiform Lexical Texts,,dcclt,,0,49.00,,,https://drive.google.com/file/d/1wmNpS5XGakkHSxelXzM7jS2OZGmdLEvA/view?usp=share_link,no corpusjson,,,,
+NA,Knowledge and Power,,saao/knpp,,0,0.00,,,https://drive.google.com/file/d/1-4jSfYt3tosWe41nyAqGk-M2P7Ao0BG0/view?usp=share_link,no corpusjson,,,,
+NA,"LoveLyrics: A corpus of 1st mill. love rituals involving Marduk, Zarpanitum and Ištar",,lovelyrics,,0,0.00,,,https://drive.google.com/file/d/1xvXXUzpCw-zWQsSUvMfu1H8vO4dxpiIV/view?usp=share_link,no corpusjson,,,,
+FALSE,Maqlû,,cmawro/maqlu,,9,46.00,https://colab.research.google.com/drive/1xeIR-Pgd8YvZABuN1VhK5GAynmUxHlsQ?usp=sharing,,https://drive.google.com/file/d/1wVdlJdBK4hl_sGfkqQrdguXlsu3FIw0d/view?usp=share_link,,FALSE,FALSE,FALSE,FALSE
+NA,Nimrud: Nimrud: Materialities of Assyrian Knowledge Production,,nimrud,,0,0.00,,,https://drive.google.com/file/d/1xikxmgyVL38ZQG51f3gztth38K75cG9v/view?usp=share_link,no corpusjson,,,,
+NA,OGSL: Oracc Global Sign List,,ogsl,,0,0.00,,,https://drive.google.com/file/d/1y2DkAWU5TPVrpQ9mOzqZ28lnjgewMCmW/view?usp=share_link,no corpusjson,,,,
+NA,OIMEA: Official Inscriptions of the Middle East in Antiquity,,oimea,,0,0.00,,,https://drive.google.com/file/d/1yIFYHqGTeoHl45VLbe-jA27Z8vEKiRBa/view?usp=share_link,no corpusjson,,,,
+NA,PNAo: Prosopography of the Neo-Assyrian Empire online,,pnao,,0,0.00,,,https://drive.google.com/file/d/1yPyKPDOyDZ_Rx3NcyuO-_upLpLsUBb5R/view?usp=share_link,no corpusjson,,,,
+NA,RINAP: Royal Inscriptions of the Neo-Assyrian Period,http://oracc.museum.upenn.edu/rinap,rinap,,0,96.00,,,https://drive.google.com/file/d/1zQb_UsB4qoXKaI-g1kdlxZSGb2XRlT7p/view?usp=share_link,no corpusjson,,,,
+NA,SAAo: State Archives of Assyria Online,,saao,,0,104.00,,,https://drive.google.com/file/d/1ZnmbJBABB5D6yXEFDoCV-Jk88Uyc8UFj/view?usp=share_link,no corpusjson,,,,

@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+
+# Local credentials and shell environment files.
+.env
+*.env
+
+# Generated import packages and expanded package directories can get large.
+published/import_packages/
+*.zip
+
+# Large source exports should be regenerated or downloaded locally.
+inputs/cdli_lookup_sources/factgrid_df_header_sample.csv

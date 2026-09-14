@@ -1,0 +1,46 @@
+Sequence,Parent,Language,FG_item,Wikidata_link,Wd_dialect,Oracc_Protocol Code,Inline Code,Notes
+,,,,,,,,
+0,,no linguistic content,,,,,nlc,
+0,,uncertain,,,,,und,
+1,,undetermined,,,,,qpc,
+2,,undetermined (Iran),,,,,qpe,
+0,Mandaic,Mandaic,,https://www.wikidata.org/wiki/Q33500,,,myz,
+0,Persian,Persian,,https://www.wikidata.org/wiki/Q9168,,,peo,
+0,Phoenician,Phoenician,,https://www.wikidata.org/wiki/Q36734,,,,
+0,Sabaean,Sabaean,,https://www.wikidata.org/wiki/Q1070391,,,,
+0,Egyptian,Egyptian,,https://www.wikidata.org/wiki/Q50868,,,egy,
+0,Elamite,Elamite,Q500430,https://www.wikidata.org/wiki/Q35470,,,elx,
+0,Hattic,Hattic,,https://www.wikidata.org/wiki/Q31107,,,,
+0,Hurrian,Hurrian,Q512052,https://www.wikidata.org/wiki/Q35740,,,xhu,
+0,Hittite,Hittite,Q500429,https://www.wikidata.org/wiki/Q35668,,hit,hit,
+0,Hittite,Hittite Logographic,Q500429,https://www.wikidata.org/wiki/Q35668,,,hit_logo,
+0,Ugaritic,Ugaritic,Q500431,https://www.wikidata.org/wiki/Q36928,,,uga,
+0,Urartian,Urartian,Q518690,https://www.wikidata.org/wiki/Q36934,,,xur,
+0,Arabic,Arabic,Q389598,https://www.wikidata.org/wiki/Q13955,,,ara,
+0,Aramaic,Aramaic,Q393615,https://www.wikidata.org/wiki/Q28602,,,arc,
+4,Akkadian,Eblaite,Q471146,https://www.wikidata.org/wiki/Q35345,,,qeb,
+0,Greek,Greek,Q172951,https://www.wikidata.org/wiki/Q9129,,,grc,
+0,Hebrew,Hebrew,Q389600,https://www.wikidata.org/wiki/Q9288,,,hbo,
+5,Akkadian,Akkadian,Q471146,https://www.wikidata.org/wiki/Q35518,,,akk,
+16,Akkadian,Late Babylonian,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-ltebab,nb,
+5,Akkadian,Early Akkadian,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-earakk,eakk,
+11,Akkadian,Middle Assyrian,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-midass,ma,
+12,Akkadian,Middle Babylonian,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-midbab,mb,
+13,Akkadian,Middle Babylonian peripheral,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-mbperi,,
+14,Akkadian,Neo-Assyrian,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-neoass,na,
+15,Akkadian,Neo-Babylonian,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-neobab,nb,
+6,Akkadian,Old Akkadian,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-oldakk,oakk,
+8,Akkadian,Old Assyrian,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-oldass,oa,
+9,Akkadian,Old Babylonian,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-oldbab,ob,
+10,Akkadian,Old Babylonian peripheral,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-obperi,,
+7,Akkadian,Ur III Akkadian,Q471146,https://www.wikidata.org/wiki/Q35518,,ua,ur3akk,
+17,Akkadian,Standard Babylonian,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-stdbab,sb,
+3,Sumerian,Sumerian,Q471149,https://www.wikidata.org/wiki/Q36790,https://www.wikidata.org/wiki/Q109023415,xsux,,unicode
+3,Sumerian,Sumerian,Q471149,https://www.wikidata.org/wiki/Q36790,https://www.wikidata.org/wiki/Q107549870,sux-latn,sux,transliteration
+3,Sumerian,Sumerian,Q471149,https://www.wikidata.org/wiki/Q36790,https://www.wikidata.org/wiki/Q109023415,sux-x-emegir,eg,"emegir, main dialect of Sumerian"
+19,Sumerian,Udgalnun,Q471149,https://www.wikidata.org/wiki/Q36790,,sux-x-udgalnun,u,"udgalnun, secret or cryptograpgic form of Sumerian cuneiform writing. Literary texts from Fāra (Shuruppag*) and Tall Abu-Salabıh use a “cryptographic” writing system conventionally called Udgalnun* ([RlA 12/3-4 (2009) 287](https://www.academia.edu/40381891/Schrift_writing_Reallexikon_der_Assyriologie_und_Vorderasiatischen_Arch%C3%A4ologie_vol_12_3_4_2009_286f)"
+18,Sumerian,Emesal,Q471149,https://www.wikidata.org/wiki/Q36790,https://www.wikidata.org/wiki/Q10482212,sux-x-emesal,es,"emesal, as a 'refined' dialect of Sumerian"
+20,Sumerian,Syllabic,Q471149,https://www.wikidata.org/wiki/Q36790,,sux-x-syllabic,sy,"Sumerian cuneiform written syllabically (like Akkadian), rather than in the normal logographic form"
+,Akkadian,Conventional Akkadian,Q471146,https://www.wikidata.org/wiki/Q35518,,akk-x-conakk,ca,The artificial form of Akkadian used in lemmatisation Citation Forms.
+,Akkadian,normalised,Q471146,https://www.wikidata.org/wiki/Q35518,,(none: main text must be transliteration),n,Used in lexical lists and restorations; try to avoid wherever possible.
+,Akkadian,transliterated (graphemic) Akkadian,Q471146,https://www.wikidata.org/wiki/Q35518,,(none: must specify dialect too),g,Only for use when switching from normalised Akkadian.

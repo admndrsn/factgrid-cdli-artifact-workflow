@@ -1,0 +1,421 @@
+FG_qid,FG_qid_url,Len,Aen,P694,P48,P2,description_en
+Q389638,https://database.factgrid.de/entity/Q389638,Antipatris (mod. Tel Aphek),Antipatris,10,Point(34.9311 32.1053),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390027,https://database.factgrid.de/entity/Q390027,Kabnak (mod. Haft Tepe),Haft Tepe | Kabnak,100,Point(48.3276 32.0803),Q8 | Q389596 | Q1785688,ancient location and modern archaeological excavation site
+Q2099939,https://database.factgrid.de/entity/Q2099939,Galgameš,,1006,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099921,https://database.factgrid.de/entity/Q2099921,Bit-kunanu,,1007,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099916,https://database.factgrid.de/entity/Q2099916,Bit-bari,,1008,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099947,https://database.factgrid.de/entity/Q2099947,Haṭru,,1009,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100022,https://database.factgrid.de/entity/Q2100022,Tell Kirbāsi,mod. Tell Kirbāsi,1010,Point(46.9517 30.7492),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099928,https://database.factgrid.de/entity/Q2099928,Chamchamal,mod. Chamchamal,1011,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100019,https://database.factgrid.de/entity/Q2100019,Tell Basmaya,mod. Tell Basmaya,1012,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099980,https://database.factgrid.de/entity/Q2099980,Petronell-Carnuntum,Carnuntum | mod. Petronell-Carnuntum,1014,Point(16.861 48.113),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099943,https://database.factgrid.de/entity/Q2099943,Gur-e Sefid,mod. Gur-e Sefid,1015,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100031,https://database.factgrid.de/entity/Q2100031,Tulūl Kubībah,mod. Tulūl Kubībah,1016,Point(46.148 31.704),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099997,https://database.factgrid.de/entity/Q2099997,Šušan,,1017,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099989,https://database.factgrid.de/entity/Q2099989,Saḫrītu,,1018,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099993,https://database.factgrid.de/entity/Q2099993,Šuppatu,,1019,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389852,https://database.factgrid.de/entity/Q389852,Tell Agrab,mod. Tell Agrab,102,Point(44.8742 33.3391),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099918,https://database.factgrid.de/entity/Q2099918,Bīt-Ḫaḫḫūru,,1020,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099934,https://database.factgrid.de/entity/Q2099934,El Geraineh,Egraineli | mod. El Geraineh,1021,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099907,https://database.factgrid.de/entity/Q2099907,Apšu,,1022,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099986,https://database.factgrid.de/entity/Q2099986,Quwakh Tapeh,mod. Quwakh Tapeh,1023,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099897,https://database.factgrid.de/entity/Q2099897,Äl-Mušēzib-Marduk,mod. Äl-Mušēzib-Marduk,1024,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099942,https://database.factgrid.de/entity/Q2099942,Gišši,,103,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389607,https://database.factgrid.de/entity/Q389607,"Abdju (mod. Abydos, Egypt)",Umm El Qa'ab | Abdju,104,Point(31.908 26.1747),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390030,https://database.factgrid.de/entity/Q390030,Uruk (mod. Warka),Uruk | Erech | Erekh | Auruk | Orkhóē | Orékh | Ōrúgeia,105,Point(45.6374 31.3259),Q8 | Q389596 | Q1785688 | Q1059746,ancient location and modern archaeological excavation site
+Q389814,https://database.factgrid.de/entity/Q389814,Dharan,,106,Point(50.1502 26.2664),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389950,https://database.factgrid.de/entity/Q389950,Tulul al-Lak,,107,Point(43.2638 36.2983),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389824,https://database.factgrid.de/entity/Q389824,Bardi Sanjian Bitwata,,108,Point(44.7031 36.3398),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389709,https://database.factgrid.de/entity/Q389709,Dur-Untaš (mod. Chogha Zanbil),Chogha Zanbil | Dur-Untaš,109,Point(48.5229 32.0078),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389727,https://database.factgrid.de/entity/Q389727,Qasr-i Abu Nasr (mod. uncertain),,11,Point(52.6252 29.5848),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389632,https://database.factgrid.de/entity/Q389632,Ben Shemen,,111,Point(34.9206 31.9535),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389856,https://database.factgrid.de/entity/Q389856,Tell Hammam,,113,Point(45.7675 31.6365),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389683,https://database.factgrid.de/entity/Q389683,Abū Fanduwā,Abu Fandowa | mod. Abu Fandowa,115,Point(48.3164 32.0941),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389716,https://database.factgrid.de/entity/Q389716,Sar-i-pul-i-Zohāb,Anubanini rock relief,116,Point(45.8692 34.4633),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390028,https://database.factgrid.de/entity/Q390028,Hamadan,Ecbatana,117,Point(48.5171 34.8043),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389920,https://database.factgrid.de/entity/Q389920,Šaddikanni (mod. Tell Ajaja),Shaddikanni,118,Point(40.7205 36.2082),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389723,https://database.factgrid.de/entity/Q389723,Susa (mod. Shush),Susa,12,Point(48.2569 32.1895),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389986,https://database.factgrid.de/entity/Q389986,Seleucia,Seleucia | Tell 'Umar,120,Point(44.5213 33.0962),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389947,https://database.factgrid.de/entity/Q389947,Tulul Abu Jawan,Abu Jawan | mod. Abu Jawan,121,Point(44.807 33.1337),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100041,https://database.factgrid.de/entity/Q2100041,Za'aleh,mod. Za'aleh,122,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099892,https://database.factgrid.de/entity/Q2099892,Abu Sêcher,mod. Abu Sêcher,123,,Q389596 | Q8,uncertain ancient location with artifacts from the Lagash II period (ca. 2200-2100 BC)
+Q2099926,https://database.factgrid.de/entity/Q2099926,Bit-ṭab-bel,,125,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390159,https://database.factgrid.de/entity/Q390159,Tell Sabaa,,126,Point(44.7514 33.4638),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099941,https://database.factgrid.de/entity/Q2099941,Girigu,,128,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389693,https://database.factgrid.de/entity/Q389693,Tepe Farukhabad,,129,Point(47.2246 32.5873),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389923,https://database.factgrid.de/entity/Q389923,Dur-Kurigalzu (mod. Aqar Quf),Dur-Kurigalzu,13,Point(44.1888 33.3599),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389968,https://database.factgrid.de/entity/Q389968,Tutub (mod. Khafaje),Khafajah | Tutub,130,Point(44.5559 33.3554),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389975,https://database.factgrid.de/entity/Q389975,Ugarit (mod. Ras Shamra),Ugarit,131,Point(35.7853 35.6021),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389944,https://database.factgrid.de/entity/Q389944,Larak (mod. Tell Wilayah) : Kesh (mod. Wilaya ?),Larak,132,Point(45.6602 32.3127),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389875,https://database.factgrid.de/entity/Q389875,Bad-Tibira (mod. Tell Medinah),Bad-tibira | Bad-Tibira,133,Point(46.004 31.3832),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099962,https://database.factgrid.de/entity/Q2099962,Kar-Nabu,,134,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389863,https://database.factgrid.de/entity/Q389863,Dur-Katlimmu (mod. Tall Shekh Hamad),Tell Sheikh Hamad | Dur-Katlimmu,135,Point(40.7436 35.6463),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389910,https://database.factgrid.de/entity/Q389910,Ašnakkum,Chagar Bazar,136,Point(40.8978 36.8755),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389710,https://database.factgrid.de/entity/Q389710,Chogha Mish,,137,Point(48.5555 32.224),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389798,https://database.factgrid.de/entity/Q389798,Ishan-Dhahak,,138,Point(44.8341 32.7104),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390040,https://database.factgrid.de/entity/Q390040,Samal (mod. Zinčirli),Samʼal | Samal,14,Point(36.6783 37.1035),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389695,https://database.factgrid.de/entity/Q389695,Tepe Gotvand,Tapah Gutwand,140,Point(48.8149 32.2363),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099961,https://database.factgrid.de/entity/Q2099961,Kar-bel-matati,,141,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389958,https://database.factgrid.de/entity/Q389958,Jerwan,,142,Point(43.3934 36.6697),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389940,https://database.factgrid.de/entity/Q389940,Emar (mod. Tell Meskene),Emar,143,Point(38.1126 35.9876),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q91761,https://database.factgrid.de/entity/Q91761,Sidon,Ṣaiydā | Sidon,144,Point(35.3981 33.5606) | Point(35.3697 33.5625),Q8 | Q389596,"city in Lebanon, ancient location and modern archaeological excavation site"
+Q2100034,https://database.factgrid.de/entity/Q2100034,Uhudu,,145,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389692,https://database.factgrid.de/entity/Q389692,Tepe Sofalin,,146,Point(51.7366 35.3161),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099933,https://database.factgrid.de/entity/Q2099933,Ecbatana,,147,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389775,https://database.factgrid.de/entity/Q389775,Tell al-Diba'i,Zaralulu | Tell Dhiba'i,148,Point(44.4823 33.3229),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389949,https://database.factgrid.de/entity/Q389949,Tell al-Baqarat,Tell al-Diba'i,148,Point(45.7239 32.3361),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389894,https://database.factgrid.de/entity/Q389894,Me-Turran (mod. Tell Haddad),Me-Turran,149,Point(45.0563 34.1928),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390072,https://database.factgrid.de/entity/Q390072,Giricano,Giricano Höyüğü | mod. Giricano,150,Point(40.7499 37.8169),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099968,https://database.factgrid.de/entity/Q2099968,Kumu,,151,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100033,https://database.factgrid.de/entity/Q2100033,Udannu,,152,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389971,https://database.factgrid.de/entity/Q389971,Diqdiqqah,,153,Point(46.1186 30.9745),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389833,https://database.factgrid.de/entity/Q389833,Umma (mod. Tell Jokha),Umma,154,Point(45.8861 31.6669),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389837,https://database.factgrid.de/entity/Q389837,Palmyra,Palmyra,155,Point(38.2694 34.5522),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389768,https://database.factgrid.de/entity/Q389768,Tell Sweyhat,Sweyhat,156,Point(38.2538 36.2734),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389960,https://database.factgrid.de/entity/Q389960,Jemdet Nasr,,159,Point(44.7796 32.7181),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099969,https://database.factgrid.de/entity/Q2099969,Lagaba,,16,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389903,https://database.factgrid.de/entity/Q389903,Puzriš-Dagan (mod. Drehem),Puzriš-Dagan | Drehem,160,Point(45.2922 32.0591),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389896,https://database.factgrid.de/entity/Q389896,Mari (mod. Tell Hariri),"Mari, Syria | Mari | Tell Hariri",161,Point(40.8887 34.5504) | Point(40.89 34.549444444444),Q8 | Q389596 | Q1785688 | Q1059746,ancient location and modern archaeological excavation site
+Q389868,https://database.factgrid.de/entity/Q389868,Alalakh,Alalakh | Alalah | Tel Açana,162,Point(36.3842 36.2377),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389972,https://database.factgrid.de/entity/Q389972,Dohuk,,164,Point(42.9205 36.8623),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390010,https://database.factgrid.de/entity/Q390010,Arrapha (mod. Kirkuk),Arrapha,165,Point(44.3957 35.4701),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389860,https://database.factgrid.de/entity/Q389860,Larsa (mod. Tell as-Senkereh),Larsa | Tell as-Senkereh,168,Point(45.8549 31.2832) | Point(45.853611111111 31.285833333333) | Point(45.8498 31.2833),Q8 | Q389596 | Q1785688 | Q1059746,ancient location and modern archaeological excavation site
+Q389961,https://database.factgrid.de/entity/Q389961,Jīroft,,169,Point(57.7792 28.4634),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099911,https://database.factgrid.de/entity/Q2099911,Ba-milkišu,,17,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389658,https://database.factgrid.de/entity/Q389658,Ḫattusa (mod. Boğazkale),Hattusa | Ḫattusa | Boğazkale,171,Point(34.6164 40.0144),Q8 | Q389596 | Q1785688,ancient location and modern archaeological excavation site
+Q2100032,https://database.factgrid.de/entity/Q2100032,Tulūl Yassir,Malgium | mod. Tulūl Yassir,172,Point(45.0983 32.5612),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389770,https://database.factgrid.de/entity/Q389770,Glai'a,,173,Point(42.1921 34.2909),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389987,https://database.factgrid.de/entity/Q389987,Sulaiymah,Sulaima | Tell Suleimah | Himrin,174,Point(45.1034 34.1677),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099954,https://database.factgrid.de/entity/Q2099954,Hurruba,,175,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389922,https://database.factgrid.de/entity/Q389922,Der (mod. Tell Aqar),Der (Sumer) | Der,178,Point(45.9316 33.1238),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389917,https://database.factgrid.de/entity/Q389917,Amuda,,179,Point(40.9293 37.0972),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099973,https://database.factgrid.de/entity/Q2099973,Mah-i-dasht plain,mod. Mah-i-dasht plain,18,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099959,https://database.factgrid.de/entity/Q2099959,Kapri-ša-naqidati,,182,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389839,https://database.factgrid.de/entity/Q389839,Tikrit,Tikrit,183,Point(43.6753 34.5974),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389803,https://database.factgrid.de/entity/Q389803,Tell Abu-Maria,Apqu-ša-Adad,185 | 158,Point(42.5973 36.4295),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099991,https://database.factgrid.de/entity/Q2099991,Šašrum,,186,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390032,https://database.factgrid.de/entity/Q390032,Yasuj,mod. Yasuj,188,Point(51.5796 30.6673),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389637,https://database.factgrid.de/entity/Q389637,Qaqun,Kibbutz Hama-apil,189,Point(34.995 32.3593),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389966,https://database.factgrid.de/entity/Q389966,Khan Haswa,,19,Point(44.4016 32.8277),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390044,https://database.factgrid.de/entity/Q390044,Šarišša,Kuşaklı,190,Point(36.9096 39.3084),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389841,https://database.factgrid.de/entity/Q389841,Maškan-šapir (mod. Tell Abu Duwari),Mashkan-shapir | Maškan-šapir,192,Point(45.2207 32.4055),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099964,https://database.factgrid.de/entity/Q2099964,Kazallu,,193,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390000,https://database.factgrid.de/entity/Q390000,'Anah,'Ana | Anatho | mod. 'Ana,194,Point(41.9794 34.4677),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099924,https://database.factgrid.de/entity/Q2099924,Bit-Šaḫṭu,,197,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389688,https://database.factgrid.de/entity/Q389688,Tall-I Takht (mod. Pasargadae),Pasargadae,198,Point(53.1768 30.2008),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390087,https://database.factgrid.de/entity/Q390087,Sur Jar'a,,199,Point(42.1939 34.3072),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389858,https://database.factgrid.de/entity/Q389858,Sippar-Amnanum (mod. Tell ed-Der),Sippar-Amnanum,2,Point(44.2991 33.0991),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390047,https://database.factgrid.de/entity/Q390047,Kizkapanlı,,20,Point(37.285 37.395),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099976,https://database.factgrid.de/entity/Q2099976,Naḫalla,,201,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390059,https://database.factgrid.de/entity/Q390059,Harran (mod. Harran),Harran,202,Point(39.0309 36.8634),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099904,https://database.factgrid.de/entity/Q2099904,Alu-ša-šuma-ukin,,203,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389862,https://database.factgrid.de/entity/Q389862,Ḫarbe (mod. Tell Chuera),Tell Chuera | Ḫarbe,204,Point(39.4981 36.6469),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389713,https://database.factgrid.de/entity/Q389713,Deh-e No,Dah-i Nu,206,Point(48.5684 32.0686),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389877,https://database.factgrid.de/entity/Q389877,Ur (mod. Tell Muqayyar),Ur | Uri,21,Point(46.1063 30.9607),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389905,https://database.factgrid.de/entity/Q389905,Tell Sifr,Kutalla,167 | 210,Point(45.9672 31.2946),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390001,https://database.factgrid.de/entity/Q390001,Assur,Aššur | Kalah Shergat | Ashur,211 | 205,Point(43.2611 35.4557),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099949,https://database.factgrid.de/entity/Q2099949,Himeri,mod. Himeri,213,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389941,https://database.factgrid.de/entity/Q389941,Ekalte (mod. Tell Munbaqa),Mumbaqat | Ekalte,214,Point(38.1298 36.2182),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390163,https://database.factgrid.de/entity/Q390163,Umm al-Wawīya,,215,Point(45.7626 31.2613),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389886,https://database.factgrid.de/entity/Q389886,Nagar (mod. Tell Brak),Tell Brak | Nagar,217,Point(41.0584 36.667),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390128,https://database.factgrid.de/entity/Q390128,"Toprakkale, Eastern Anatolia",Rusahinili,218,Point(43.4064 38.5102),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389945,https://database.factgrid.de/entity/Q389945,Tell Yarah,,219,Point(43.2532 36.4466),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390017,https://database.factgrid.de/entity/Q390017,Nippur (mod. Nuffar),Nippur,22,Point(45.23 32.1271),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389973,https://database.factgrid.de/entity/Q389973,Dura-Europus,mod. Dura-Europus,220,Point(40.7298 34.7479),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100040,https://database.factgrid.de/entity/Q2100040,Yorgan Tepe,Gasur/Nuzi | mod. Yorgan Tepe,222,Point(44.2546 35.3717),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q89588,https://database.factgrid.de/entity/Q89588,Gasur (mod. Yorgan Tepe) : Nuzi (mod. Yorgan Tepe),Nuzi | Gasur | Yūrghān Tapah,222,Point(44.2546 35.3717),Q8,ancient location and modern archaeological excavation site
+Q389914,https://database.factgrid.de/entity/Q389914,Marad (mod. Wanna-wa-Sadum),Marad,223,Point(44.7851 32.0917),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390092,https://database.factgrid.de/entity/Q390092,Judi Dagh,Mount Judi | Cudi Dağı,224,Point(42.3668 37.3838),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099953,https://database.factgrid.de/entity/Q2099953,Hummanu,,225,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389866,https://database.factgrid.de/entity/Q389866,Tell Ubaid,Tell al-'Ubaid | mod. Tell Ubaid,226,Point(46.0305 30.9722),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390034,https://database.factgrid.de/entity/Q390034,Ankuwa,Alişar Hüyük | Alisar,227,Point(35.2614 39.6059),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389848,https://database.factgrid.de/entity/Q389848,Kutha (mod. Tell Ibrahim),Kutha | Gudua,23,Point(44.6112 32.7605),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390069,https://database.factgrid.de/entity/Q390069,Kurkh,,230,Point(40.5397 37.826),Q8 | Q389596,ancient location and modern archeologoical excavation site
+Q389830,https://database.factgrid.de/entity/Q389830,Beisan,,231,Point(43.1037 36.4222),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389845,https://database.factgrid.de/entity/Q389845,Tell Abu Qubur,,233,Point(44.2185 33.1455),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389948,https://database.factgrid.de/entity/Q389948,Kar-Tukulti-Ninurta (mod. Tulul al-ʿAqir),Kar-Tukulti-Ninurta,234,Point(43.2793 35.4944),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389897,https://database.factgrid.de/entity/Q389897,Tall Halawah,Abu Halawa | Tall Ḩalāwah | mod. Abu Halawa,235,Point(44.4874 33.4258),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099920,https://database.factgrid.de/entity/Q2099920,Bit-ḫulummu,,236,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389687,https://database.factgrid.de/entity/Q389687,Behistun,,237,Point(47.4318 34.3881),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099979,https://database.factgrid.de/entity/Q2099979,Nessana,mod. Nessana,238,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099906,https://database.factgrid.de/entity/Q2099906,Alu-šabtu,,239,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389822,https://database.factgrid.de/entity/Q389822,Bassetki,Mardaman,24,Point(42.7213 36.9589),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389823,https://database.factgrid.de/entity/Q389823,Bavian,Khinnis,240,Point(43.42 36.7615),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389859,https://database.factgrid.de/entity/Q389859,Qatara (mod. Tell al Rimah),Tell al-Rimah | Qatara,242,Point(42.45 36.2569),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390073,https://database.factgrid.de/entity/Q390073,Tushhan (mod. Ziyaret Tepe),Tushhan | Ziyaret Tepe Höyüğü,244,Point(40.7929 37.7936),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389790,https://database.factgrid.de/entity/Q389790,Nerebtum (mod. Iščali),Tell Ishchali | Nerebtum,245,Point(44.5828 33.3029),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390067,https://database.factgrid.de/entity/Q390067,Pir Huseyin,,246,Point(40.3875 38.1113),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389732,https://database.factgrid.de/entity/Q389732,Kermanshah,mod. Kermanshah,247,Point(47.0649 34.314),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389855,https://database.factgrid.de/entity/Q389855,Hadidi,,248,Point(38.1507 36.2645),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389840,https://database.factgrid.de/entity/Q389840,Sippar-Yahrurum (mod. Tell Abu Habbah),Sippar,25,Point(44.2552 33.0605),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389853,https://database.factgrid.de/entity/Q389853,Terqa (mod. Ashara),Terqa,250,Point(40.5677 34.9229),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q82414,https://database.factgrid.de/entity/Q82414,Isqalluna (mod. Ashkelon),Ashkelon | Isqalluna,251,Point(34.5471 31.6629),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389603,https://database.factgrid.de/entity/Q389603,Adab (mod. Bismaya),Adab (city) | Adab,252,Point(45.6233 31.9509),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389857,https://database.factgrid.de/entity/Q389857,Dilbat (mod. Deilam),Dilbat,253,Point(44.4668 32.2961),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q898201,https://database.factgrid.de/entity/Q898201,Geomapping Landscapes of Writing (GLoW),GLoW,253,,Q417872,Research project for building repositories curated datasets
+Q389942,https://database.factgrid.de/entity/Q389942,Urkesh (mod. Tell Mozan),Urkesh | Urkiš,254,Point(40.9975 37.0572),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099987,https://database.factgrid.de/entity/Q2099987,Sagub,,255,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389918,https://database.factgrid.de/entity/Q389918,Tell Abta,,257,Point(42.5619 35.9432),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099935,https://database.factgrid.de/entity/Q2099935,Elammu,,258,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389649,https://database.factgrid.de/entity/Q389649,Tas-Silg,Ta' Berikka | Tas-Silġ,259,Point(14.5519 35.8459),Q8 | Q389596,"is a rounded hilltop on the south-east coast of the island of Malta, overlooking Marsaxlokk Bay, and close to the town of Żejtun"
+Q389854,https://database.factgrid.de/entity/Q389854,Tuttul (mod. Tell Bi'a),Tuttul,26,Point(39.0471 35.958),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389891,https://database.factgrid.de/entity/Q389891,Nabada,Tell Beydar | Tall Baiydar,260,Point(40.5872 36.7381),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389799,https://database.factgrid.de/entity/Q389799,Mazyad,,262,Point(44.5561 32.5932),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390056,https://database.factgrid.de/entity/Q390056,Huzirina (mod. Sultantepe),Sultantepe | Huzirina,263,Point(38.9062 37.0501),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389849,https://database.factgrid.de/entity/Q389849,Old Makhmur,,264,Point(43.5551 35.7742),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389610,https://database.factgrid.de/entity/Q389610,Akhetaten (mod. el-Amarna),Amarna | Akhetaten,266,Point(30.8959 27.64),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099901,https://database.factgrid.de/entity/Q2099901,Alu-binatu,,267,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389792,https://database.factgrid.de/entity/Q389792,Umm el-Hafriyat,,268,Point(45.4813 32.1323),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389821,https://database.factgrid.de/entity/Q389821,Pāra,Para | Barah,27,Point(41.4851 36.3757),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389957,https://database.factgrid.de/entity/Q389957,Karkemish (mod. Djerabis),Karkemish,270,Point(38.0156 36.8294),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389980,https://database.factgrid.de/entity/Q389980,Zawiyya,,271,Point(42.1725 34.2925),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389635,https://database.factgrid.de/entity/Q389635,Megiddo,Tel Megiddo,272,Point(35.1828 32.5822),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390019,https://database.factgrid.de/entity/Q390019,Negub tunnel,,273,Point(43.4762 36.0446),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099944,https://database.factgrid.de/entity/Q2099944,Ḫadiranu-ša-Nabu,,274,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389827,https://database.factgrid.de/entity/Q389827,Imgur-Enlil (mod. Balawat),Balawat | Imgur-Enlil,275,Point(43.4033 36.2294),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389967,https://database.factgrid.de/entity/Q389967,Haradum (mod. Khirbet ed-Diniye),Haradum,276,Point(41.5866 34.4611),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389810,https://database.factgrid.de/entity/Q389810,Dawali,,277,Point(41.9912 34.4535),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389815,https://database.factgrid.de/entity/Q389815,Umm Chatil,,278,Point(46.5784 31.3901),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390022,https://database.factgrid.de/entity/Q390022,Nihavand,,28,Point(48.3769 34.1889),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389721,https://database.factgrid.de/entity/Q389721,Shadad,,280,Point(57.7405 30.4279),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q91165,https://database.factgrid.de/entity/Q91165,Samarra,Sāmmarā | Samarra,282,Point(43.8667 34.2) | Point(43.8795 34.2291),Q8 | Q389596,"city, ancient location and modern archaeological excavation site"
+Q390033,https://database.factgrid.de/entity/Q390033,Ortaköy,Sapinuwa | mod. Ortaköy,283,Point(35.2375 40.2541),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389700,https://database.factgrid.de/entity/Q389700,Ghazir,,284,Point(49.4149 31.3597),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389836,https://database.factgrid.de/entity/Q389836,Tepe Gawra,Tapah Gawra,285,Point(43.2604 36.4958),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389701,https://database.factgrid.de/entity/Q389701,Anšan (mod. Tell Malyan),"Malyan, Fars | Anšan",286,Point(52.4123 30.0119),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099902,https://database.factgrid.de/entity/Q2099902,Alu-eššu,,287,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389934,https://database.factgrid.de/entity/Q389934,Šubat-Enlil (mod. Leilan),Tell Leilan | Šubat-Enlil,289,Point(41.5069 36.9579),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099995,https://database.factgrid.de/entity/Q2099995,Surru,,29,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389969,https://database.factgrid.de/entity/Q389969,Dur-Šarrukin (mod. Khorsabad),Dur-Sharrukin | Dur-Šarrukin,290,Point(43.2347 36.5035),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390036,https://database.factgrid.de/entity/Q390036,Kanesh (mod. Kültepe),Kültepe | Kanesh | Anisa | Kaneš | Aniša | Kaniš | Nēša | Nesha | Nessa | Nesa | Anisha,291,Point(35.6365 38.8517) | Point(35.633333333333 38.85),Q8 | Q389596 | Q1785688,ancient location and modern archaeological excavation site
+Q390023,https://database.factgrid.de/entity/Q390023,Nahr el-Kelb,Nahr el-Kalb,292,Point(35.5966 33.9554),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389881,https://database.factgrid.de/entity/Q389881,Tell al-Hawa,,293,Point(42.3012 36.7482),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389926,https://database.factgrid.de/entity/Q389926,Tell Ghdairife,,295,Point(44.2649 34.1818),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390024,https://database.factgrid.de/entity/Q390024,Nereb (mod. Neirab),Nereb,296,Point(37.2265 36.1777),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389977,https://database.factgrid.de/entity/Q389977,Rabat Tepe,,297,Point(45.5397 36.201),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389844,https://database.factgrid.de/entity/Q389844,Tall Abū ‘Antīk,Pi-Kasî,298,Point(44.6393 32.1311),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389820,https://database.factgrid.de/entity/Q389820,Babylon,Bābīl | Amran,200 | 299,Point(44.4258 32.535),Q8 | Q389596 | Q997797,ancient location and modern archaeological excavation site
+Q389791,https://database.factgrid.de/entity/Q389791,Mugdan,Mukdan | Umm al-Jir,3,Point(44.8501 32.6497),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389889,https://database.factgrid.de/entity/Q389889,Kahat (mod. Tell Barri),Tell Barri | Kahat,300,Point(41.127 36.7386),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389797,https://database.factgrid.de/entity/Q389797,Ishan Hafudh,Išān Hāfudh,301,Point(45.4207 31.9569),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390003,https://database.factgrid.de/entity/Q390003,Kilizu (mod. Qasr Shamamuk),Kilizu,302,Point(43.7514 36.1039),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389800,https://database.factgrid.de/entity/Q389800,Isin (mod. Bahriyat),Isin,303,Point(45.2688 31.8852),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389846,https://database.factgrid.de/entity/Q389846,Til Barsip (mod. Tell Ahmar),Til Barsip,304,Point(38.1209 36.6743),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389673,https://database.factgrid.de/entity/Q389673,Zippori,Sepphoris,307,Point(35.279 32.7529),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389984,https://database.factgrid.de/entity/Q389984,Saba'a,,308,Point(41.081 34.7579),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389722,https://database.factgrid.de/entity/Q389722,Shahr-i Sokhta,Shahr-e Sukhteh | Shahr-i Sūkhta,309,Point(61.328 30.5961),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099927,https://database.factgrid.de/entity/Q2099927,Bit-zerija,,31,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390057,https://database.factgrid.de/entity/Q390057,Aşağı Yarımca,,310,Point(38.969 36.8949),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389676,https://database.factgrid.de/entity/Q389676,Tell en-Nasbeh,Tel en-Nasbeh,312,Point(35.2166 31.8851),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099977,https://database.factgrid.de/entity/Q2099977,Nar-Madanu,mod. Nar-Madanu,313,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389796,https://database.factgrid.de/entity/Q389796,Kisurra (mod. Abu Hatab),Kisurra,314,Point(45.481 31.8383),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099913,https://database.factgrid.de/entity/Q2099913,Baḫe,,316,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389892,https://database.factgrid.de/entity/Q389892,Tell Jidr,,318,Point(45.7032 31.8254),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389870,https://database.factgrid.de/entity/Q389870,Tell Fakhariyah,Tell Fekheriye | mod. Tell Fakhariyah,32,Point(40.0707 36.8424),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389873,https://database.factgrid.de/entity/Q389873,Kuara,Kuara (Sumer) | Tall al-Laḥam | Tel Laham,33 | 191,Point(45.4062 32.0509),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389915,https://database.factgrid.de/entity/Q389915,Tell Taban,,34,Point(40.7878 36.3362),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389789,https://database.factgrid.de/entity/Q389789,Ḫadatu (mod. Arslan Tash),Ḫadatu,35,Point(38.4078 36.8484),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389899,https://database.factgrid.de/entity/Q389899,Tell Hammam et-Turkman,Tel Hammam et-Turkman,36,Point(39.0569 36.4825),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389988,https://database.factgrid.de/entity/Q389988,Kian (Tell Shmid),,360,Point(45.8326 31.7477),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389777,https://database.factgrid.de/entity/Q389777,Kish (mod. Tell Barguthiat),Girumu,361,Point(44.7947 32.7029),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099893,https://database.factgrid.de/entity/Q2099893,Adabilu,,362,,Q389596 | Q8,
+Q389630,https://database.factgrid.de/entity/Q389630,Asdūdu (mod. Ashdod),Asdûdu,364,Point(34.6593 31.756),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389864,https://database.factgrid.de/entity/Q389864,Burmarina (mod. Tell Shiukh Fawqani),Burmarina,365,Point(38.0359 36.7875),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099912,https://database.factgrid.de/entity/Q2099912,Bāb-ṣubbāti,,366,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099914,https://database.factgrid.de/entity/Q2099914,Bīt-Abī-rām,,367,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099915,https://database.factgrid.de/entity/Q2099915,Bīt-Bāba-ēriš,,368,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099917,https://database.factgrid.de/entity/Q2099917,Bīt-Dibušiti,,369,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099960,https://database.factgrid.de/entity/Q2099960,Kapru,,37,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099922,https://database.factgrid.de/entity/Q2099922,Bīt-Našar,,370,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099923,https://database.factgrid.de/entity/Q2099923,Bīt-Naʾinnašu,,371,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099919,https://database.factgrid.de/entity/Q2099919,Bīt-ham...,,372,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099925,https://database.factgrid.de/entity/Q2099925,Bīt-Šinqā,,373,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389604,https://database.factgrid.de/entity/Q389604,Kourion (mod. Cyprus),Kourion,375,Point(32.8844 34.6666),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389998,https://database.factgrid.de/entity/Q389998,"Dilmun (mod. A'ali, Bahrain)",Dilmun,376,Point(50.5256 26.1517),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390005,https://database.factgrid.de/entity/Q390005,Dilmun (mod. Qal'at al-Bahrain),Qal'at al-Bahrain | Dilmun,377,Point(50.5209 26.2328),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099931,https://database.factgrid.de/entity/Q2099931,Du-Enlila,,378,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099938,https://database.factgrid.de/entity/Q2099938,Ešura,,379,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389888,https://database.factgrid.de/entity/Q389888,Garšana (mod. uncertain),Garšana,38,Point(46.1189 31.4433),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389882,https://database.factgrid.de/entity/Q389882,Gišša (mod. Umm al-Aqarib),,101 | 381,Point(45.9339 31.6207),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389653,https://database.factgrid.de/entity/Q389653,Halicarnassus,Mausoleum at Halicarnassus | Halikarnassos | Halicarnassus,382,Point(27.4241 37.0379),Q8 | Q389596 | Q1342043,ancient location and modern archaeological excavation site
+Q2099946,https://database.factgrid.de/entity/Q2099946,Hamat,,383,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q85914,https://database.factgrid.de/entity/Q85914,Hamath (mod. Hama),Hama | Hamath,384,Point(36.75 35.133333333) | Point(36.7479 35.131),Q8 | Q389596,"town in Syria, ancient location and modern archaeological excavation site"
+Q2099948,https://database.factgrid.de/entity/Q2099948,Hazatu,,385,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099950,https://database.factgrid.de/entity/Q2099950,Himuru,,386,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389981,https://database.factgrid.de/entity/Q389981,Idu (mod. Hīt),Idu (city) | Idu,387,Point(44.6965 35.8739),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099963,https://database.factgrid.de/entity/Q2099963,Kašši...,,388,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389880,https://database.factgrid.de/entity/Q389880,Lagash (mod. El-Hiba),Lagash | Lagaš,39,Point(46.4108 31.4182),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389744,https://database.factgrid.de/entity/Q389744,Kišesim (mod. Najafabad),,392,Point(47.9761 34.6527),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099972,https://database.factgrid.de/entity/Q2099972,Ma'allanate,,393,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390045,https://database.factgrid.de/entity/Q390045,Marqasu (mod. Kahramanmaraş),Marash | Marqasi | Kahramanmaraş,394,Point(36.9253 37.587),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390052,https://database.factgrid.de/entity/Q390052,Melidu (mod. Arslantepe),Melid | Arslantepe Höyüğü,395,Point(38.3612 38.382),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389842,https://database.factgrid.de/entity/Q389842,Pašime (mod. Tell Abu Sheeja),Pashime | Pašime,396,Point(47.1479 32.3944),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099983,https://database.factgrid.de/entity/Q2099983,Qāṭīnu,,397,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389651,https://database.factgrid.de/entity/Q389651,Samerina (mod. Samaria),Samaria (ancient city),398,Point(35.1897 32.2763),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389689,https://database.factgrid.de/entity/Q389689,Hissar,Tepe Hissar,4,Point(54.3851 36.1544),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389819,https://database.factgrid.de/entity/Q389819,Sirara (mod. Tell Zurghul),Nigin,40 | 399,Point(46.4948 31.3777),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389717,https://database.factgrid.de/entity/Q389717,Surkh Dum (mod. Luristan),,400,Point(47.7079 33.5064),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389912,https://database.factgrid.de/entity/Q389912,Susarra (mod. Tell Shemshara),Tell Shemshara | Šušarra,401,Point(44.9384 36.2016),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389952,https://database.factgrid.de/entity/Q389952,Tema (mod. Tayma),Tayma,402,Point(38.5499 27.6219),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q92481,https://database.factgrid.de/entity/Q92481,Thêbai (mod. Thebes Beoticia Greece),"Thebes, Greece",403,Point(23.3177 38.3207),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389640,https://database.factgrid.de/entity/Q389640,Timnah (mod. Khirbet Tibneh),Timnah,404,Point(34.911 31.7847),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389867,https://database.factgrid.de/entity/Q389867,Tunip (mod. Acharneh),Tunip,405,Point(36.3959 35.2877),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100037,https://database.factgrid.de/entity/Q2100037,Yāhūdu,,406,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099909,https://database.factgrid.de/entity/Q2099909,Aqabi,mod. Aqabi,407,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389826,https://database.factgrid.de/entity/Q389826,Brissa,,408,Point(36.3117 34.4309),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389609,https://database.factgrid.de/entity/Q389609,El-Khargeh,Temple of Hibis | Al-Kharjah,409,Point(30.5552 25.4764),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099940,https://database.factgrid.de/entity/Q2099940,GARIN-naḫallum,,41,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389985,https://database.factgrid.de/entity/Q389985,Failaka,,410,Point(48.2779 29.4303),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389650,https://database.factgrid.de/entity/Q389650,Gherla,,412,Point(23.8915 47.0195),Q8 | Q389596,"locality in Cluj County, Romania"
+Q389620,https://database.factgrid.de/entity/Q389620,Kabret,,413,Point(32.4914 30.2285),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389731,https://database.factgrid.de/entity/Q389731,Kam-Firouz,Kamfiruz,414,Point(52.1962 30.3241),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389626,https://database.factgrid.de/entity/Q389626,"Kastri, Cythera","Kastri, Cythera",415,Point(22.9979 36.2584),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389734,https://database.factgrid.de/entity/Q389734,Konar Sandal,,416,Point(57.7787 28.4494),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389605,https://database.factgrid.de/entity/Q389605,Lacarna,Kition,417,Point(33.6329 34.9201),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099974,https://database.factgrid.de/entity/Q2099974,Mahmudiyah,mod. Mahmudiyah,418,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099975,https://database.factgrid.de/entity/Q2099975,Merj Khamis,mod. Merj Khamis,419,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389953,https://database.factgrid.de/entity/Q389953,Jebel Aruda,,42,Point(38.0984 36.2349),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389737,https://database.factgrid.de/entity/Q389737,mod. Mount Elvend,Ganjnameh | mod. Mount Elvend,420,Point(48.4373 34.7622),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389745,https://database.factgrid.de/entity/Q389745,Naqish-e Rostam,"Kastri, Cythera | Naqsh Rustam | Naqš-i-Rustam",422,Point(52.8745 29.9885),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389812,https://database.factgrid.de/entity/Q389812,Sela,,424,Point(35.5779 30.7823),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389989,https://database.factgrid.de/entity/Q389989,Shir as-Sanam,,425,Point(36.2443 34.498),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389621,https://database.factgrid.de/entity/Q389621,Suez,Kubri,427,Point(32.5527 30.113),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389773,https://database.factgrid.de/entity/Q389773,Tall al-Farḥa,Ḫabuba,428,Point(43.4612 35.2652),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389703,https://database.factgrid.de/entity/Q389703,Tangivar,Tang-i Var | Tankīwar,429,Point(46.6182 34.9961),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389887,https://database.factgrid.de/entity/Q389887,Tell Baradan,,431,Point(45.0512 34.191),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389904,https://database.factgrid.de/entity/Q389904,Tell Subeidi,,433,Point(45.0312 34.1982),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389907,https://database.factgrid.de/entity/Q389907,Tall Soukās,,434,Point(35.9229 35.306),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389678,https://database.factgrid.de/entity/Q389678,Tell Taanach,Ti'inik,435,Point(35.2195 32.5216),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389946,https://database.factgrid.de/entity/Q389946,Tell Yelkhi,,436,Point(45.0013 34.2856),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389645,https://database.factgrid.de/entity/Q389645,Tell el-Hesi,Tel el-Hesi,437,Point(34.7307 31.5474),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389613,https://database.factgrid.de/entity/Q389613,Tell el-Maskuta,,438,Point(32.1002 30.5539),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389670,https://database.factgrid.de/entity/Q389670,Habuba Kabira,Ḥabūbah,44,Point(38.0609 36.1501),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390041,https://database.factgrid.de/entity/Q390041,Tilmen Höyük,,440,Point(36.7037 37.0302),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390048,https://database.factgrid.de/entity/Q390048,Turlu Höyük,Şehzade Höyük,441,Point(37.7581 37.0676),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100035,https://database.factgrid.de/entity/Q2100035,Uluburun,mod. Uluburun,442,Point(30.42547561111111 36.25024769444445),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389806,https://database.factgrid.de/entity/Q389806,al Ḥā'iṭ,Padakku,112 | 443,Point(40.4668 25.9786),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389990,https://database.factgrid.de/entity/Q389990,Shishin,Šišin,444,Point(42.574 33.9716),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099899,https://database.factgrid.de/entity/Q2099899,Āl-šarri,,445,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099900,https://database.factgrid.de/entity/Q2099900,Āl-šarri-ša-qašti-eššeti,,446,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099903,https://database.factgrid.de/entity/Q2099903,Ālu-ša-Našar,,447,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099905,https://database.factgrid.de/entity/Q2099905,Ālu-ša-Ṭūb-Yāma,,448,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099932,https://database.factgrid.de/entity/Q2099932,Dusabar,,45,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389677,https://database.factgrid.de/entity/Q389677,Hazor,Tel Hazor,46,Point(35.5654 33.0209),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389955,https://database.factgrid.de/entity/Q389955,Gubla (mod. Byblos),Byblos | Gubla,47,Point(35.646 34.1191),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390161,https://database.factgrid.de/entity/Q390161,Irisagrig,Iri-sagrig,48,Point(45.3689 32.1529),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390037,https://database.factgrid.de/entity/Q390037,Tappika,Maşat Höyük | Tapigga | Masat Höyük,5,Point(35.7624 40.1481),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100023,https://database.factgrid.de/entity/Q2100023,Tigunānum,,51,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389804,https://database.factgrid.de/entity/Q389804,Šibaniba (mod. Tell Billa),Shibaniba | Šibaniba,176 | 526,Point(43.3481 36.4335),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q86331,https://database.factgrid.de/entity/Q86331,Hillah,Al-Ḥilah | Hillah,53,Point(44.4333 32.4833) | Point(44.4361 32.4844),Q8 | Q389596,city in Iraq and ancient location and modern archaeological excavation site
+Q389927,https://database.factgrid.de/entity/Q389927,Šuruppak (mod. Fara),Shuruppak | Šuruppak,54,Point(45.5113 31.7772),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389795,https://database.factgrid.de/entity/Q389795,Upi (mod. Opis),Opis | Upi,55,Point(44.7014 33.1844),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099895,https://database.factgrid.de/entity/Q2099895,Agamatanu,,56,,Q389596 | Q8,
+Q2099908,https://database.factgrid.de/entity/Q2099908,Aqa,,57,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389979,https://database.factgrid.de/entity/Q389979,Zalil Ab,Kermanshah | Zalu Ab | mod. Zalil Ab,58,Point(46.5799 34.6309),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389787,https://database.factgrid.de/entity/Q389787,Eridu (mod. Abu Shahrain),Eridu,59,Point(45.9962 30.8169),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389978,https://database.factgrid.de/entity/Q389978,el-Ghab,,60,Point(36.3562 35.5872),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099984,https://database.factgrid.de/entity/Q2099984,Qatuna,,61,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099965,https://database.factgrid.de/entity/Q2099965,Kerman,Šahdad | mod. Kerman,614,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099998,https://database.factgrid.de/entity/Q2099998,Tag,mod. Tag,617,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390107,https://database.factgrid.de/entity/Q390107,Mila Mergi,,62,Point(42.9136 37.006),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099978,https://database.factgrid.de/entity/Q2099978,Naṣir,,63,,Q389596 | Q8,ancient location and modern archaeological excavation site with artifacts from the Neo-Babylonian period (ca. 626-539 BC)
+Q2100004,https://database.factgrid.de/entity/Q2100004,Tall al-Qaddīsah Barbārah,Kar-Mullissi | mod. Tall al-Qaddīsah Barbārah,634,Point(43.4095 36.3056),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100021,https://database.factgrid.de/entity/Q2100021,Tell Khaiber,mod. Tell Khaiber,635,Point(45.9328 31.0593),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100039,https://database.factgrid.de/entity/Q2100039,Yanik Tepe,mod. Yanik Tepe,638,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390165,https://database.factgrid.de/entity/Q390165,Ozbaki,,64,Point(50.5866 35.9799),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100020,https://database.factgrid.de/entity/Q2100020,Tell Kar,mod. Tell Kar,641,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099996,https://database.factgrid.de/entity/Q2099996,Šūru,,644,,Q389596 | Q8,ancient location and modern archaeological excavation site with artifacts from the Middle Assyrian period (ca. 1400-1000 BC)
+Q2100016,https://database.factgrid.de/entity/Q2100016,Tell Abu Galgal,mod. Tell Abu Galgal,645,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099896,https://database.factgrid.de/entity/Q2099896,Tripoli,mod. Al Mina,647,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100012,https://database.factgrid.de/entity/Q2100012,Tall-I Nokhodi,mod. Tall-I Nokhodi,649,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389733,https://database.factgrid.de/entity/Q389733,Cave Kalm-karra,,65,Point(47.601 33.1998),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100018,https://database.factgrid.de/entity/Q2100018,Tell Bāshir,Turbessel | mod. Tell Bāshir,650,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099929,https://database.factgrid.de/entity/Q2099929,Chenar-e Pain,mod. Chenar-e Pain,653,Point(47.6047 33.5067),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099952,https://database.factgrid.de/entity/Q2099952,Hour Soleiman,mod. Hour Soleiman,654,Point(47.6173 33.503),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099930,https://database.factgrid.de/entity/Q2099930,Chia Puikeh,mod. Chia Puikeh,655,Point(47.618 33.4981),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099999,https://database.factgrid.de/entity/Q2099999,Tall Abū al-Dhahab,mod. Tall Abū al-Dhahab,658,Point(46.6926 30.7382),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099894,https://database.factgrid.de/entity/Q2099894,Adilcevaz,mod. Adilcevaz,659,Point(42.7291 38.8014),Q389596 | Q8,
+Q390084,https://database.factgrid.de/entity/Q390084,Kebeli,Babil,66,Point(42.0279 37.1876),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100028,https://database.factgrid.de/entity/Q2100028,Tulūl al-Fāj,mod. Tulūl al-Fāj,660,Point(45.0956 32.5741),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100000,https://database.factgrid.de/entity/Q2100000,Tall Āfis,mod. Tall Āfis,661,Point(36.7988 35.9039),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099891,https://database.factgrid.de/entity/Q2099891,Abū Jāmūs,mod. Abū Jāmūs | Īshān Abū Jāmūs,664,Point(44.8225 32.4605),Q8 | Q389596,hill in Iraq; unknown ancient location
+Q389697,https://database.factgrid.de/entity/Q389697,Tepe Yahya,Yahya,67,Point(56.8675 28.3309),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099910,https://database.factgrid.de/entity/Q2099910,Arinçkus,Arzaškun | mod. Arinçkus,673,Point(43.0669 38.8107),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2074169,https://database.factgrid.de/entity/Q2074169,Abū Ṭbīrah,mod. Abū Ṭbīrah,678,Point(46.2678 30.9828) | Point(46.67861111111111 30.813055555555557),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100006,https://database.factgrid.de/entity/Q2100006,Tall Bint al-Amīr,mod. Tall Bint al-Amīr,685,Point(44.9042 32.1958),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100005,https://database.factgrid.de/entity/Q2100005,Tall Bāzy,Armanum? | mod. Tall Bāzy,692,Point(38.2762 36.4273),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389935,https://database.factgrid.de/entity/Q389935,Tell Muhammad,,7,Point(44.4681 33.3009),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099994,https://database.factgrid.de/entity/Q2099994,Ṣurmeš,Ṣurmeš,70,,Q389596 | Q8,ancient location currently unknown to modern archaeologists
+Q2100030,https://database.factgrid.de/entity/Q2100030,Tulūl Bismāyah,mod. Tulūl Bismāyah,706,Point(44.6094 33.203),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099957,https://database.factgrid.de/entity/Q2099957,Irákleio,mod. Irákleio,718,Point(25.1332 35.3402),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389924,https://database.factgrid.de/entity/Q389924,Tell Uqair,Tall ʻUqair,72,Point(44.6643 32.7817),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100001,https://database.factgrid.de/entity/Q2100001,Tall al-Ḍabʻa,mod. Tall al-Ḍabʻa,722,Point(31.8233 30.7867),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099951,https://database.factgrid.de/entity/Q2099951,Hisartepe,Daskyleion | mod. Hisartepe,724,Point(28.0507 40.1326),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099967,https://database.factgrid.de/entity/Q2099967,Kūm Dafnah,mod. Kūm Dafnah,725,Point(32.1774 30.8579),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389970,https://database.factgrid.de/entity/Q389970,Dibba,,729,Point(56.2639 25.6317),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389843,https://database.factgrid.de/entity/Q389843,Tell Abu Salabikh,Abu Salabikh | mod. Abu Salabikh,73,Point(45.0544 32.2526),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389801,https://database.factgrid.de/entity/Q389801,Ishān Dulaiyhim,Īshān Dulayhim | Tummal,730,Point(45.4108 31.9985),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389748,https://database.factgrid.de/entity/Q389748,Armavir,Armavir (ancient city) | Argištihinili | Davti-Blur,735,Point(44.0332 40.082),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099955,https://database.factgrid.de/entity/Q2099955,Idfū,mod. Idfū,736,Point(32.8728 24.9782),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099937,https://database.factgrid.de/entity/Q2099937,Eskiharran,mod. Eskiharran,738,Point(39.059 36.9336),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389835,https://database.factgrid.de/entity/Q389835,Tepe Sialk,Tapah Sīyalk,74,Point(51.4042 33.9688),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390142,https://database.factgrid.de/entity/Q390142,Erek Daǧ,KURQilbani | Erek Daǧ,742,Point(43.5556 38.4813),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389861,https://database.factgrid.de/entity/Q389861,Tell As-Sib,,196 | 75,Point(45.058 34.1929),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389752,https://database.factgrid.de/entity/Q389752,Gavar,Gavar | DHaldiei URU,752,Point(45.1383 40.3547),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100002,https://database.factgrid.de/entity/Q2100002,Tall al-Gharrān,mod. Tall al-Gharrān,753,Point(44.4083 32.6244),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389662,https://database.factgrid.de/entity/Q389662,Tarsus,Gözlükule | Tarsus,758,Point(34.8956 36.9123),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099982,https://database.factgrid.de/entity/Q2099982,Qaṭibat,mod. Qaṭibat,76,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100007,https://database.factgrid.de/entity/Q2100007,Tall Ḥadwat al-Faras,mod. Tall Ḥadwat al-Faras,766,Point(44.5896 32.1924),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389834,https://database.factgrid.de/entity/Q389834,Tappeh Bormi,Tall Barmi,77,Point(49.589 31.2413),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099945,https://database.factgrid.de/entity/Q2099945,Haikavank,mod. Haikavank,770,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100015,https://database.factgrid.de/entity/Q2100015,Tel Hebron,mod. Tel Hebron,771,Point(35.1023 31.5245),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390086,https://database.factgrid.de/entity/Q390086,Yoncali,,78,Point(42.1875 39.129),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100042,https://database.factgrid.de/entity/Q2100042,Ηeraio Samou,mod. Ηeraio Samou,780,Point(26.886 37.6721),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099956,https://database.factgrid.de/entity/Q2099956,İnandık,mod. İnandık,789,Point(33.5352 40.381),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389938,https://database.factgrid.de/entity/Q389938,Ebla (mod. Tell Mardikh),Ebla,79,Point(36.7983 35.799),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099958,https://database.factgrid.de/entity/Q2099958,Īzah,mod. Īzah,790,Point(49.8696 31.8386),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100014,https://database.factgrid.de/entity/Q2100014,Tel Gamma,mod. Tel Gamma,793,Point(34.445 31.3872),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390008,https://database.factgrid.de/entity/Q390008,Kāmid al-Lūz,Kumidi (mod. Kāmid al-Lūz),798,Point(35.821 33.6235),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100017,https://database.factgrid.de/entity/Q2100017,Tell Abu Nakhlab,mod. Tell Abu Nakhlab,8,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099936,https://database.factgrid.de/entity/Q2099936,Epurasie,,80,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390038,https://database.factgrid.de/entity/Q390038,Kayalıpınar,Šamuḫa,800,Point(36.5279 39.6211),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q390020,https://database.factgrid.de/entity/Q390020,Nimrud,Kalhu | Tawfiqiyah,81 | 229,Point(43.3385 36.1022),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100036,https://database.factgrid.de/entity/Q2100036,Uluşar,mod. Uluşar,825,Point(43.735 38.8877),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100008,https://database.factgrid.de/entity/Q2100008,Tall Kozkhān,mod. Tall Kozkhān,827,Point(44.8404 32.1873),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389825,https://database.factgrid.de/entity/Q389825,Borsippa (mod. Birs Nimrud),Borsippa,83,Point(44.3434 32.3924),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389911,https://database.factgrid.de/entity/Q389911,Tarbisu (mod. Tell Sherif Khan),Tarbisu,84,Point(43.0774 36.4089),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389932,https://database.factgrid.de/entity/Q389932,Tall Kazal,Tell Kazel | Ṣumur,841,Point(35.9862 34.7085),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099971,https://database.factgrid.de/entity/Q2099971,Lchashen,mod. Lchashen,843,Point(44.9418 40.5074),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390014,https://database.factgrid.de/entity/Q390014,Kish (mod. Tell el-Bender),Kish (Sumer) | Kiš,71 | 85 | 184 | 281 | 391 | 833,Point(44.5949 32.5455),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099988,https://database.factgrid.de/entity/Q2099988,Šaḫrinu,,87,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100009,https://database.factgrid.de/entity/Q2100009,Tall Nūyaja,mod. Tall Nūyaja,874,Point(45.0974 32.33),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389832,https://database.factgrid.de/entity/Q389832,Girsu (mod. Tello),Girsu,88,Point(46.1776 31.5591),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100043,https://database.factgrid.de/entity/Q2100043,Новый Кумак,mod. Новый Кумак,880,Point(58.6555 51.2297),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q390025,https://database.factgrid.de/entity/Q390025,Nineveh,Nineveh,279 | 86 | 881,Point(43.1621 36.3582),Q8 | Q389596 | Q997797,mod. Nebi Yunus; mod. Kuyunjik
+Q389996,https://database.factgrid.de/entity/Q389996,Tuz Hurmati,,89,Point(44.6252 34.884),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100003,https://database.factgrid.de/entity/Q2100003,Tall al-Nabī Mandū,Qadeš | mod. Tall al-Nabī Mandū,899,Point(36.5194 34.557),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099970,https://database.factgrid.de/entity/Q2099970,Lahir,mod. Lahir,9,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389916,https://database.factgrid.de/entity/Q389916,Unqi,Tell Tayinat | Tell Ta'ynat,90,Point(36.3759 36.2482),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099981,https://database.factgrid.de/entity/Q2099981,Qantīr,mod. Qantīr,903,Point(31.8345 30.8017),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099985,https://database.factgrid.de/entity/Q2099985,Qufṭ,mod. Qufṭ,906,Point(32.8158 25.9966),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389831,https://database.factgrid.de/entity/Q389831,Ešnunna (mod. Tell Asmar),Eshnunna | Ešnuna,91,Point(44.7276 33.4837),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099898,https://database.factgrid.de/entity/Q2099898,Al-Rammāḥīyah,mod. Al-Rammāḥīyah,911,Point(44.7132 31.894),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100010,https://database.factgrid.de/entity/Q2100010,Tall S‘aīd,mod. Tall S‘aīd,915,Point(45.0127 32.2319),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389698,https://database.factgrid.de/entity/Q389698,Pārśa (mod. Persepolis),Persepolis | Pārśa,92,Point(52.8925 29.9343),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099992,https://database.factgrid.de/entity/Q2099992,Shapiya,mod. Shapiya,924,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389956,https://database.factgrid.de/entity/Q389956,Jedide,,93,Point(42.0326 34.3826),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q389974,https://database.factgrid.de/entity/Q389974,Ras Ibn Hani,Ibn Hani,94,Point(35.7348 35.587),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100027,https://database.factgrid.de/entity/Q2100027,Tulūl Abū ‘Aẓam,mod. Tulūl Abū ‘Aẓam,945,Point(45.023 32.3104),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100026,https://database.factgrid.de/entity/Q2100026,Tulūl ‘Adāy,mod. Tulūl ‘Adāy,946,Point(45.0488 32.3113),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100029,https://database.factgrid.de/entity/Q2100029,Tulūl al-Khāldiyah,mod. Tulūl al-Khāldiyah,949,Point(44.7009 32.2504),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389901,https://database.factgrid.de/entity/Q389901,Tell Huweish,Ubasē,95,Point(43.2304 35.5931),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2099990,https://database.factgrid.de/entity/Q2099990,Ṣan al-Hagar,mod. Ṣan al-Hagar,950,Point(31.8845 30.9746),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100038,https://database.factgrid.de/entity/Q2100038,Yalındüz,mod. Yalındüz,951,Point(43.7195 38.9476),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389895,https://database.factgrid.de/entity/Q389895,Shaduppum,Šaduppûm | Tell Abu Harmal,96 | 221,Point(44.4666 33.3098),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100013,https://database.factgrid.de/entity/Q2100013,Tel Duweihes,mod. Tel Duweihes,960,,Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2100024,https://database.factgrid.de/entity/Q2100024,Tiryntha,mod. Tiryntha,967,Point(22.8003 37.5992),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389738,https://database.factgrid.de/entity/Q389738,Godin Tepe,,97,Point(48.0685 34.5183),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100025,https://database.factgrid.de/entity/Q2100025,Ṭūd,mod. Ṭūd,975,Point(32.5332 25.5832),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q2099966,https://database.factgrid.de/entity/Q2099966,Kocapınar,mod. Kocapınar,976,Point(43.2021 39.1002),Q389596 | Q8,ancient location and modern archaeological excavation site
+Q389850,https://database.factgrid.de/entity/Q389850,Zabala,Tell Ibzeikh | Tell Ibzaykh | Zabala | Zabalam | Ibzaih,98 | 99,Point(45.8749 31.7436),Q8 | Q389596,ancient location and modern archaeological excavation site
+Q2100011,https://database.factgrid.de/entity/Q2100011,Tall Warīsh,mod. Tall Warīsh,996,Point(45.3421 32.1834),Q389596 | Q8,ancient location and modern archaeological excavation site

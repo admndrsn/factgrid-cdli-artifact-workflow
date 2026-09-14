@@ -1,0 +1,11 @@
+source_value,factgrid_qid,factgrid_label,review_status,notes
+Nineveh (mod. Kuyunjik),Q390025,Nīnūa,approved,"High-frequency CDLI variant; matched to FactGrid Nīnūa/Nineveh."
+Babylon (mod. Bābil),Q389820,Babylon,approved,"High-frequency CDLI variant; matched to FactGrid Babylon."
+Assur (mod. Qalat Sherqat),Q390001,Assur,approved,"High-frequency CDLI variant; matched to FactGrid Assur."
+Kalhu (mod. Nimrūd),Q390020,Nimrud,approved,"High-frequency CDLI variant; matched to FactGrid Nimrud/Kalhu site."
+Adab (mod. Bismaya),Q389603,Adab,approved,"High-frequency CDLI variant; matched to FactGrid Adab."
+Kish (mod. Tell Ingharra),Q390014,Kish,approved,"High-frequency CDLI variant; matched to FactGrid Kish."
+Kish (mod. Tell Uhaimir),Q390014,Kish,approved,"High-frequency CDLI variant; matched to FactGrid Kish."
+Alalakh (mod. Tell Açana/Atshana),Q389868,Alalakh,approved,"High-frequency CDLI variant; matched to FactGrid Alalakh."
+Mari (mod. Tell Hariri),Q389896,Mari,approved,"Corrects erroneous downloaded lookup row that mapped CDLI provenience 161 / Mari (mod. Tell Hariri) to Gherla/Q389650."
+Kanesh (mod. Kültepe),Q390036,Kültepe,approved,"Corrects erroneous downloaded lookup row that mapped Kanesh (mod. Kültepe) to Dah-e-No/Q389713. FactGrid tablet Q1368594 uses Kanesh/Kültepe as the finding spot."
