@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import getpass
+import glob
 import logging
 import os
 import re
@@ -60,6 +61,7 @@ FACTGRID_PRESENT_HOLDING_PROPERTY = "P329"
 FACTGRID_RESEARCH_PROJECT_PROPERTY = "P131"
 TOKENWORKS_FACTGRID_QID = "Q1894741"
 DEFAULT_RESEARCH_PROJECT_QIDS = ",".join([TOKENWORKS_FACTGRID_QID, "Q389597", "Q393513"])
+SINGLE_VALUE_PROPERTIES = {"P2", "P18", "P121", "P401", "P692", "P695", "P853"}
 FACTGRID_OBJECT_TYPE_INSTANCE_OF = {
     "amulet": ("Q1083363", "Amulet"),
     "barrel": ("Q512054", "Clay barrel"),
@@ -98,6 +100,77 @@ def qid_from_uri(value: object) -> str:
     text = clean(value)
     match = re.search(r"(Q\d+)$", text)
     return match.group(1) if match else text
+
+
+def normalize_live_value(value: object) -> str:
+    text = clean(value)
+    qid = qid_from_uri(text)
+    return qid if re.fullmatch(r"Q\d+", qid) else text
+
+
+def expand_live_claim_paths(groups: list[list[Path]]) -> list[Path]:
+    paths: list[Path] = []
+    for group in groups:
+        for path in group:
+            matches = [Path(match) for match in glob.glob(str(path))]
+            if matches:
+                paths.extend(matches)
+            elif path.is_dir():
+                paths.extend(sorted(path.glob("*.csv")))
+            else:
+                paths.append(path)
+    return paths
+
+
+def load_live_claims(groups: list[list[Path]]) -> set[tuple[str, str, str, str, str]]:
+    claims: set[tuple[str, str, str, str, str]] = set()
+    for path in expand_live_claim_paths(groups):
+        if path.name == "manifest.csv" or not path.exists():
+            continue
+        frame = pd.read_csv(path, dtype=str, low_memory=False).fillna("")
+        required = {"item", "property", "value"}
+        if not required.issubset(frame.columns):
+            print(f"Skipping non-live-claim CSV without {sorted(required)}: {path}", flush=True)
+            continue
+        for _, row in frame.iterrows():
+            claims.add(
+                (
+                    qid_from_uri(row.get("item")),
+                    clean(row.get("property")),
+                    normalize_live_value(row.get("value")),
+                    clean(row.get("qualifierProperty")),
+                    normalize_live_value(row.get("qualifierValue")),
+                )
+            )
+    return claims
+
+
+def live_claim_exists(
+    live_claims: set[tuple[str, str, str, str, str]],
+    qid: str,
+    prop: str,
+    value: str,
+) -> bool:
+    normalized_value = normalize_live_value(value)
+    return any(
+        live_qid == qid and live_prop == prop and live_value == normalized_value
+        for live_qid, live_prop, live_value, _, _ in live_claims
+    )
+
+
+def conflicting_live_claim_exists(
+    live_claims: set[tuple[str, str, str, str, str]],
+    qid: str,
+    prop: str,
+    value: str,
+) -> bool:
+    if prop not in SINGLE_VALUE_PROPERTIES:
+        return False
+    normalized_value = normalize_live_value(value)
+    return any(
+        live_qid == qid and live_prop == prop and live_value != normalized_value
+        for live_qid, live_prop, live_value, _, _ in live_claims
+    )
 
 
 def qid_number(qid: object) -> int:
@@ -309,7 +382,10 @@ def api_login() -> WikibaseIntegrator:
     password = os.environ.get("FG_PASS") or getpass.getpass("FactGrid password: ")
     config["MEDIAWIKI_API_URL"] = FACTGRID_API
     config["PROPERTY_CONSTRAINTS_CHECK"] = False
-    logging.getLogger("backoff").setLevel(logging.ERROR)
+    backoff_logger = logging.getLogger("backoff")
+    backoff_logger.handlers.clear()
+    backoff_logger.propagate = False
+    backoff_logger.disabled = True
     try:
         login = Login(user=username, password=password, mediawiki_api_url=FACTGRID_API)
     except Exception as exc:
@@ -435,6 +511,18 @@ def item_has_claim_main_value(item, claim) -> bool:
     return any(claim_main_value(existing) == value for existing in item.claims.get(prop))
 
 
+def item_has_claim_value(item, prop: str, value: str) -> bool:
+    if not prop or not value:
+        return False
+    return any(claim_main_value(existing) == value for existing in item.claims.get(prop))
+
+
+def item_has_conflicting_single_value_claim(item, prop: str, value: str) -> bool:
+    if prop not in SINGLE_VALUE_PROPERTIES or not value:
+        return False
+    return any(claim_main_value(existing) and claim_main_value(existing) != value for existing in item.claims.get(prop))
+
+
 def inventory_number_qualifiers(item_plan: pd.DataFrame) -> Qualifiers | None:
     inventory_values = []
     for value in item_plan.loc[item_plan["field_name"].eq(FACTGRID_INVENTORY_NUMBER_FIELD), "value"].map(clean):
@@ -448,11 +536,23 @@ def inventory_number_qualifiers(item_plan: pd.DataFrame) -> Qualifiers | None:
     return qualifiers
 
 
-def add_claims(item, item_plan: pd.DataFrame, research_project_qids: list[str]) -> tuple[int, int]:
+def add_claims(
+    item,
+    item_plan: pd.DataFrame,
+    research_project_qids: list[str],
+    live_claims: set[tuple[str, str, str, str, str]],
+) -> tuple[int, int]:
     written = 0
     skipped = 0
     present_holding_qualifiers = inventory_number_qualifiers(item_plan)
+    qid = clean(getattr(item, "id", ""))
     for research_project_qid in research_project_qids:
+        if (
+            qid
+            and live_claim_exists(live_claims, qid, FACTGRID_RESEARCH_PROJECT_PROPERTY, research_project_qid)
+        ) or item_has_claim_value(item, FACTGRID_RESEARCH_PROJECT_PROPERTY, research_project_qid):
+            skipped += 1
+            continue
         item.claims.add(
             datatypes.Item(prop_nr=FACTGRID_RESEARCH_PROJECT_PROPERTY, value=research_project_qid),
             action_if_exists=ActionIfExists.APPEND_OR_REPLACE,
@@ -472,7 +572,17 @@ def add_claims(item, item_plan: pd.DataFrame, research_project_qids: list[str]) 
         if claim is None:
             skipped += 1
             continue
+        _, claim_value = new_claim_main_value(claim)
+        if qid and (
+            live_claim_exists(live_claims, qid, prop, claim_value)
+            or conflicting_live_claim_exists(live_claims, qid, prop, claim_value)
+        ):
+            skipped += 1
+            continue
         if item_has_claim_main_value(item, claim):
+            skipped += 1
+            continue
+        if item_has_conflicting_single_value_claim(item, prop, claim_value):
             skipped += 1
             continue
         item.claims.add(claim, action_if_exists=ActionIfExists.APPEND_OR_REPLACE)
@@ -709,6 +819,7 @@ def build_item(
     item_plan: pd.DataFrame,
     research_project_qids: list[str],
     preserve_update_labels: bool,
+    live_claims: set[tuple[str, str, str, str, str]],
 ):
     qid = clean(artifact.get("factgrid_qid"))
     item = wbi.item.get(qid) if qid else wbi.item.new()
@@ -726,7 +837,7 @@ def build_item(
         aliases = alias_values(artifact)
     if aliases:
         item.aliases.set(language="en", values=aliases, action_if_exists=ActionIfExists.APPEND_OR_REPLACE)
-    claim_count, skipped_count = add_claims(item, item_plan, research_project_qids)
+    claim_count, skipped_count = add_claims(item, item_plan, research_project_qids, live_claims)
     return item, label, claim_count, skipped_count
 
 
@@ -741,7 +852,26 @@ def reset_loaded_item_for_reuse(item) -> None:
 
 
 def write_items(args: argparse.Namespace) -> None:
+    requested_limit = args.limit
+    args.limit = 0
     work, plan = build_workset(args)
+    args.limit = requested_limit
+    if args.start:
+        work = work.iloc[args.start :].copy()
+    if requested_limit:
+        work = work.head(requested_limit).copy()
+    selected = set(work["_cdli_key"].map(clean)) if "_cdli_key" in work.columns else set(work["cdli_id"].map(clean))
+    plan = plan[plan["cdli_id"].map(clean).isin(selected)].copy()
+    if args.live_review_csv:
+        review = read_csv(args.live_review_csv)
+        if review.empty or not {"cdli_id", "review_status"}.issubset(review.columns):
+            raise RuntimeError(f"{args.live_review_csv} is missing cdli_id/review_status columns.")
+        conflict_ids = set(review.loc[review["review_status"].eq("conflict_same_property"), "cdli_id"].map(clean))
+        clean_ids = set(review.loc[review["review_status"].isin(["missing", "missing_qualifier"]), "cdli_id"].map(clean)) - conflict_ids
+        work = work[work["cdli_id"].map(clean).isin(clean_ids)].copy()
+        selected = set(work["cdli_id"].map(clean))
+        plan = plan[plan["cdli_id"].map(clean).isin(selected)].copy()
+
     args.plan.parent.mkdir(parents=True, exist_ok=True)
     args.results.parent.mkdir(parents=True, exist_ok=True)
     plan.to_csv(args.plan, index=False)
@@ -774,6 +904,9 @@ def write_items(args: argparse.Namespace) -> None:
     results = read_csv(args.results)
     out_rows: list[dict[str, object]] = []
     research_project_qids = parse_qid_list(args.research_project_qids)
+    live_claims = load_live_claims(args.live_claims_csv) if args.live_claims_csv else set()
+    if live_claims:
+        print(f"Loaded live claims: {len(live_claims)}")
     wbi = api_login()
     for _, artifact in tqdm(work.iterrows(), total=len(work)):
         cdli_id = clean(artifact.get("cdli_id"))
@@ -787,6 +920,7 @@ def write_items(args: argparse.Namespace) -> None:
                 item_plan,
                 research_project_qids,
                 args.preserve_update_labels,
+                live_claims,
             )
             written = robust_write(
                 item,
@@ -860,6 +994,7 @@ def main() -> None:
     parser.add_argument("--results", type=Path, default=DEFAULT_RESULTS)
     parser.add_argument("--plan", type=Path, default=DEFAULT_PLAN)
     parser.add_argument("--limit", type=int, default=10)
+    parser.add_argument("--start", type=int, default=0, help="Zero-based offset within selected rows before --limit.")
     parser.add_argument("--preview", type=int, default=10)
     parser.add_argument("--sleep", type=float, default=2.0)
     parser.add_argument("--only-field-names", default="")
@@ -868,6 +1003,20 @@ def main() -> None:
     parser.add_argument("--only-existing-factgrid", action="store_true")
     parser.add_argument("--research-project-qids", default=DEFAULT_RESEARCH_PROJECT_QIDS)
     parser.add_argument("--research-project-qid", dest="research_project_qids", help=argparse.SUPPRESS)
+    parser.add_argument(
+        "--live-claims-csv",
+        type=Path,
+        action="append",
+        nargs="+",
+        default=[],
+        help="Exported live-claim SPARQL CSVs. Exact live claims and same-property conflicts are skipped.",
+    )
+    parser.add_argument(
+        "--live-review-csv",
+        type=Path,
+        default=None,
+        help="Review CSV from review_factgrid_cdli_live_claims.py. If supplied, only non-conflict rows with missing claims are selected.",
+    )
     parser.add_argument("--write", action="store_true")
     parser.add_argument("--clear-existing-reuse", action="store_true", help="Required with --write when rewriting reusable duplicate QIDs.")
     parser.add_argument("--allow-unrepaired-reuse", action="store_true", help="Allow reuse-pool rows still marked hold_until_canonical_repair.")

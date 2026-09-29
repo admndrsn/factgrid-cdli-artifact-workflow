@@ -1,0 +1,11 @@
+metric,value
+json_files_considered,25000
+staging_rows,25000
+error_rows,0
+unique_cdli_ids,25000
+rows_with_label,25000
+rows_with_museum_no,24020
+rows_with_period,21766
+rows_with_provenience,19562
+rows_with_language,18901
+rows_with_collection,23741

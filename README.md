@@ -53,6 +53,9 @@ Do not commit credentials.
 
 ## Current Safe Write Pattern
 
+For the current travel/resume handoff, start with
+`docs/factgrid_cdli_resume_2026-09-28.md`.
+
 The FactGrid writer protects against timeout-after-success failures:
 
 - `create` writes are single-attempt, because retrying can mint duplicate QIDs;
