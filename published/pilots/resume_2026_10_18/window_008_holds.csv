@@ -1,0 +1,12 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values
+314450,Q2144166,type_of_work,P121,Q10510,,,conflict_same_property,Q394396
+314515,Q2143939,type_of_work,P121,Q388465,,,conflict_same_property,Q394396
+314597,Q2154428,period,P853,Q512163,,,conflict_same_property,Q512161
+314651,Q2152976,period,P853,Q512163,,,conflict_same_property,Q512161
+314702,Q2146277,period,P853,Q512163,,,conflict_same_property,Q512161
+314978,Q2147190,period,P853,Q512163,,,conflict_same_property,Q512161
+315001,Q2148495,period,P853,Q512163,,,conflict_same_property,Q512161
+315017,Q2150528,period,P853,Q512163,,,conflict_same_property,Q512161
+315280,Q2016009,instance_of,P2,Q512068,,,conflict_same_property,Q512006
+315940,Q1359021,cdli_id,P692,P315940,,,missing,
+317834,Q2003466,instance_of,P2,Q512067,,,conflict_same_property,Q512006

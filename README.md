@@ -1,103 +1,92 @@
 # FactGrid CDLI Artifact Workflow
 
-Utilities and staging data for preparing and writing CDLI cuneiform artifact
-records to FactGrid.
+Scripts, lookup tables, reviewed staging data, and resumable checkpoints for
+enriching CDLI cuneiform artifact records in FactGrid.
 
-This repository was split out from the TokenWorks Wikibase workflow so the CDLI
-artifact import, duplicate-QID reuse, and FactGrid write safety logic can be
-shared without exposing the larger private working tree.
+## Current handoff — 2026-11-01
 
-## What Is Included
+Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-01.md).
 
-- `scripts/`: Python scripts for staging CDLI artifacts, preparing statements,
-  checking existing FactGrid items, auditing duplicate CDLI IDs, and writing
-  artifacts to FactGrid.
-- `inputs/`: compact lookup tables for CDLI object types, periods, genres,
-  languages, materials, proveniences, museum/collection mappings, and prior
-  FactGrid/CDLI ID matches.
-- `published/pilots/`: the active staged tranche and reviewed reuse-pool files
-  needed to resume the current FactGrid write workflow.
-
-The large local CDLI JSON export is not included. The scripts expect it to be
-available locally when preparing new staging files.
-
-## Excluded
-
-The following are intentionally not tracked:
-
-- passwords, tokens, and environment files;
-- Python caches and local virtual environments;
-- generated import packages and zip files;
-- the oversized `factgrid_df_header_sample.csv` snapshot;
-- older run outputs not needed to resume the current workflow.
+- Batches through **028** are reconciled: **15,008 successful updates** and
+  **29,665 claims added** on the new Mac, excluding the older runs.
+- All 28 canonical new-Mac result files have written status, with no remaining
+  errors. Batch 016's historical CSRF failures were successfully retried.
+- **699 candidates** from window 014 await fresh verification. They are not an
+  approved new write batch; there is no batch 029 command yet.
+- Anonymous API checks on 2026-11-01 returned a mod_repudiator browser challenge
+  instead of JSON. Restore supported API access before proceeding. HTTP 200
+  alone does not establish API health.
+- September handoffs are historical. Their sorted offsets do not reproduce
+  earlier tranche memberships; use CDLI identities and result ledgers to resume.
 
 ## Setup
 
-Use Python 3.12 or newer.
+Use Python 3.12 or newer:
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-For API writes, provide FactGrid credentials in the shell:
+requirements-resume-2026-11-01.txt records the installed working environment.
+The writer prompts privately for credentials or uses FG_USER and FG_PASS from
+the current shell. Never commit credentials or place passwords in commands.
+The current login is retained by user preference; its main-account deprecation
+warning is documented in the resume guide.
 
-```bash
-export FG_USER='Your FactGrid username'
-read -s FG_PASS
-export FG_PASS
-```
+## Safe resume workflow
 
-Do not commit credentials.
+1. Run `python scripts/check_factgrid_api.py --timeout 15`; require json=ok.
+2. Run `python scripts/build_factgrid_resume_ledger.py` to reconstruct results.
+3. Refresh the pending candidates using the current guide's read-only review
+   command. Hold identity mismatches, claim conflicts, and qualifier repairs.
+4. Inspect a dry run before writing. Use --only-existing-factgrid,
+   --preserve-update-labels, --sleep 5, and stop on the first error. Do not pass
+   --continue-on-row-error during the current workflow.
+5. Reconcile the batch results, save the canonical CSV in this repository,
+   rebuild the ledger, and checkpoint progress.
 
-## Current Safe Write Pattern
-
-For the current travel/resume handoff, start with
-`docs/factgrid_cdli_resume_2026-09-28.md`.
-
-The FactGrid writer protects against timeout-after-success failures:
-
-- `create` writes are single-attempt, because retrying can mint duplicate QIDs;
-- `rewrite` writes are single-attempt, because retrying can repeatedly clear the
-  same item;
-- ordinary `update` writes may still retry.
-
-The active tranche can be resumed with a small batch:
+This example checks the completed last batch and should select zero rows:
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/cdli_artifact_staging_tranche_35001_60000.csv \
-  --statements published/pilots/cdli_artifact_statement_staging_tranche_35001_60000.csv \
-  --results published/pilots/factgrid_cdli_artifact_write_results_tranche_35001_60000.csv \
-  --plan published/pilots/factgrid_cdli_artifact_write_plan_tranche_35001_60000.csv \
-  --reuse-pool published/pilots/factgrid_cdli_artifact_duplicate_p692_reuse_pool_review_approved.csv \
-  --only-missing-factgrid \
-  --limit 10 \
-  --preview 10 \
-  --sleep 10 \
-  --write \
-  --clear-existing-reuse \
-  --continue-on-row-error
+  --artifacts published/pilots/resume_2026_10_18/batch_028_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/batch_028_statements.csv \
+  --results published/pilots/resume_2026_10_18/batch_028_write_results.csv \
+  --plan work/completed_batch_028_plan.csv \
+  --only-existing-factgrid --preserve-update-labels --limit 10
 ```
 
-If a create or rewrite times out, inspect FactGrid before rerunning. The script
-records ambiguous writes as statuses such as `create_ambiguous` or
-`rewrite_ambiguous` so they are not retried automatically.
+The writer skips recorded successes. Creates and clear-rewrites have
+timeout-after-success risks and are outside this update-only workflow.
+Never automatically retry create_ambiguous or rewrite_ambiguous rows.
 
-## Important FactGrid Model Notes
+## Included files
 
-- CDLI IDs are written with the leading `P` and six digits, for example
-  `P001754`.
-- `P329` present holding receives `P10` inventory number as a qualifier, not as
-  a separate main statement.
-- New or rewritten items receive `P131` research-project statements for
-  TokenWorks and the CDLI-related research projects configured in the writer.
-- Generic or uncertain finding spots should be skipped unless a reviewed
-  FactGrid QID is available.
+- scripts/: original import tools plus portable ZIP staging, ledger
+  reconstruction, and read-only live-review helpers.
+- inputs/: tracked lookup tables and prior matches. Some tracked CSVs also match
+  .gitignore rules; use `git ls-files` to inspect the actual repository contents.
+- published/pilots/resume_2026_10_18/: canonical results, reviewed batch inputs,
+  review manifests, cumulative results, held cases, and pending recheck inputs.
+- docs/resume_2026-10-18.md: historical session log. Use the concise current guide.
 
-## Public Data Note
+The full CDLI JSON export is not in Git. Its source, checksum, and deterministic
+range-selection instructions are in the current guide. Source offsets identify
+ranges, not completed work.
 
-This repository contains staging and lookup CSVs derived from CDLI, FactGrid,
-and local review work. It does not contain private credentials or the full local
-CDLI JSON corpus.
+## FactGrid model notes
+
+- CDLI IDs retain the leading P and six digits, e.g. P001754.
+- Inventory number P10 is a qualifier on present holding P329.
+- Updates preserve existing labels and descriptions.
+- Research-project memberships use P131; existing memberships are skipped.
+- Unknown/uncertain finding spots require a reviewed QID.
+- Raw finding-spot text is not sent as an item-valued P425 claim.
+- Missing qualifiers on existing holding claims require a separate reviewed
+  repair; the current writer does not add those qualifiers automatically.
+
+The repository contains public staging and lookup data derived from CDLI and
+FactGrid. Credentials, full corpus ZIPs, virtual environments, and scratch work
+are excluded.

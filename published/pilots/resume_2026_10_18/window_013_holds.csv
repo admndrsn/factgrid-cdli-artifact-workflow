@@ -1,0 +1,16 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values
+334990,Q1979617,instance_of,P2,Q512061,,,conflict_same_property,Q512006
+335549,Q1980732,instance_of,P2,Q512067,,,conflict_same_property,Q512006
+335627,Q1980887,instance_of,P2,Q512066,,,conflict_same_property,Q512006
+335628,Q1980889,instance_of,P2,Q512066,,,conflict_same_property,Q512006
+335629,Q1980890,instance_of,P2,Q512066,,,conflict_same_property,Q512006
+335941,Q1981514,instance_of,P2,Q512067,,,conflict_same_property,Q512006
+336090,Q1982870,instance_of,P2,Q512069,,,conflict_same_property,Q512006
+336180,Q2065659,instance_of,P2,Q512057,,,conflict_same_property,Q512006
+336183,Q2065665,instance_of,P2,Q512066,,,conflict_same_property,Q512006
+336184,Q2065653,instance_of,P2,Q512057,,,conflict_same_property,Q512006
+336185,Q2065655,instance_of,P2,Q512057,,,conflict_same_property,Q512006
+336186,Q2065657,instance_of,P2,Q512057,,,conflict_same_property,Q512006
+336235,Q1929439,inventory_number,P329,Q510658,P10,VAT 11566,missing_qualifier,Q510658
+336285,Q1972153,instance_of,P2,Q512063,,,conflict_same_property,Q512006
+336307,Q2000702,inventory_number,P329,Q511898,P10,Ist A 00485 + Ist A 03109,missing_qualifier,Q511898

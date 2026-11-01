@@ -1,0 +1,12 @@
+field_name,review_status,count
+cdli_id,already_live,1500
+finding_spot,already_live,122
+finding_spot,missing,949
+instance_of,already_live,1493
+instance_of,conflict_same_property,6
+language,already_live,1402
+material,already_live,1499
+period,already_live,1498
+research_project,already_live,3209
+research_project,missing,1291
+type_of_work,already_live,1484

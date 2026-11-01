@@ -1,0 +1,5 @@
+metric,value
+source_files,25000
+staging_rows,25000
+error_rows,0
+unique_cdli_ids,25000

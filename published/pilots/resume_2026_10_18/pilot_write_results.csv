@@ -1,0 +1,11 @@
+cdli_id,factgrid_qid,artifact_label,write_action,claims_written,claims_skipped,write_status,write_error,label_collision_qid
+260788,Q2016929,Cuneiform Tablet CBS 04471,update,1,8,written,,
+260817,Q2027924,"Cuneiform Tablet CDLI Literary 000521, ex. 001 & 000522, ex. 002 & 000523, ex. 001",update,2,9,written,,
+260819,Q2003561,"Cuneiform Tablet PBS 12, 07",update,2,8,written,,
+260874,Q2026703,"Cuneiform Tablet CDLI Literary 000386, ex. 001",update,2,9,written,,
+260875,Q2023435,"Cuneiform Tablet CDLI Literary 000332, ex. 001",update,2,9,written,,
+260876,Q2023535,"Cuneiform Tablet CDLI Literary 000334, ex. 019",update,2,9,written,,
+260877,Q2027379,"Cuneiform Tablet CDLI Literary 000451, ex. 002",update,2,9,written,,
+260878,Q2025091,"Cuneiform Tablet CDLI Literary 000361, ex. 001",update,2,9,written,,
+260880,Q2029453,"Cuneiform Tablet CDLI Literary 000750, ex. 003",update,2,9,written,,
+260881,Q2027928,"Cuneiform Tablet CDLI Literary 000524, ex. 001",update,2,9,written,,

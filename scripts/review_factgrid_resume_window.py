@@ -1,0 +1,121 @@
+#!/usr/bin/env python3
+import argparse
+import json
+import sys
+import time
+from pathlib import Path
+import pandas as pd
+import requests
+
+repo = Path(__file__).resolve().parents[1]
+workdir = repo / 'work'
+parser = argparse.ArgumentParser(description='Read-only live claim review for existing FactGrid items. Does not write to FactGrid.')
+parser.add_argument('--output-dir', type=Path, required=True)
+parser.add_argument('--exclude-items', type=Path, action='append', default=[])
+parser.add_argument('--read-batch-size', type=int, default=50)
+parser.add_argument('--artifacts', type=Path, required=True)
+parser.add_argument('--statements', type=Path, required=True)
+parser.add_argument('--results', type=Path, required=True)
+parser.add_argument('--limit', type=int, default=1500)
+options = parser.parse_args()
+if not 1 <= options.read_batch_size <= 50 or options.limit < 1:
+    parser.error('Use a read batch size of 1–50 and a positive limit.')
+if not options.results.is_file():
+    parser.error('Build the cumulative results ledger before reviewing.')
+outputdir = options.output_dir
+if (outputdir / 'candidate_live_review_1500.csv').exists():
+    parser.error('Use a fresh output directory; do not overwrite a dated live review.')
+outputdir.mkdir(parents=True, exist_ok=True)
+sys.path.insert(0, str(repo / 'scripts'))
+import write_factgrid_cdli_artifact_items as writer
+
+args = argparse.Namespace(
+    artifacts=options.artifacts,
+    statements=options.statements,
+    results=options.results,
+    factgrid_cdli=writer.DEFAULT_FACTGRID_CDLI,
+    prior_factgrid_qid_lookup=list(writer.DEFAULT_PRIOR_FACTGRID_QID_LOOKUPS),
+    factgrid_upload_table=writer.DEFAULT_FACTGRID_UPLOAD_TABLE,
+    collection_matches=writer.DEFAULT_COLLECTION_MATCHES,
+    only_cdli_ids='', only_missing_factgrid=False, only_existing_factgrid=True,
+    only_field_names='', reuse_pool=None, limit=options.limit, preview=10,
+)
+if options.exclude_items:
+    excluded = set()
+    for path in options.exclude_items:
+        excluded.update(pd.read_csv(path, dtype=str).fillna('').cdli_id)
+    source = pd.read_csv(args.artifacts, dtype=str).fillna('')
+    args.only_cdli_ids = ','.join(source.loc[~source.cdli_id.isin(excluded), 'cdli_id'])
+    if not args.only_cdli_ids:
+        raise RuntimeError('No unreviewed source IDs remain')
+items, plan = writer.build_workset(args)
+items.to_csv(outputdir/'candidate_items_1500.csv',index=False)
+plan.to_csv(outputdir/'factgrid_candidate_update_plan_1500.csv',index=False)
+if items.empty:
+    print('No remaining existing-item candidates selected.')
+    raise SystemExit(0)
+qids = list(dict.fromkeys(items.factgrid_qid))
+entities={}
+session=requests.Session()
+session.headers['User-Agent']='CDLI-FactGrid-resume-read-review/1.0'
+for start in range(0,len(qids),options.read_batch_size):
+    response=session.get(writer.FACTGRID_API,params={'action':'wbgetentities','ids':'|'.join(qids[start:start+options.read_batch_size]),'props':'claims|labels','languages':'en','format':'json'},timeout=25)
+    response.raise_for_status()
+    try:
+        data=response.json()
+    except ValueError:
+        raise RuntimeError(f'FactGrid did not return API JSON: status={response.status_code}, content-type={response.headers.get('content-type')}, URL={response.url}. Stop and obtain supported API access; do not bypass a browser challenge.') from None
+    if 'error' in data: raise RuntimeError(data['error'])
+    expected = set(qids[start:start+options.read_batch_size])
+    received = data.get('entities', {})
+    if not expected.issubset(received):
+        raise RuntimeError('API response omitted requested entities; review is incomplete.')
+    entities.update(received)
+    print(f'Read {min(start+options.read_batch_size,len(qids))}/{len(qids)} FactGrid items',flush=True)
+    time.sleep(0.5)
+(outputdir/'candidate_live_entities.json').write_text(json.dumps(entities,ensure_ascii=False))
+
+def value(snak):
+    return writer.normalize_claim_datavalue(snak.get('datavalue',{}).get('value',''))
+
+rows=[]
+for _,artifact in items.iterrows():
+    cdli=artifact.cdli_id
+    qid=artifact.factgrid_qid
+    entity=entities.get(qid,{})
+    claims=entity.get('claims',{})
+    item_plan=plan[plan.cdli_id.eq(cdli)]
+    checks=[(r.field_name,r.fg_pid,r.value,'','') for _,r in item_plan.iterrows() if r.field_name!='inventory_number']
+    checks.extend(('research_project','P131',project,'','') for project in writer.parse_qid_list(writer.DEFAULT_RESEARCH_PROJECT_QIDS))
+    inventories=list(item_plan.loc[item_plan.field_name.eq('inventory_number'),'value'])
+    for _,r in item_plan[item_plan.fg_pid.eq('P329')].iterrows():
+        checks.extend(('inventory_number','P329',r.value,'P10',inv[:400]) for inv in inventories)
+    for field,prop,expected,qualprop,qualvalue in checks:
+        existing=claims.get(prop,[])
+        matching=[c for c in existing if value(c.get('mainsnak',{}))==expected]
+        values=[value(c.get('mainsnak',{})) for c in existing]
+        if 'missing' in entity or not entity:
+            status='missing_entity'
+        elif prop in writer.SINGLE_VALUE_PROPERTIES and any(v and v != expected for v in values):
+            status='conflict_same_property'
+        elif matching:
+            status='already_live'
+            if qualprop and not any(value(s)==qualvalue for c in matching for s in c.get('qualifiers',{}).get(qualprop,[])):
+                status='missing_qualifier'
+        elif prop in writer.SINGLE_VALUE_PROPERTIES and any(values):
+            status='conflict_same_property'
+        else:
+            status='missing'
+        rows.append(dict(cdli_id=cdli,factgrid_qid=qid,field_name=field,property=prop,value=expected,qualifier_property=qualprop,qualifier_value=qualvalue,review_status=status,live_values=' | '.join(values)))
+review=pd.DataFrame(rows)
+review.to_csv(outputdir/'candidate_live_review_1500.csv',index=False)
+summary=review.groupby(['field_name','review_status']).size().rename('count').reset_index()
+summary.to_csv(outputdir/'candidate_live_review_summary.csv',index=False)
+print(summary.to_string(index=False),flush=True)
+blocked=set(review.loc[review.review_status.isin(['conflict_same_property','missing_entity']),'cdli_id'])
+needs=set(review.loc[review.review_status.isin(['missing','missing_qualifier']),'cdli_id'])-blocked
+verified=set(review.loc[review.field_name.eq('cdli_id') & review.review_status.eq('already_live'), 'cdli_id'])
+qualifier_holds=set(review.loc[review.review_status.eq('missing_qualifier'), 'cdli_id'])
+safe=items[items.cdli_id.isin(needs & verified - qualifier_holds)].copy()
+safe.to_csv(outputdir/'candidate_items_reviewed.csv',index=False)
+print(json.dumps({'selected_items':len(items),'blocked_items':len(blocked),'items_needing_additions_without_conflicts':len(safe),'items_already_complete':len(set(items.cdli_id)-blocked-set(review.loc[review.review_status.isin(['missing','missing_qualifier']), 'cdli_id']))}),flush=True)

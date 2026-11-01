@@ -1,0 +1,30 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values
+279651,Q2022749,type_of_work,P121,Q245823,,,conflict_same_property,Q537054
+279999,Q2024014,language,P18,Q471146,,,conflict_same_property,Q471149
+280051,Q2024732,language,P18,Q471146,,,conflict_same_property,Q471149
+280488,Q2148883,cdli_id,P692,P280488,,,conflict_same_property,P280488 | P277601
+280488,Q2148883,instance_of,P2,Q512006,,,conflict_same_property,Q512006 | Q512061
+281736,Q1929740,period,P853,Q512152,,,conflict_same_property,Q512155
+281823,Q1995644,type_of_work,P121,Q76112,,,conflict_same_property,Q245824
+281824,Q1995638,type_of_work,P121,Q76112,,,conflict_same_property,Q245824
+281829,Q1995654,type_of_work,P121,Q76112,,,conflict_same_property,Q245824
+281831,Q1995652,type_of_work,P121,Q76112,,,conflict_same_property,Q245824
+282153,Q1928531,period,P853,Q512158,,,conflict_same_property,Q512155
+282231,Q1928682,inventory_number,P329,Q510658,P10,VAT 15450,missing_qualifier,Q510658
+282315,Q1928851,type_of_work,P121,Q10510,,,conflict_same_property,Q245823
+282315,Q1928851,inventory_number,P329,Q510658,P10,VAT 15437,missing_qualifier,Q510658
+282478,Q2065910,type_of_work,P121,Q246184,,,conflict_same_property,Q245824
+282478,Q2065910,type_of_work,P121,Q76112,,,conflict_same_property,Q245824
+282521,Q2003875,type_of_work,P121,Q77545,,,conflict_same_property,Q388465
+282521,Q2003875,inventory_number,P329,Q510658,P10,VAT 10598 + VAT 11182,missing_qualifier,Q510658
+282593,Q2062365,type_of_work,P121,Q10510,,,conflict_same_property,Q388465
+282595,Q1929303,type_of_work,P121,Q245823,,,conflict_same_property,Q537054
+282599,Q2024788,language,P18,Q471146,,,conflict_same_property,Q471149
+282600,Q2024790,language,P18,Q471146,,,conflict_same_property,Q471149
+282603,Q2025031,language,P18,Q471146,,,conflict_same_property,Q471149
+282604,Q2025032,language,P18,Q471146,,,conflict_same_property,Q471149
+283197,Q1934332,type_of_work,P121,Q388465,,,conflict_same_property,Q394396
+283557,Q1933835,type_of_work,P121,Q10510,,,conflict_same_property,Q394396
+283574,Q2029767,instance_of,P2,Q512061,,,conflict_same_property,Q512006
+283738,Q2029024,inventory_number,P329,Q102010,P10,BM 015280,missing_qualifier,Q102010
+283783,Q2058868,language,P18,Q471146,,,conflict_same_property,Q471149

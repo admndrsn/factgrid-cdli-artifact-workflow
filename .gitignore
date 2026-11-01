@@ -15,3 +15,6 @@ published/import_packages/
 
 # Large source exports should be regenerated or downloaded locally.
 inputs/cdli_lookup_sources/factgrid_df_header_sample.csv
+
+# Local staging and verification scratch files
+work/
