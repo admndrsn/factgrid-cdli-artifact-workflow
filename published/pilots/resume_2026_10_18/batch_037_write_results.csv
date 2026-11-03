@@ -1,0 +1,6 @@
+cdli_id,factgrid_qid,artifact_label,write_action,claims_written,claims_skipped,write_status,write_error,label_collision_qid
+358688,Q499898,"Cuneiform Tablet CCT 4, 31, BM 113295",update,1,11,written,,
+358806,Q499887,"Cuneiform Tablet CCT 5, 02, BM 120513",update,1,10,written,,
+359024,Q499889,"Cuneiform Tablet CCT 6, 44, BM 115249",update,2,9,written,,
+359065,Q499899,Cuneiform Tablet Prag 437,update,1,10,written,,
+360304,Q1360435,"Cuneiform Tablet TPAK 1, 094",update,1,9,written,,
