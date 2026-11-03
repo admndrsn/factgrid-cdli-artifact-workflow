@@ -3,21 +3,21 @@
 Scripts, lookup tables, reviewed staging data, and resumable checkpoints for
 enriching CDLI cuneiform artifact records in FactGrid.
 
-## Current handoff — 2026-11-01
+## Current handoff — 2026-11-03
 
-Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-01.md).
+Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-03.md).
 
-- Batches through **028** are reconciled: **15,008 successful updates** and
-  **29,665 claims added** on the new Mac, excluding the older runs.
-- All 28 canonical new-Mac result files have written status, with no remaining
-  errors. Batch 016's historical CSRF failures were successfully retried.
-- **699 candidates** from window 014 await fresh verification. They are not an
-  approved new write batch; there is no batch 029 command yet.
-- Anonymous API checks on 2026-11-01 returned a mod_repudiator browser challenge
-  instead of JSON. Restore supported API access before proceeding. HTTP 200
-  alone does not establish API health.
-- September handoffs are historical. Their sorted offsets do not reproduce
-  earlier tranche memberships; use CDLI identities and result ledgers to resume.
+- Batches through **036** are reconciled: **19,003 successful updates** and
+  **37,492 claims added** on the new Mac, excluding older runs.
+- All 36 canonical new-Mac result files have written status and no remaining errors.
+  Batch 033's timeout was reconciled and its retry completed successfully.
+- **Batch 037 has five prepared items and has NOT been written.** Refresh live
+  review before resuming after a pause.
+- Administrator allowlisting restored API JSON access. Verify API health on resume.
+- Current source range is sorted positions **185001–210000**. Continue remaining
+  candidates there after batch 037; identity holds and qualifier repairs remain excluded.
+- Historical source offsets do not reproduce old tranche memberships. Resume by
+  CDLI identity, result ledger and review manifests.
 
 ## Setup
 
@@ -51,10 +51,10 @@ This example checks the completed last batch and should select zero rows:
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_028_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_028_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_028_write_results.csv \
-  --plan work/completed_batch_028_plan.csv \
+  --artifacts published/pilots/resume_2026_10_18/batch_036_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/batch_036_statements.csv \
+  --results published/pilots/resume_2026_10_18/batch_036_write_results.csv \
+  --plan work/completed_batch_036_plan.csv \
   --only-existing-factgrid --preserve-update-labels --limit 10
 ```
 

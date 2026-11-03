@@ -1,0 +1,23 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values
+345936,Q2152126,type_of_work,P121,Q146582,,,conflict_same_property,Q2170010
+345955,Q2028935,instance_of,P2,Q512059,,,conflict_same_property,Q512006
+346169,Q2027334,language,P18,Q471146,,,conflict_same_property,Q471149
+346202,Q2055511,language,P18,Q471146,,,conflict_same_property,Q471149
+346431,Q2029281,language,P18,Q471146,,,conflict_same_property,Q471149
+346432,Q2055737,language,P18,Q471146,,,conflict_same_property,Q471149
+346617,Q2029287,language,P18,Q471146,,,conflict_same_property,Q471149
+346618,Q2029289,language,P18,Q471146,,,conflict_same_property,Q471149
+346620,Q2029291,language,P18,Q471146,,,conflict_same_property,Q471149
+346621,Q2029293,language,P18,Q471146,,,conflict_same_property,Q471149
+346673,Q2030679,language,P18,Q471146,,,conflict_same_property,Q471149
+346963,Q2029299,language,P18,Q471146,,,conflict_same_property,Q471149
+346967,Q2146132,inventory_number,P329,Q511874,P10,IM 085473,missing_qualifier,Q511874
+346971,Q2152854,inventory_number,P329,Q511874,P10,IM 085477,missing_qualifier,Q511874
+346988,Q2146263,inventory_number,P329,Q511874,P10,IM 085494,missing_qualifier,Q511874
+347008,Q2151865,inventory_number,P329,Q511874,P10,IM 085514,missing_qualifier,Q511874
+347032,Q2144252,inventory_number,P329,Q511874,P10,IM 085538,missing_qualifier,Q511874
+347059,Q2056144,language,P18,Q471146,,,conflict_same_property,Q471149
+347125,Q2063376,period,P853,Q512154,,,conflict_same_property,Q512161
+347156,Q2063412,language,P18,Q471146,,,conflict_same_property,Q471149
+347183,Q2032240,language,P18,Q471146,,,conflict_same_property,Q471149
+347233,Q2153015,period,P853,Q512161,,,conflict_same_property,Q512162

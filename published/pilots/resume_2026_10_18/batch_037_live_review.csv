@@ -1,0 +1,54 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values
+358688,Q499898,cdli_id,P692,P358688,,,already_live,P358688
+358688,Q499898,instance_of,P2,Q512006,,,already_live,Q512006
+358688,Q499898,period,P853,Q512151,,,already_live,Q512151
+358688,Q499898,language,P18,Q471146,,,already_live,Q471146
+358688,Q499898,type_of_work,P121,Q10510,,,already_live,Q10510
+358688,Q499898,material,P401,Q471153,,,already_live,Q471153
+358688,Q499898,present_holding,P329,Q102010,,,already_live,Q102010
+358688,Q499898,finding_spot,P695,Q390036,,,already_live,Q390036
+358688,Q499898,research_project,P131,Q1894741,,,missing,Q389597 | Q393513 | Q505971
+358688,Q499898,research_project,P131,Q389597,,,already_live,Q389597 | Q393513 | Q505971
+358688,Q499898,research_project,P131,Q393513,,,already_live,Q389597 | Q393513 | Q505971
+358688,Q499898,inventory_number,P329,Q102010,P10,BM 113295,already_live,Q102010
+358806,Q499887,cdli_id,P692,P358806,,,already_live,P358806
+358806,Q499887,instance_of,P2,Q512006,,,already_live,Q512006
+358806,Q499887,period,P853,Q512151,,,already_live,Q512151
+358806,Q499887,language,P18,Q471146,,,already_live,Q471146
+358806,Q499887,material,P401,Q471153,,,already_live,Q471153
+358806,Q499887,present_holding,P329,Q102010,,,already_live,Q102010
+358806,Q499887,finding_spot,P695,Q390036,,,already_live,Q390036
+358806,Q499887,research_project,P131,Q1894741,,,missing,Q389597 | Q393513 | Q505971
+358806,Q499887,research_project,P131,Q389597,,,already_live,Q389597 | Q393513 | Q505971
+358806,Q499887,research_project,P131,Q393513,,,already_live,Q389597 | Q393513 | Q505971
+358806,Q499887,inventory_number,P329,Q102010,P10,BM 120513,already_live,Q102010
+359024,Q499889,cdli_id,P692,P359024,,,already_live,P359024
+359024,Q499889,instance_of,P2,Q512006,,,already_live,Q512006
+359024,Q499889,period,P853,Q512151,,,already_live,Q512151
+359024,Q499889,language,P18,Q471146,,,already_live,Q471146
+359024,Q499889,material,P401,Q471153,,,missing,
+359024,Q499889,present_holding,P329,Q102010,,,already_live,Q102010
+359024,Q499889,finding_spot,P695,Q390036,,,already_live,Q390036
+359024,Q499889,research_project,P131,Q1894741,,,missing,Q389597 | Q393513 | Q505971
+359024,Q499889,research_project,P131,Q389597,,,already_live,Q389597 | Q393513 | Q505971
+359024,Q499889,research_project,P131,Q393513,,,already_live,Q389597 | Q393513 | Q505971
+359024,Q499889,inventory_number,P329,Q102010,P10,BM 115249,already_live,Q102010
+359065,Q499899,cdli_id,P692,P359065,,,already_live,P359065
+359065,Q499899,instance_of,P2,Q512006,,,already_live,Q512006
+359065,Q499899,period,P853,Q512151,,,already_live,Q512151
+359065,Q499899,language,P18,Q471146,,,already_live,Q471146
+359065,Q499899,type_of_work,P121,Q10510,,,already_live,Q10510
+359065,Q499899,material,P401,Q471153,,,already_live,Q471153
+359065,Q499899,finding_spot,P695,Q390036,,,already_live,Q390036
+359065,Q499899,research_project,P131,Q1894741,,,missing,Q389597 | Q393513 | Q505971
+359065,Q499899,research_project,P131,Q389597,,,already_live,Q389597 | Q393513 | Q505971
+359065,Q499899,research_project,P131,Q393513,,,already_live,Q389597 | Q393513 | Q505971
+360304,Q1360435,cdli_id,P692,P360304,,,already_live,P360304
+360304,Q1360435,instance_of,P2,Q512006,,,already_live,Q512006
+360304,Q1360435,period,P853,Q512151,,,already_live,Q512151
+360304,Q1360435,language,P18,Q471146,,,already_live,Q471146
+360304,Q1360435,material,P401,Q471153,,,already_live,Q471153
+360304,Q1360435,finding_spot,P695,Q390036,,,already_live,Q390036
+360304,Q1360435,research_project,P131,Q1894741,,,missing,Q389597 | Q898201 | Q505971 | Q393513
+360304,Q1360435,research_project,P131,Q389597,,,already_live,Q389597 | Q898201 | Q505971 | Q393513
+360304,Q1360435,research_project,P131,Q393513,,,already_live,Q389597 | Q898201 | Q505971 | Q393513

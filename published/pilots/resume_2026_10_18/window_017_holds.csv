@@ -1,0 +1,125 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values
+348449,Q2036803,inventory_number,P329,Q511874,P10,IM 74374,missing_qualifier,Q511874
+348464,Q2036833,type_of_work,P121,Q76112,,,conflict_same_property,Q245824
+348623,Q2037155,inventory_number,P329,Q511874,P10,IM 76966 + IM 135104b,missing_qualifier,Q511874
+348633,Q2037175,language,P18,Q471146,,,conflict_same_property,Q471149
+348658,Q2037226,period,P853,Q512161,,,conflict_same_property,Q512164
+348660,Q2037230,period,P853,Q512161,,,conflict_same_property,Q512164
+348767,Q2037457,type_of_work,P121,Q146582,,,conflict_same_property,Q2170010
+348768,Q2037459,type_of_work,P121,Q146582,,,conflict_same_property,Q2170010
+348808,Q2037549,period,P853,Q512161,,,conflict_same_property,Q512164
+348866,Q2037666,period,P853,Q512161,,,conflict_same_property,Q512164
+348977,Q1994609,type_of_work,P121,Q245823,,,conflict_same_property,Q246098
+348982,Q1994617,inventory_number,P329,Q511934,P10,Ashm 1924-1835 + Ashm 1924-2273,missing_qualifier,Q511934
+349000,Q1994635,inventory_number,P329,Q511934,P10,Ashm 1924-1251 + Ashm 1924-1279 + Ashm 1924-1925 + Ashm 1924-1960,missing_qualifier,Q511934
+349010,Q1994651,inventory_number,P329,Q511934,P10,Ashm 1924-1525 + Ashm 1924-1833,missing_qualifier,Q511934
+349116,Q2028384,language,P18,Q471146,,,conflict_same_property,Q471149
+349412,Q2032523,language,P18,Q471149,,,conflict_same_property,Q471146
+349414,Q1987179,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349416,Q1987181,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349419,Q1987183,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349425,Q1987185,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349427,Q1987187,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349430,Q1987193,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349431,Q2032280,language,P18,Q471149,,,conflict_same_property,Q471146
+349431,Q2032280,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349432,Q1987195,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349434,Q2032455,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349436,Q1987197,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349437,Q1987199,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349438,Q1987201,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349440,Q1987203,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349442,Q1987205,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349443,Q1987207,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349446,Q1987209,language,P18,Q471146,,,conflict_same_property,Q471146 | Q471149
+349446,Q1987209,language,P18,Q471149,,,conflict_same_property,Q471146 | Q471149
+349446,Q1987209,type_of_work,P121,Q246184,,,conflict_same_property,Q246098
+349447,Q1987211,type_of_work,P121,Q246184,,,conflict_same_property,Q246098
+349448,Q1987213,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349449,Q1987215,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349450,Q2149479,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349452,Q2032384,language,P18,Q471149,,,conflict_same_property,Q471146
+349452,Q2032384,type_of_work,P121,Q245823,,,conflict_same_property,Q246098
+349454,Q1987221,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349455,Q2032386,type_of_work,P121,Q10315,,,conflict_same_property,Q245823
+349456,Q1987223,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349461,Q1987225,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349462,Q1987227,type_of_work,P121,Q246184,,,conflict_same_property,Q246098
+349464,Q1987231,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349465,Q1987233,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349468,Q1987235,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349471,Q1987239,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349473,Q1987241,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349474,Q1987243,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349476,Q1987245,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349476,Q1987245,type_of_work,P121,Q10315,,,conflict_same_property,Q246098
+349476,Q1987245,inventory_number,P329,Q102010,P10,BM 037571 + BM 037931,missing_qualifier,Q102010
+349478,Q1987247,type_of_work,P121,Q10315,,,conflict_same_property,Q246098
+349482,Q1987249,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349486,Q1987253,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349488,Q1987255,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349489,Q1987257,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349490,Q1987259,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349491,Q1987261,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349493,Q1987265,language,P18,Q471146,,,conflict_same_property,Q471146 | Q471149
+349493,Q1987265,language,P18,Q471149,,,conflict_same_property,Q471146 | Q471149
+349493,Q1987265,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349493,Q1987265,type_of_work,P121,Q10315,,,conflict_same_property,Q246098
+349493,Q1987265,inventory_number,P329,Q102010,P10,BM 037959 + BM 038018,missing_qualifier,Q102010
+349494,Q2032573,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349495,Q1987267,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349496,Q1987269,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349497,Q1987271,type_of_work,P121,Q246184,,,conflict_same_property,Q246098
+349497,Q1987271,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349501,Q2032457,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349503,Q1987275,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349504,Q1987277,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349505,Q1987279,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349515,Q1987287,finding_spot,P695,Q389857,,,conflict_same_property,Q898201
+349529,Q2032485,type_of_work,P121,Q245823,,,conflict_same_property,Q246098
+349534,Q1987307,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349539,Q1987314,finding_spot,P695,Q389857,,,conflict_same_property,Q898201
+349542,Q1987316,finding_spot,P695,Q389857,,,conflict_same_property,Q898201
+349576,Q2032543,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349591,Q2032388,type_of_work,P121,Q245823,,,conflict_same_property,Q246098
+349602,Q1987351,type_of_work,P121,Q245823,,,conflict_same_property,Q246098
+349603,Q1987352,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349603,Q1987352,type_of_work,P121,Q245823,,,conflict_same_property,Q246098
+349610,Q2143052,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349613,Q1987354,type_of_work,P121,Q246184,,,conflict_same_property,Q246098
+349805,Q2032392,type_of_work,P121,Q245823,,,conflict_same_property,Q246098
+349806,Q1987514,type_of_work,P121,Q537054,,,conflict_same_property,Q246098
+349856,Q2007055,inventory_number,P329,Q102010,P10,BM 072188 (+) BM 077144 + BM 077170,missing_qualifier,Q102010
+352912,Q2148049,cdli_id,P692,P352912,,,conflict_same_property,P496843 | P352912
+353708,Q2142341,cdli_id,P692,P353708,,,conflict_same_property,P353708 | P497858
+353708,Q2142341,type_of_work,P121,Q394396,,,conflict_same_property,Q394396 | Q10510
+355664,Q2006994,language,P18,Q471146,,,conflict_same_property,Q471149
+355684,Q2066518,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355685,Q2066516,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355688,Q2066483,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355699,Q2000581,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355707,Q2066525,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355710,Q2066479,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355712,Q2066522,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355751,Q2035545,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355752,Q2035547,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355757,Q2035549,language,P18,Q471146,,,conflict_same_property,Q471149
+355757,Q2035549,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355857,Q2035557,inventory_number,P329,Q102010,P10,BM 092577 & BM 092577A,missing_qualifier,Q102010
+355877,Q2058582,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355878,Q2058584,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355879,Q2058586,language,P18,Q471146,,,conflict_same_property,Q471149
+355880,Q2058588,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355881,Q1932772,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355882,Q2066159,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355883,Q2066163,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355884,Q1926299,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355887,Q1928068,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355888,Q2058975,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355889,Q2000539,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355892,Q2000541,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355899,Q2012108,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355901,Q2055724,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355905,Q2003126,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355906,Q1936398,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
+355908,Q1931327,type_of_work,P121,Q246184,,,conflict_same_property,Q245823
