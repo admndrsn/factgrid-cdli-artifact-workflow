@@ -1,3 +1,5 @@
+> Historical preparation record. Batch 042 is complete; see its completion note and current handoff.
+
 # Batch 042 prepared — November 4, 2026
 
 1,012 unique existing items passed fresh live review, with 1,798 expected main

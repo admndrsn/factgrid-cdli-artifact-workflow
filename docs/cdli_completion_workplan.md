@@ -63,12 +63,12 @@ steps for resumability. User accepted this sequence on November 3, 2026.
 
 ## Latest completed checkpoint and standing workflow
 
-Completed through 041: 22,457 updates, 44,257 claims, 41,974 cumulative written
-IDs. Batch 042 is prepared/running, not included as complete. Its preparation
-and completed 040–041 results accompany this publication. See the November 4
-resume guide for exact next steps and the P386408 language modeling follow-up.
+Completed through 042: 23,469 updates, 46,055 claims, 42,986 cumulative written
+IDs. Batch 043 is prepared/running and excluded from completed totals. There
+are 380 saved window-025 candidates to recheck after it. See the current
+November 4 handoff for next-range instructions and historical review holds.
 
-On pasted batch output, reconcile results, prepare the next freshly reviewed
-batch, give the tested launcher immediately, and publish a stable checkpoint
-while the user runs the next batch. Aim for 1,500 verified items, with smaller
-batches appropriate for finishing a range. Do not publish running result files.
+On pasted terminal output: reconcile results, prepare the next freshly reviewed
+batch, provide the tested launcher immediately, then publish an immutable
+checkpoint while the user writes. Aim for 1,500 items, with smaller batches to
+finish pending groups or ranges. Never publish active result files as completed.

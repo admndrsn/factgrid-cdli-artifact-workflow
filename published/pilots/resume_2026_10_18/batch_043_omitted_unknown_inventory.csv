@@ -1,0 +1,3 @@
+cdli_id,tw_qid,artifact_label,artifact_type,field_name,tw_pid,fg_pid,datatype,value,value_label,plan_status,source,note
+404875,NEEDS_QID,"CDLI Literary 000343, ex. 023",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+415763,NEEDS_QID,"CM 31, 139",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,

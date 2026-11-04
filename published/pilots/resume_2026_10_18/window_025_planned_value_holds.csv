@@ -1,0 +1,10 @@
+cdli_id,tw_qid,artifact_label,artifact_type,field_name,tw_pid,fg_pid,datatype,value,value_label,plan_status,source,note
+417502,NEEDS_QID,"ROMCT 2, 26",tablet,cdli_id,P223,P692,external-id,P417502,,ready,cdli_json,
+417502,NEEDS_QID,"ROMCT 2, 26",tablet,instance_of,P2,P2,wikibase-item,Q512006,Clay tablet,ready,CDLI_Object,
+417502,NEEDS_QID,"ROMCT 2, 26",tablet,period,P245,P853,wikibase-item,Q512163,Achaemenid Period,ready,CDLI_Period,
+417502,NEEDS_QID,"ROMCT 2, 26",tablet,language,P18,P18,wikibase-item,Q471146,Akkadian,ready,CDLI_Lang,
+417502,NEEDS_QID,"ROMCT 2, 26",tablet,language,P18,P18,wikibase-item,Q393615,Aramaic,ready,CDLI_Lang,
+417502,NEEDS_QID,"ROMCT 2, 26",tablet,type_of_work,P126,P121,wikibase-item,Q394396,Administrative,ready,CDLI_Genre,
+417502,NEEDS_QID,"ROMCT 2, 26",tablet,material,P391,P401,wikibase-item,Q471153,Clay,ready,CDLI_Material,
+417502,NEEDS_QID,"ROMCT 2, 26",tablet,present_holding,P203,P329,wikibase-item,Q511914,Royal Ontario Museum,ready,museum_FG,
+417502,NEEDS_QID,"ROMCT 2, 26",tablet,inventory_number,P10,P10,string,ROM 910x209.528,,ready,cdli_json,

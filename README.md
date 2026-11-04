@@ -7,16 +7,17 @@ enriching CDLI cuneiform artifact records in FactGrid.
 
 Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-04.md).
 
-- Completed through **041**: **22,457 updates**, **44,257 claims added**.
-- Cumulative ledger: **41,974 written CDLI IDs** and two historical held outcomes.
-- **Batch 042 prepared:** 1,012 items, 1,798 expected main claims and 8 qualifiers.
-  Its write results are deliberately excluded from this checkpoint while the user
-  runs it. Synchronize/reconcile those results before any resume.
-- Window 024 finishes candidate review for 210001–235000. After batch 042,
-  proceed to 235001–260000, excluding manifests 001–024 and cumulative outcomes.
+- Completed through **042**: **23,469 updates**, **46,055 claims added**.
+- Cumulative ledger: **42,986 written CDLI IDs** and two historical held outcomes.
+- **Batch 043 prepared/running:** 1,500 items, 2,852 expected main claims and
+  48 qualifiers. Active write results are excluded; reconcile before resuming.
+- **380 window-025 candidates** await fresh recheck after 043. Their files are
+  saved; do not skip them when excluding review manifests for new candidates.
+- Current source range 235001–260000 has been reviewed. After the pending group,
+  next new range is 260001–285000, excluding manifests 001–025 and the ledger.
 - Earlier pending files from windows 021 and 023 are historical/completed.
 - [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
-  then ATF pages and P251 links together. Historical holds remain unfinished.
+  then ATF pages and P251 links together. Holds and unmatched items remain work.
 
 ## Setup
 
@@ -46,14 +47,14 @@ warning is documented in the resume guide.
 5. Reconcile the batch results, save the canonical CSV in this repository,
    rebuild the ledger, and checkpoint progress.
 
-This example checks completed batch 041 and should select zero rows:
+This example checks completed batch 042 and should select zero rows:
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_041_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_041_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_041_write_results.csv \
-  --plan work/completed_batch_041_plan.csv \
+  --artifacts published/pilots/resume_2026_10_18/batch_042_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/batch_042_statements.csv \
+  --results published/pilots/resume_2026_10_18/batch_042_write_results.csv \
+  --plan work/completed_batch_042_plan.csv \
   --only-existing-factgrid --preserve-update-labels --limit 10
 ```
 
