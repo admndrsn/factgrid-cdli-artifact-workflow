@@ -63,12 +63,12 @@ steps for resumability. User accepted this sequence on November 3, 2026.
 
 ## Latest completed checkpoint and standing workflow
 
-Completed through 042: 23,469 updates, 46,055 claims, 42,986 cumulative written
-IDs. Batch 043 is prepared/running and excluded from completed totals. There
-are 380 saved window-025 candidates to recheck after it. See the current
-November 4 handoff for next-range instructions and historical review holds.
+Completed through 043: 24,969 updates, 48,907 claims, 44,486 cumulative written
+IDs. Batch 043's read timeout was reconciled and retried. Batch 044 is prepared/
+running with the final 380 pending candidates; exclude its active results from
+completed totals. After reconciling it, next range is 260001–285000.
 
-On pasted terminal output: reconcile results, prepare the next freshly reviewed
+On pasted terminal output, reconcile results, prepare the next freshly reviewed
 batch, provide the tested launcher immediately, then publish an immutable
 checkpoint while the user writes. Aim for 1,500 items, with smaller batches to
-finish pending groups or ranges. Never publish active result files as completed.
+finish pending groups or ranges. Never publish active results as completed.

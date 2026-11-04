@@ -1,3 +1,5 @@
+> Historical preparation record. Batch 043 is complete after its retry.
+
 # Batch 043 prepared — November 4, 2026
 
 1,500 unique CDLI IDs and FactGrid QIDs passed fresh live review, with 2,852

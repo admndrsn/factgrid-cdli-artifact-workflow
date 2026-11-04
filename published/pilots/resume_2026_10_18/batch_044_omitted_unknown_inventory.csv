@@ -1,0 +1,5 @@
+cdli_id,tw_qid,artifact_label,artifact_type,field_name,tw_pid,fg_pid,datatype,value,value_label,plan_status,source,note
+423441,NEEDS_QID,"OIP 78, pl. 119, no. 1",sealing,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+423488,NEEDS_QID,"RIME 3/1.01.07.062, ex. 05",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+423569,NEEDS_QID,"RIME 4.04.01.04, ex. 003",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+423570,NEEDS_QID,"RIME 4.04.01.04, ex. 004",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
