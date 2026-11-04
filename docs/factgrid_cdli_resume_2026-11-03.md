@@ -1,52 +1,66 @@
-# Current FactGrid CDLI handoff — 2026-11-03
+# Current FactGrid CDLI handoff — 2026-11-03 (through batch 039)
 
 ## Confirmed progress and pause point
 
-The pilot and batches 002–037 contain **19,008 unique successful updates** and
-**37,498 claims added** on the new Mac. All 37 canonical result CSVs have written
-status, with no remaining errors. The cumulative ledger, including the older
-runs, contains **38,525 written IDs**, one blocked_bad_sitelink and one
-rewrite_ambiguous. These two held outcomes remain excluded.
+The pilot and batches 002–039 contain **19,799 unique successful updates** and
+**39,108 claims added**. All 39 canonical new-Mac result files have written status
+with no remaining errors. The cumulative ledger includes **39,316 written IDs**,
+one blocked_bad_sitelink and one rewrite_ambiguous; the held outcomes remain excluded.
 
-Batch 033 stopped after 79 successes when loading Q2063416 timed out, before
-writing that item. The retry completed the remaining 116. Its canonical result
-has 195 successes and 338 added claims. Historical before-retry snapshots must
-not be combined with canonical results.
+- Batch 038: 291 updates, 564 claims added; zero rows on resume dry run.
+- Batch 039: 500 updates, 1,046 claims added; zero rows on resume dry run.
+- Both canonical CSVs match terminal output. Claim counts are additions recorded
+  by the writer, not complete metadata coverage or a separate qualifier count.
+- Batch 033's timeout was previously reconciled. Never merge historical
+  before-retry files into the canonical ledger.
 
-**Batch 037 is complete:** five successful updates, six added claims, no errors.
-The workflow is wrapped up with no next write batch prepared. Continue by reviewing
-remaining existing-item candidates in sorted source range 185001–210000.
-
-The administrator allowlisted the user's outbound IP. Read-only API checks and
-reviews subsequently returned JSON. No challenge bypass was used. Access can
-depend on the current network; require API JSON on each resume. Keep the current
-login method by user preference. Its action=login deprecation warning is known.
+No batch 040 has been prepared. The immediate next work is **501 remaining
+window-021 candidates**, saved in the checkpoint directory. They were eligible
+at review time but need a fresh review before another write batch. Do not skip
+this pending selection by excluding the entire window-021 manifest.
 
 ## Resume on this or another machine
 
-Read README.md and this guide first. Use Python 3.12+ and requirements.txt;
-requirements-resume-2026-11-01.txt records the working environment. Never commit
-credentials. The writer prompts privately or uses the current shell environment.
-
-Run the API probe and rebuild the canonical ledger:
+Use Python 3.12+, requirements.txt, and private credentials. Read README.md and
+this guide. API access was restored by administrator IP allowlisting; verify
+JSON access from the current network. Keep the current login method by user
+preference; its action=login deprecation warning is known.
 
 ```bash
 python scripts/check_factgrid_api.py --timeout 15
 python scripts/build_factgrid_resume_ledger.py
+python scripts/review_factgrid_resume_window.py \
+  --artifacts published/pilots/resume_2026_10_18/window_021_remaining_pending_recheck_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/window_021_remaining_pending_recheck_statements.csv \
+  --results published/pilots/resume_2026_10_18/cumulative_results.csv \
+  --output-dir work/window_021_remaining_recheck_NEW_DATE \
+  --read-batch-size 10 --limit 501
 ```
 
-Require json=ok and expected FactGrid site information; the probe may exit
-normally on HTML. Reconstruct the current source staging if needed, then use
-scripts/review_factgrid_resume_window.py to review the next existing-item window,
-excluding all window_001–window_019_reviewed_items.csv manifests and the cumulative
-ledger. Use a fresh dated output directory. Select only identity-verified items
-without conflicts or missing-qualifier holds. Inspect a dry run before writing.
-Do not rerun held rows or assume the source range is complete.
+Require json=ok and FactGrid site information; an HTTP success or probe exit
+code alone is insufficient. Choose a fresh output directory. The review helper
+is read-only; inspect the resulting selection and dry run before writing.
 
-The original batch_037 command now selects zero rows because all five results
-are recorded. There is no batch_038 command or approved new write selection yet.
-After each future batch, reconcile and save canonical results, then rebuild the
-ledger. Historical before-retry snapshots are excluded from canonical results.
+Batches 038–039 froze the effective reviewed statement plan. Their header-only
+batch-specific upload override CSV prevents a different machine's local upload
+table from altering it. Three unknown inventory placeholders were omitted in
+039 and two in 038. Future reviews must inspect the effective statement plan.
+The pending statements are the previously effective plan; inspect any local
+upload-table overrides applied by the review helper before preparing batch 040.
+
+After the pending 501 are resolved, reconstruct current range 185001–210000
+if needed and exclude all manifests 001–021 plus cumulative outcomes when
+selecting *new* candidates. Do not advance ranges automatically. Retain holds
+for separate review. After each write, reconcile canonical results and rebuild
+the ledger. No creates or clear-rewrites are part of this update-only workflow.
+
+## Overall workplan
+
+See [CDLI completion workplan](cdli_completion_workplan.md). Complete items and
+statements, including unmatched records and review holds, first. Prepare the
+CDLI ID → QID → ATF URL mapping without publishing P251 links to missing pages.
+Later create/verify each ATF page and then add its P251 link, recording both
+steps. The verified reference is CDLI-ATF-L-Q894483 (CDLI P020415).
 
 ## Source ranges and next selection
 
@@ -57,7 +71,7 @@ Sorted source positions identify ranges, not historical completion boundaries.
 | 110001–135000 | 001–005 | Existing candidates reviewed; historical holds unresolved |
 | 135001–160000 | 006–008 | Existing candidates reviewed; historical holds unresolved |
 | 160001–185000 | 009–016 | No unreviewed existing candidates remained after batch 033 |
-| 185001–210000 | 017–019 so far | Batch 037 complete; further unreviewed candidates may remain |
+| 185001–210000 | 017–021 so far | Batches 038–039 complete; 501 window-021 candidates pending recheck |
 
 Current staging files are in the workspace's work/ directory, outside Git:
 cdli_artifact_staging_candidate_sorted_185001_210000.csv and
@@ -77,7 +91,7 @@ aliases. The original ZIP details, hash and provenance are recorded in
 docs/factgrid_cdli_resume_2026-11-01.md. No source ZIP is included in Git.
 
 Next, review remaining existing candidates in this current range,
-excluding all window_001–window_019_reviewed_items.csv manifests plus cumulative
+excluding all window_001–window_021_reviewed_items.csv manifests plus cumulative
 results. Do not advance automatically to the next 25,000 records.
 
 ## Identity holds and safeguards
@@ -102,9 +116,8 @@ recorded successes; inspect timeout stage before retrying.
 
 ## Publication and local history
 
-The previous GitHub checkpoint was 03053727b2722beef77799c57993de840ab87c43
-(through batch 036). This handoff accompanies batch 037 completion.
-GitHub publication uses the authorized connector. The old local main contains
-the original 29 commits and its remote-tracking ref may be stale; do not
-force-push it. Fetch and merge the published main before future Terminal pushes.
-The original full-history bundle remains in workspace outputs/.
+This checkpoint extends GitHub commit 5f38c3843d907c8277854ab22a7d24f1314534fd.
+It includes canonical results through 039, review windows 020–021, the 501
+pending candidates, and updated handoff/workplan. Scratch API snapshots,
+credentials, source ZIPs and machine-specific launchers are not committed.
+Always fetch the current branch before subsequent publication; do not force-push.

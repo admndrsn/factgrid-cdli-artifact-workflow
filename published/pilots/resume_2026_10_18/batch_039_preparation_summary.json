@@ -1,0 +1,7 @@
+{
+  "items": 500,
+  "expected_main_claims": 1046,
+  "expected_qualifiers": 52,
+  "pending": 501,
+  "omitted_inventory": 3
+}

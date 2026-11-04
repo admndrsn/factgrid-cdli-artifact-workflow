@@ -1,0 +1,4 @@
+cdli_id,tw_qid,artifact_label,artifact_type,field_name,tw_pid,fg_pid,datatype,value,value_label,plan_status,source,note
+363498,NEEDS_QID,"CTN 4, 083",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+363559,NEEDS_QID,"CTN 4, 145",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+363654,NEEDS_QID,"CTN 4, 240",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
