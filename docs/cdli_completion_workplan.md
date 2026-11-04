@@ -61,12 +61,14 @@ P251 links to nonexistent pages. During the ATF phase, create or verify each
 page and its transliteration, then add the missing P251 link and record both
 steps for resumability. User accepted this sequence on November 3, 2026.
 
-## Latest completed checkpoint
+## Latest completed checkpoint and standing workflow
 
-Batch 039: 500 written updates, 1,046 claims added, zero errors, all planned
-IDs accounted for. Terminal output matches the canonical CSV. Resume dry run
-selects zero rows. Canonical new-Mac totals: 19,799 updates and 39,108 claims.
-Cumulative ledger: 39,316 written IDs plus two historical held outcomes.
-Next: freshly review the 501 saved window-021 pending candidates before batch
-040. Do not skip these by excluding the entire window-021 manifest.
-This checkpoint includes batches 038–039 and their review evidence for GitHub publication.
+Completed through 041: 22,457 updates, 44,257 claims, 41,974 cumulative written
+IDs. Batch 042 is prepared/running, not included as complete. Its preparation
+and completed 040–041 results accompany this publication. See the November 4
+resume guide for exact next steps and the P386408 language modeling follow-up.
+
+On pasted batch output, reconcile results, prepare the next freshly reviewed
+batch, give the tested launcher immediately, and publish a stable checkpoint
+while the user runs the next batch. Aim for 1,500 verified items, with smaller
+batches appropriate for finishing a range. Do not publish running result files.

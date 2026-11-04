@@ -3,22 +3,20 @@
 Scripts, lookup tables, reviewed staging data, and resumable checkpoints for
 enriching CDLI cuneiform artifact records in FactGrid.
 
-## Current handoff — 2026-11-03
+## Current handoff — 2026-11-04
 
-Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-03.md).
+Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-04.md).
 
-- Batches through **039** are reconciled: **19,799 successful updates** and
-  **39,108 claims added**, excluding older runs.
-- The cumulative ledger contains **39,316 written CDLI IDs**, plus two historical
-  held outcomes. All 39 canonical new-Mac result files have no remaining errors.
-- **501 window-021 candidates** await fresh review before batch 040. These pending
-  inputs are tracked; no new write batch is approved or prepared yet.
-- Current sorted source range: **185001–210000**. After the pending selection,
-  exclude manifests 001–021 and cumulative outcomes to find new candidates.
-- Verify API JSON access on every resume. Reviewed holds and unmatched source
-  records remain separate unfinished work.
-- [Completion workplan](docs/cdli_completion_workplan.md): items and statements
-  first, then ATF pages and P251 links together. Prepare URL mappings beforehand.
+- Completed through **041**: **22,457 updates**, **44,257 claims added**.
+- Cumulative ledger: **41,974 written CDLI IDs** and two historical held outcomes.
+- **Batch 042 prepared:** 1,012 items, 1,798 expected main claims and 8 qualifiers.
+  Its write results are deliberately excluded from this checkpoint while the user
+  runs it. Synchronize/reconcile those results before any resume.
+- Window 024 finishes candidate review for 210001–235000. After batch 042,
+  proceed to 235001–260000, excluding manifests 001–024 and cumulative outcomes.
+- Earlier pending files from windows 021 and 023 are historical/completed.
+- [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
+  then ATF pages and P251 links together. Historical holds remain unfinished.
 
 ## Setup
 
@@ -48,14 +46,14 @@ warning is documented in the resume guide.
 5. Reconcile the batch results, save the canonical CSV in this repository,
    rebuild the ledger, and checkpoint progress.
 
-This example checks the completed last batch and should select zero rows:
+This example checks completed batch 041 and should select zero rows:
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_039_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_039_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_039_write_results.csv \
-  --plan work/completed_batch_039_plan.csv \
+  --artifacts published/pilots/resume_2026_10_18/batch_041_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/batch_041_statements.csv \
+  --results published/pilots/resume_2026_10_18/batch_041_write_results.csv \
+  --plan work/completed_batch_041_plan.csv \
   --only-existing-factgrid --preserve-update-labels --limit 10
 ```
 

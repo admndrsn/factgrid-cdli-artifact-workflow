@@ -1,0 +1,3 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values,followup_status,live_verified_2026_11_04
+386408,Q2036070,language,P18,Q471146,,,missing,,multiple_planned_values_for_writer_single_value_property,P18 Q471146 exists; Q471149 absent
+386408,Q2036070,language,P18,Q471149,,,missing,,multiple_planned_values_for_writer_single_value_property,P18 Q471146 exists; Q471149 absent

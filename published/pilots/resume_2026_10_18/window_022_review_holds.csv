@@ -1,0 +1,5 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values
+373420,Q1372105,cdli_id,P692,P373420,,,conflict_same_property,P465631
+373420,Q1372105,instance_of,P2,Q512056,,,conflict_same_property,Q512006 | Q512056
+373421,Q1372105,cdli_id,P692,P373421,,,conflict_same_property,P465631
+373421,Q1372105,instance_of,P2,Q512056,,,conflict_same_property,Q512006 | Q512056
