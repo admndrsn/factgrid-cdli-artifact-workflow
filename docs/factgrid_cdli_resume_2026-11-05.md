@@ -1,10 +1,10 @@
-# Current FactGrid CDLI handoff — 2026-11-05 (through batch 046)
+# Current FactGrid CDLI handoff — 2026-11-05 (through batch 047)
 
 ## Reconciled checkpoint
 
-The pilot and batches 002–046 record **28,360 successful updates** and
-**54,816 added claims**. All 46 canonical new-Mac result files are written with
-no errors. The cumulative ledger has **47,877 written CDLI IDs**, plus one
+The pilot and batches 002–047 record **28,796 successful updates** and
+**55,579 added claims**. All 47 canonical new-Mac result files are written with
+no errors. The cumulative ledger has **48,313 written CDLI IDs**, plus one
 blocked_bad_sitelink and one rewrite_ambiguous; held outcomes remain excluded.
 
 - Batch 040: 1,500 updates, 2,950 claims; zero rows on resume dry run.
@@ -24,24 +24,16 @@ blocked_bad_sitelink and one rewrite_ambiguous; held outcomes remain excluded.
   under its single-value rule. See batch_041_language_followup_Q2036070.csv;
   the second language needs a modeling review, not an automatic retry.
 
-## Prepared/running batch 047
+## Prepared/running batch 048
 
-**436 items**, **763 expected main claims**, **no inventory qualifiers**.
-All window-027 pending candidates passed fresh review and dry run. Two unknown
-inventory placeholders were omitted. User runs writes; active results are
-excluded. Reconcile/synchronize actual results before resuming on another machine.
+Batch 047 completed: 436 updates and 763 claims, no errors; resume dry run selects zero.
+Totals through 047: 28,796 updates and 55,579 claims. Cumulative ledger: 48,313 written IDs plus two historical held outcomes.
 
-```bash
-python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_047_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_047_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_047_write_results.csv \
-  --plan work/batch_047_resume_plan.csv \
-  --factgrid-upload-table published/pilots/resume_2026_10_18/batch_047_upload_overrides.csv \
-  --only-existing-factgrid --preserve-update-labels --limit 436 --sleep 5
-```
+Batch 048 contains 1,500 freshly reviewed existing items from source positions 310001–335000, with 2,670 expected main claims and seven inventory qualifiers. Four unknown inventory placeholders were omitted. No internal single-value plan conflicts were found. The launcher dry run selects 1,500 updates and reproduces the frozen statement plan exactly. Labels/descriptions are preserved; five-second pauses and stop-on-error remain enabled.
 
-Only the user's write command adds --write. Omit --continue-on-row-error.
+Window 028 reviewed 3,000 candidates: 283 blocked, 790 already complete, 1,756 eligible for additions. These categories can overlap for already-complete/conflicted items. The first 1,500 eligible items form batch 048; 256 remain in pending-recheck files. Freshly review that remainder after reconciling 048, then continue within 310001–335000 excluding manifests 001–028 and cumulative outcomes. The 3,000-candidate limit means this range is not exhausted. Historical holds and unmatched records remain unfinished work.
+
+User runs writes; batch_048_write_results.csv is excluded from this preparation checkpoint. Reconcile actual results before resuming on another machine. Never replay pending files independently of completed batches.
 
 ## Standing workflow
 
@@ -60,12 +52,11 @@ inventory placeholders. P10 is a qualifier on P329, not a main statement.
 
 ## Next selection
 
-Window-027 pending files now belong to batch 047; do not replay independently.
-Earlier pending files from windows 021, 023 and 025 are historical/completed.
-After reconciling 047, advance to **310001–335000** (offset 310000, limit 25000),
-excluding manifests **001–027** and cumulative outcomes, with fresh live review.
-All mapped candidates in 285001–310000 were reviewed; historical holds and
-unmatched source records remain unfinished work. No batch 048 is prepared.
+After reconciling 048, freshly review window-028's 256 pending items first.
+Then continue within **310001–335000**, excluding manifests **001–028** and
+cumulative outcomes. The 3,000-candidate review limit did not exhaust this range.
+Window-027 and earlier pending files are historical/completed. Holds and
+unmatched records remain unfinished work.
 
 ```bash
 python scripts/check_factgrid_api.py --timeout 15

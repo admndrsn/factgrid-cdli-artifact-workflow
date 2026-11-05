@@ -1,0 +1,5 @@
+cdli_id,tw_qid,artifact_label,artifact_type,field_name,tw_pid,fg_pid,datatype,value,value_label,plan_status,source,note
+480196,NEEDS_QID,"SANER 3, 2.02.02 (C12), ex. 05",cylinder,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+498476,NEEDS_QID,"RINBE 2, Nabonidus 46, ex. 01",brick,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+500112,NEEDS_QID,"OIP 78, pl. 118, no. 19",sealing,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+500314,NEEDS_QID,"RIME 4.02.14.03, ex. add05",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,

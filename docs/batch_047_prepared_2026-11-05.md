@@ -1,3 +1,5 @@
+> Historical preparation record. Batch 047 is complete.
+
 # Batch 047 prepared — November 5, 2026
 
 All 436 window-027 pending candidates passed fresh live identity and claim review,
