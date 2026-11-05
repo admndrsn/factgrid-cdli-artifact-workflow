@@ -1,3 +1,5 @@
+> Historical preparation record: batch 044 is complete.
+
 # Batch 044 prepared — November 4, 2026
 
 All 380 window-025 pending candidates passed fresh live identity and claim review,

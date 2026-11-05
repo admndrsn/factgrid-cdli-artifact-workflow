@@ -63,12 +63,11 @@ steps for resumability. User accepted this sequence on November 3, 2026.
 
 ## Latest completed checkpoint and standing workflow
 
-Completed through 043: 24,969 updates, 48,907 claims, 44,486 cumulative written
-IDs. Batch 043's read timeout was reconciled and retried. Batch 044 is prepared/
-running with the final 380 pending candidates; exclude its active results from
-completed totals. After reconciling it, next range is 260001–285000.
+Completed through 044: 25,349 updates, 49,570 claims, 44,866 cumulative written
+IDs. Batch 045 is prepared/running: 1,511 items from 260001–285000. After its
+reconciliation, next new range is 285001–310000. Held/unmatched items remain work.
 
 On pasted terminal output, reconcile results, prepare the next freshly reviewed
 batch, provide the tested launcher immediately, then publish an immutable
-checkpoint while the user writes. Aim for 1,500 items, with smaller batches to
-finish pending groups or ranges. Never publish active results as completed.
+checkpoint while the user writes. Aim for 1,500 items, adjusting to finish small
+remainders/ranges. Never publish active results as completed.
