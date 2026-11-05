@@ -3,19 +3,21 @@
 Scripts, lookup tables, reviewed staging data, and resumable checkpoints for
 enriching CDLI cuneiform artifact records in FactGrid.
 
-## Current handoff — 2026-11-04
+## Current handoff — 2026-11-05
 
-Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-04.md).
+Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-05.md).
 
-- Completed through **044**: **25,349 updates**, **49,570 claims added**.
-- Cumulative ledger: **44,866 written CDLI IDs** and two historical held outcomes.
-- **Batch 045 prepared/running:** 1,511 items, 2,477 expected main claims and
-  25 qualifiers. Active results are excluded from this checkpoint.
-- Window 026 exhausts candidate review for 260001–285000. After 045 reconciliation,
-  next range is 285001–310000, excluding manifests 001–026 and cumulative outcomes.
-- Earlier pending files from windows 021, 023 and 025 are historical/completed.
+- Completed through **045**: **26,860 updates**, **52,047 claims added**.
+- Cumulative ledger: **46,377 written CDLI IDs** and two historical held outcomes.
+- Batch 045 includes one recovered result verified against live revision evidence.
+- **Batch 046 prepared/running:** 1,500 items, 2,769 expected main claims and
+  16 qualifiers. Active results are excluded from this checkpoint.
+- **436 window-027 candidates** await fresh review after 046. Preserve this
+  pending group before excluding manifests for new candidate selection.
+- After the pending group, next range is 310001–335000; exclude manifests
+  001–027 and cumulative outcomes. Holds and unmatched records remain unfinished.
 - [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
-  then ATF pages and P251 links together. Holds/unmatched items remain work.
+  then ATF pages and P251 links together.
 
 ## Setup
 
@@ -45,14 +47,14 @@ warning is documented in the resume guide.
 5. Reconcile the batch results, save the canonical CSV in this repository,
    rebuild the ledger, and checkpoint progress.
 
-This example checks completed batch 044 and should select zero rows:
+This example checks completed batch 045 and should select zero rows:
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_044_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_044_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_044_write_results.csv \
-  --plan work/completed_batch_044_plan.csv \
+  --artifacts published/pilots/resume_2026_10_18/batch_045_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/batch_045_statements.csv \
+  --results published/pilots/resume_2026_10_18/batch_045_write_results.csv \
+  --plan work/completed_batch_045_plan.csv \
   --only-existing-factgrid --preserve-update-labels --limit 10
 ```
 

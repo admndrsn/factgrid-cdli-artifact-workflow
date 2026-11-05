@@ -1,3 +1,5 @@
+> Historical preparation record. Batch 045 is complete; see its recovery and completion notes.
+
 # Batch 045 prepared — November 4, 2026
 
 1,511 unique identity-verified existing items, with 2,477 expected main claims

@@ -63,9 +63,10 @@ steps for resumability. User accepted this sequence on November 3, 2026.
 
 ## Latest completed checkpoint and standing workflow
 
-Completed through 044: 25,349 updates, 49,570 claims, 44,866 cumulative written
-IDs. Batch 045 is prepared/running: 1,511 items from 260001–285000. After its
-reconciliation, next new range is 285001–310000. Held/unmatched items remain work.
+Completed through 045: 26,860 updates, 52,047 claims, 46,377 cumulative written
+IDs. Batch 045 includes one verified recovered success. Batch 046 is prepared/
+running with 1,500 items; 436 window-027 candidates remain for fresh review.
+Then advance new selection to 310001–335000. See the November 5 resume guide.
 
 On pasted terminal output, reconcile results, prepare the next freshly reviewed
 batch, provide the tested launcher immediately, then publish an immutable
