@@ -7,10 +7,10 @@ enriching CDLI cuneiform artifact records in FactGrid.
 
 Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-05.md).
 
-- Completed through **047**: **28,796 updates**, **55,579 claims added**.
-- Cumulative ledger: **48,313 written CDLI IDs** and two historical held outcomes.
-- **Batch 048 prepared/running:** 1,500 items, 2,670 expected main claims and seven qualifiers. Active results are excluded.
-- Next: freshly recheck 256 window-028 pending items, then continue within 310001–335000 excluding manifests 001–028 and cumulative outcomes. This range is not exhausted.
+- Completed through **048**: **30,296 updates**, **58,248 claims added**.
+- Cumulative ledger: **49,813 written CDLI IDs** and two historical held outcomes.
+- **Batch 049 prepared/running:** 256 items, 533 expected main claims and 13 qualifiers. Active results are excluded.
+- After 049, continue within 310001–335000 excluding manifests 001–028 and cumulative outcomes. This range is not exhausted.
 - [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
   then ATF pages and P251 links together.
 
@@ -42,14 +42,14 @@ warning is documented in the resume guide.
 5. Reconcile the batch results, save the canonical CSV in this repository,
    rebuild the ledger, and checkpoint progress.
 
-This example checks completed batch 047 and should select zero rows:
+This example checks completed batch 048 and should select zero rows:
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_047_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_047_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_047_write_results.csv \
-  --plan work/completed_batch_047_plan.csv \
+  --artifacts published/pilots/resume_2026_10_18/batch_048_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/batch_048_statements.csv \
+  --results published/pilots/resume_2026_10_18/batch_048_write_results.csv \
+  --plan work/completed_batch_048_plan.csv \
   --only-existing-factgrid --preserve-update-labels --limit 10
 ```
 

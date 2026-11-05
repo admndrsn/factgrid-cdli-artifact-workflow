@@ -1,3 +1,5 @@
+Historical preparation: batch 048 completed; see batch_048_completed_2026-11-05.md.
+
 # Batch 048 prepared — 2026-11-05
 
 Batch 047 completed: 436 updates and 763 claims, no errors; resume dry run selects zero.

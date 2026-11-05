@@ -1,14 +1,23 @@
 cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values
 480090,Q1371854,cdli_id,P692,P480090,,,missing,
 480091,Q1371855,cdli_id,P692,P480091,,,missing,
+480240,Q2147687,period,P853,Q512154,,,conflict_same_property,Q512155
+480256,Q2154849,period,P853,Q512154,,,conflict_same_property,Q512155
+480256,Q2154849,finding_spot,P695,Q2100040,,,conflict_same_property,Q89588
 482073,Q1359764,cdli_id,P692,P482073,,,missing,
+482073,Q1359764,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
 482074,Q1359765,cdli_id,P692,P482074,,,missing,
 482075,Q1359766,cdli_id,P692,P482075,,,missing,
+482075,Q1359766,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+486286,Q2149654,period,P853,Q512161,,,conflict_same_property,Q512162
+489827,Q2147284,period,P853,Q512161,,,conflict_same_property,Q512162
+489831,Q2154065,period,P853,Q512161,,,conflict_same_property,Q512162
 492513,Q1371397,cdli_id,P692,P492513,,,missing,
 492514,Q1371398,cdli_id,P692,P492514,,,missing,
 492515,Q1371399,cdli_id,P692,P492515,,,missing,
 492516,Q1371400,cdli_id,P692,P492516,,,missing,
 493326,Q1371401,cdli_id,P692,P493326,,,missing,
+493616,Q1987037,period,P853,Q512155,,,conflict_same_property,Q512156
 494209,Q1371402,cdli_id,P692,P494209,,,missing,
 494210,Q1371403,cdli_id,P692,P494210,,,missing,
 494211,Q1371404,cdli_id,P692,P494211,,,missing,
@@ -16,7 +25,10 @@ cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_valu
 494213,Q1371406,cdli_id,P692,P494213,,,missing,
 496843,Q2148049,cdli_id,P692,P496843,,,conflict_same_property,P496843 | P352912
 497858,Q2142341,cdli_id,P692,P497858,,,conflict_same_property,P353708 | P497858
+497858,Q2142341,type_of_work,P121,Q10510,,,conflict_same_property,Q394396 | Q10510
 498317,Q1361443,cdli_id,P692,P498317,,,missing,
+498318,Q1361444,type_of_work,P121,Q10510,,,conflict_same_property,Q516473
+498329,Q1361446,type_of_work,P121,Q394396,,,conflict_same_property,Q400468 | Q394396
 498501,Q1359767,cdli_id,P692,P498501,,,missing,
 498528,Q1369976,cdli_id,P692,P498528,,,missing,
 498529,Q1369977,cdli_id,P692,P498529,,,missing,
@@ -24,6 +36,7 @@ cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_valu
 498534,Q1371645,cdli_id,P692,P498534,,,missing,
 498536,Q1372579,cdli_id,P692,P498536,,,missing,
 498537,Q1359769,cdli_id,P692,P498537,,,missing,
+498537,Q1359769,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 498540,Q1371452,cdli_id,P692,P498540,,,missing,
 498541,Q1371453,cdli_id,P692,P498541,,,missing,
 498560,Q1371888,cdli_id,P692,P498560,,,missing,
@@ -47,8 +60,10 @@ cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_valu
 498591,Q1361459,cdli_id,P692,P498591,,,missing,
 498592,Q1361460,cdli_id,P692,P498592,,,missing,
 498593,Q1361461,cdli_id,P692,P498593,,,missing,
+498593,Q1361461,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
 498594,Q1361462,cdli_id,P692,P498594,,,missing,
 498595,Q1361463,cdli_id,P692,P498595,,,missing,
+498595,Q1361463,instance_of,P2,Q512061,,,conflict_same_property,Q512006
 498597,Q1361465,cdli_id,P692,P498597,,,missing,
 498598,Q1361466,cdli_id,P692,P498598,,,missing,
 498599,Q1361467,cdli_id,P692,P498599,,,missing,
@@ -59,9 +74,11 @@ cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_valu
 498604,Q1361468,cdli_id,P692,P498604,,,missing,
 498608,Q1361470,cdli_id,P692,P498608,,,missing,
 498609,Q1361471,cdli_id,P692,P498609,,,missing,
+498609,Q1361471,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
 498610,Q1361472,cdli_id,P692,P498610,,,missing,
 498612,Q1361474,cdli_id,P692,P498612,,,missing,
 498613,Q1361475,cdli_id,P692,P498613,,,missing,
+498613,Q1361475,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
 498614,Q1361476,cdli_id,P692,P498614,,,missing,
 498615,Q1361480,cdli_id,P692,P498615,,,missing,
 498616,Q1361481,cdli_id,P692,P498616,,,missing,
@@ -108,20 +125,36 @@ cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_valu
 498664,Q1361529,cdli_id,P692,P498664,,,missing,
 498665,Q1361530,cdli_id,P692,P498665,,,missing,
 498667,Q1361532,cdli_id,P692,P498667,,,missing,
+498667,Q1361532,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
 498668,Q1362218,cdli_id,P692,P498668,,,missing,
+498668,Q1362218,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
 498669,Q1362219,cdli_id,P692,P498669,,,missing,
+498669,Q1362219,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498670,Q1362220,type_of_work,P121,Q388465,,,conflict_same_property,Q893638 | Q388465
 498672,Q1362222,cdli_id,P692,P498672,,,missing,
+498672,Q1362222,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
 498673,Q1362223,cdli_id,P692,P498673,,,missing,
+498673,Q1362223,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
 498674,Q1362224,cdli_id,P692,P498674,,,missing,
+498674,Q1362224,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
 498675,Q1362225,cdli_id,P692,P498675,,,missing,
+498675,Q1362225,instance_of,P2,Q512006,,,conflict_same_property,Q512061
+498675,Q1362225,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
 498676,Q1362226,cdli_id,P692,P498676,,,missing,
+498676,Q1362226,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
 498677,Q1362227,cdli_id,P692,P498677,,,missing,
 498678,Q1362228,cdli_id,P692,P498678,,,missing,
+498678,Q1362228,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
 498679,Q1362229,cdli_id,P692,P498679,,,missing,
+498679,Q1362229,type_of_work,P121,Q388465,,,conflict_same_property,Q515470
 498680,Q1362230,cdli_id,P692,P498680,,,missing,
+498680,Q1362230,type_of_work,P121,Q388465,,,conflict_same_property,Q517280
 498681,Q1362231,cdli_id,P692,P498681,,,missing,
+498681,Q1362231,type_of_work,P121,Q388465,,,conflict_same_property,Q517280
 498682,Q1362232,cdli_id,P692,P498682,,,missing,
+498682,Q1362232,type_of_work,P121,Q388465,,,conflict_same_property,Q516874
 498683,Q1362233,cdli_id,P692,P498683,,,missing,
+498683,Q1362233,type_of_work,P121,Q388465,,,conflict_same_property,Q516874
 498686,Q1362236,cdli_id,P692,P498686,,,missing,
 498687,Q1362237,cdli_id,P692,P498687,,,missing,
 498690,Q1362239,cdli_id,P692,P498690,,,missing,
@@ -135,6 +168,7 @@ cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_valu
 498699,Q1362249,cdli_id,P692,P498699,,,missing,
 498700,Q1362250,cdli_id,P692,P498700,,,missing,
 498701,Q1362251,cdli_id,P692,P498701,,,missing,
+498701,Q1362251,type_of_work,P121,Q10510,,,conflict_same_property,Q893638
 498702,Q1362252,cdli_id,P692,P498702,,,missing,
 498704,Q1362254,cdli_id,P692,P498704,,,missing,
 498706,Q1362256,cdli_id,P692,P498706,,,missing,
@@ -149,6 +183,7 @@ cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_valu
 498716,Q1362266,cdli_id,P692,P498716,,,missing,
 498717,Q1362267,cdli_id,P692,P498717,,,missing,
 498719,Q1362269,cdli_id,P692,P498719,,,missing,
+498719,Q1362269,type_of_work,P121,Q10510,,,conflict_same_property,Q893638
 498720,Q1362270,cdli_id,P692,P498720,,,missing,
 498721,Q1362271,cdli_id,P692,P498721,,,missing,
 498722,Q1362272,cdli_id,P692,P498722,,,missing,
@@ -159,76 +194,319 @@ cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_valu
 498728,Q1362278,cdli_id,P692,P498728,,,missing,
 498729,Q1362279,cdli_id,P692,P498729,,,missing,
 498730,Q1362280,cdli_id,P692,P498730,,,missing,
+498730,Q1362280,type_of_work,P121,Q10510,,,conflict_same_property,Q893638
 498731,Q1362281,cdli_id,P692,P498731,,,missing,
 498732,Q1362282,cdli_id,P692,P498732,,,missing,
 498733,Q1362283,cdli_id,P692,P498733,,,missing,
+498733,Q1362283,type_of_work,P121,Q10510,,,conflict_same_property,Q893638
+498741,Q1362291,type_of_work,P121,Q10510,,,conflict_same_property,Q516473
+498764,Q1362315,type_of_work,P121,Q388465,,,conflict_same_property,Q515470
+498765,Q1362316,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
+498766,Q1362317,type_of_work,P121,Q388465,,,conflict_same_property,Q516874
+498767,Q1362318,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
+498768,Q1362319,type_of_work,P121,Q388465,,,conflict_same_property,Q516874
+498769,Q1362320,type_of_work,P121,Q388465,,,conflict_same_property,Q893638
+498770,Q1362321,type_of_work,P121,Q388465,,,conflict_same_property,Q11221
+498771,Q1362322,type_of_work,P121,Q388465,,,conflict_same_property,Q516473
+498772,Q1362323,type_of_work,P121,Q388465,,,conflict_same_property,Q516148
+498773,Q1362324,type_of_work,P121,Q388465,,,conflict_same_property,Q516148
+498774,Q1362325,type_of_work,P121,Q388465,,,conflict_same_property,Q516148 | Q388465
+498775,Q1362326,type_of_work,P121,Q388465,,,conflict_same_property,Q516148
+498776,Q1362327,type_of_work,P121,Q388465,,,conflict_same_property,Q516148
+498791,Q1362342,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 498792,Q1362343,cdli_id,P692,P498792,,,missing,
+498792,Q1362343,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+498793,Q1362344,type_of_work,P121,Q394396,,,conflict_same_property,Q172192
+498794,Q1362345,type_of_work,P121,Q394396,,,conflict_same_property,Q172192
+498795,Q1362346,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+498796,Q1362347,type_of_work,P121,Q394396,,,conflict_same_property,Q400468 | Q394396
+498797,Q1362348,type_of_work,P121,Q394396,,,conflict_same_property,Q172192 | Q394396
+498798,Q1362349,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+498799,Q1362350,type_of_work,P121,Q388465,,,conflict_same_property,Q517089
 498801,Q1362352,cdli_id,P692,P498801,,,missing,
 498802,Q1362353,cdli_id,P692,P498802,,,missing,
 498803,Q1362354,cdli_id,P692,P498803,,,missing,
+498805,Q1362356,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+498808,Q1362359,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+498809,Q1362360,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498810,Q1362361,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+498811,Q1362362,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+498812,Q1362363,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498813,Q1362364,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498814,Q1362367,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498815,Q1362370,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+498819,Q1362374,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498820,Q1362375,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498821,Q1362376,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498822,Q1362377,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498823,Q1362378,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498824,Q1362379,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498825,Q1362380,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498826,Q1362381,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498828,Q1362383,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498829,Q1362384,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498830,Q1362385,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498832,Q1362387,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498833,Q1362388,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498834,Q1362389,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498835,Q1362390,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498836,Q1362391,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498837,Q1362392,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498838,Q1362393,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498839,Q1362394,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498841,Q1362396,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+498842,Q1362397,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498843,Q1362398,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498844,Q1362399,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498846,Q1362401,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+498847,Q1362402,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+498848,Q1362403,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498849,Q1362404,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498850,Q1362405,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+498851,Q1362406,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+498852,Q1362407,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498853,Q1362408,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498854,Q1362409,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498855,Q1362410,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498856,Q1362411,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498860,Q1362412,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498861,Q1362413,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498862,Q1362414,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498863,Q1362415,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498864,Q1362416,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498865,Q1362417,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498867,Q1362419,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498868,Q1362420,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498869,Q1362421,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498871,Q1362423,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+498872,Q1362424,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498873,Q1362425,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498874,Q1362426,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498875,Q1362427,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498876,Q1362428,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498877,Q1362429,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498881,Q1362433,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498883,Q1362435,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498884,Q1362436,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+498885,Q1362437,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498886,Q1362438,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498887,Q1362439,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498888,Q1362440,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498890,Q1362442,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498891,Q1362443,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
 498893,Q1362445,cdli_id,P692,P498893,,,missing,
+498894,Q1362446,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498895,Q1362447,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498896,Q1362448,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498897,Q1362449,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498898,Q1362450,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498899,Q1362451,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498900,Q1362452,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498901,Q1362453,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498902,Q1362454,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+498903,Q1362455,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+498904,Q1362456,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498905,Q1362457,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498906,Q1362458,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498907,Q1362459,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498908,Q1362460,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498909,Q1362461,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498910,Q1362462,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498911,Q1362463,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498912,Q1362464,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498915,Q1362467,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498920,Q1362472,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498921,Q1362473,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498922,Q1362474,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498924,Q1362476,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498925,Q1362477,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498926,Q1362478,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498948,Q1362501,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+498987,Q1362539,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+498988,Q1362540,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498989,Q1362541,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498990,Q1362542,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+498991,Q1362543,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498992,Q1362544,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498993,Q1362545,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498994,Q1362546,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498995,Q1362547,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498996,Q1362548,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+498997,Q1362550,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498998,Q1362551,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+498999,Q1362552,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499000,Q1362553,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+499001,Q1362554,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499002,Q1362556,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499003,Q1362557,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499005,Q1362560,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499007,Q1362562,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499008,Q1362563,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499009,Q1362564,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499010,Q1362565,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+499011,Q1362566,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+499012,Q1362567,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+499013,Q1362568,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+499014,Q1362569,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+499017,Q1362576,instance_of,P2,Q512006,,,conflict_same_property,Q512061
+499020,Q1362580,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+499023,Q1362583,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499024,Q1362584,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499025,Q1362585,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+499028,Q1362588,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499029,Q1362589,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499033,Q1362593,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499034,Q1362594,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499035,Q1362595,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499036,Q1362596,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
 499055,Q1362618,cdli_id,P692,P499055,,,missing,
+499057,Q1362620,type_of_work,P121,Q394396,,,conflict_same_property,Q400468 | Q394396
+499059,Q1362621,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+499062,Q1362624,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
 499063,Q1362625,cdli_id,P692,P499063,,,missing,
+499065,Q1362627,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499066,Q1362628,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499067,Q1362629,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499068,Q1362630,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499069,Q1362631,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499070,Q1362632,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499071,Q1362633,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499072,Q1362634,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
 499073,Q1362635,cdli_id,P692,P499073,,,missing,
+499073,Q1362635,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499074,Q1362636,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499087,Q894875,instance_of,P2,Q512062,,,conflict_same_property,Q512006
+499119,Q1362637,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499120,Q1362638,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499121,Q1362639,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499122,Q1362640,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499123,Q1362641,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499124,Q1362642,type_of_work,P121,Q394396,,,conflict_same_property,Q400468 | Q394396
+499126,Q1362644,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+499127,Q1362645,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499129,Q1362647,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499130,Q1362649,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
 499131,Q1362650,cdli_id,P692,P499131,,,missing,
+499131,Q1362650,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499132,Q1362651,type_of_work,P121,Q388465,,,conflict_same_property,Q400468 | Q388465
+499133,Q1362652,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+499134,Q1362653,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499135,Q1362654,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+499140,Q1362659,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
+499141,Q1362660,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+499146,Q1362665,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+500424,Q2147724,type_of_work,P121,Q146582,,,conflict_same_property,Q2170010
+500432,Q2154792,type_of_work,P121,Q146582,,,conflict_same_property,Q2170010
 500553,Q1362666,cdli_id,P692,P500553,,,missing,
 500554,Q1362667,cdli_id,P692,P500554,,,missing,
 500558,Q1362670,cdli_id,P692,P500558,,,missing,
 500559,Q1362671,cdli_id,P692,P500559,,,missing,
+500559,Q1362671,type_of_work,P121,Q388465,,,conflict_same_property,Q400468
 500643,Q1362672,cdli_id,P692,P500643,,,missing,
 500645,Q1362674,cdli_id,P692,P500645,,,missing,
+500865,Q2149238,period,P853,Q512161,,,conflict_same_property,Q512162
 502502,Q1362675,cdli_id,P692,P502502,,,missing,
+502502,Q1362675,type_of_work,P121,Q394396,,,conflict_same_property,Q516138
 502503,Q1362676,cdli_id,P692,P502503,,,missing,
+502503,Q1362676,type_of_work,P121,Q394396,,,conflict_same_property,Q516138
 502504,Q1362677,cdli_id,P692,P502504,,,missing,
+502504,Q1362677,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502505,Q1362678,cdli_id,P692,P502505,,,missing,
+502505,Q1362678,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502506,Q1362679,cdli_id,P692,P502506,,,missing,
+502506,Q1362679,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502508,Q1362681,cdli_id,P692,P502508,,,missing,
+502508,Q1362681,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502509,Q1362682,cdli_id,P692,P502509,,,missing,
+502509,Q1362682,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+502510,Q1362683,type_of_work,P121,Q394396,,,conflict_same_property,Q400468 | Q394396
+502511,Q1362684,type_of_work,P121,Q394396,,,conflict_same_property,Q400468 | Q394396
 502512,Q1362685,cdli_id,P692,P502512,,,missing,
+502512,Q1362685,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502678,Q1362686,cdli_id,P692,P502678,,,missing,
 502685,Q1362688,cdli_id,P692,P502685,,,missing,
+502685,Q1362688,instance_of,P2,Q512006,,,conflict_same_property,Q512057
 502686,Q1362689,cdli_id,P692,P502686,,,missing,
 502687,Q1362690,cdli_id,P692,P502687,,,missing,
+502687,Q1362690,type_of_work,P121,Q394396,,,conflict_same_property,Q516138
 502688,Q1362691,cdli_id,P692,P502688,,,missing,
+502688,Q1362691,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502879,Q1362692,cdli_id,P692,P502879,,,missing,
+502879,Q1362692,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502880,Q1362693,cdli_id,P692,P502880,,,missing,
+502880,Q1362693,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+502881,Q1362694,type_of_work,P121,Q394396,,,conflict_same_property,Q400468 | Q394396
 502882,Q1362695,cdli_id,P692,P502882,,,missing,
+502882,Q1362695,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502883,Q1362696,cdli_id,P692,P502883,,,missing,
+502883,Q1362696,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502884,Q1362697,cdli_id,P692,P502884,,,missing,
+502884,Q1362697,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502885,Q1362698,cdli_id,P692,P502885,,,missing,
+502885,Q1362698,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502886,Q1362699,cdli_id,P692,P502886,,,missing,
+502886,Q1362699,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502888,Q1362701,cdli_id,P692,P502888,,,missing,
+502888,Q1362701,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502889,Q1362702,cdli_id,P692,P502889,,,missing,
+502889,Q1362702,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502890,Q1362703,cdli_id,P692,P502890,,,missing,
+502890,Q1362703,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502891,Q1362704,cdli_id,P692,P502891,,,missing,
+502891,Q1362704,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502892,Q1362705,cdli_id,P692,P502892,,,missing,
+502892,Q1362705,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502893,Q1362706,cdli_id,P692,P502893,,,missing,
+502893,Q1362706,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502894,Q1362707,cdli_id,P692,P502894,,,missing,
+502894,Q1362707,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502895,Q1362708,cdli_id,P692,P502895,,,missing,
+502895,Q1362708,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502896,Q1362709,cdli_id,P692,P502896,,,missing,
+502896,Q1362709,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502898,Q1362711,cdli_id,P692,P502898,,,missing,
+502898,Q1362711,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502899,Q1362712,cdli_id,P692,P502899,,,missing,
+502899,Q1362712,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502900,Q1362713,cdli_id,P692,P502900,,,missing,
+502900,Q1362713,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502901,Q1362714,cdli_id,P692,P502901,,,missing,
+502901,Q1362714,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502902,Q1362715,cdli_id,P692,P502902,,,missing,
+502902,Q1362715,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502903,Q1362716,cdli_id,P692,P502903,,,missing,
+502903,Q1362716,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502904,Q1362717,cdli_id,P692,P502904,,,missing,
+502904,Q1362717,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
 502905,Q1362718,cdli_id,P692,P502905,,,missing,
+502905,Q1362718,type_of_work,P121,Q394396,,,conflict_same_property,Q400468
+502906,Q1362719,instance_of,P2,Q512006,,,conflict_same_property,Q512057 | Q512006
+502907,Q1362720,instance_of,P2,Q512006,,,conflict_same_property,Q512057 | Q512006
 502908,Q1362721,cdli_id,P692,P502908,,,missing,
+502908,Q1362721,instance_of,P2,Q512006,,,conflict_same_property,Q512057
 502909,Q1362722,cdli_id,P692,P502909,,,missing,
+502909,Q1362722,instance_of,P2,Q512006,,,conflict_same_property,Q512057
 502910,Q1362723,cdli_id,P692,P502910,,,missing,
+502910,Q1362723,instance_of,P2,Q512006,,,conflict_same_property,Q512057
 502912,Q1362725,cdli_id,P692,P502912,,,missing,
 502913,Q1362726,cdli_id,P692,P502913,,,missing,
+503173,Q894005,type_of_work,P121,Q394396,,,conflict_same_property,Q516473
+504402,Q894136,instance_of,P2,Q512061,,,conflict_same_property,Q512006
+504438,Q539129,language,P18,Q471149,,,conflict_same_property,Q471146 | Q471149
 504573,Q1370619,cdli_id,P692,P504573,,,missing,
 504576,Q1370621,cdli_id,P692,P504576,,,missing,
 504577,Q1370622,cdli_id,P692,P504577,,,missing,
 504745,Q1359020,cdli_id,P692,P504745,,,missing,
 504746,Q1370334,cdli_id,P692,P504746,,,conflict_same_property,P297233
+504746,Q1370334,instance_of,P2,Q512006,,,conflict_same_property,Q512061
 504746,Q1370334,inventory_number,P329,Q511899,P10,NBC 01880,missing_qualifier,Q511899
 504748,Q1369994,cdli_id,P692,P504748,,,missing,
+504748,Q1369994,instance_of,P2,Q512006,,,conflict_same_property,Q512061
 504749,Q1370516,cdli_id,P692,P504749,,,missing,
 504750,Q1370457,cdli_id,P692,P504750,,,missing,
+504750,Q1370457,instance_of,P2,Q512006,,,conflict_same_property,Q512061
 504768,Q1370543,cdli_id,P692,P504768,,,conflict_same_property,P298445 | P504768
+504768,Q1370543,instance_of,P2,Q512006,,,conflict_same_property,Q512061
 504770,Q1370455,cdli_id,P692,P504770,,,conflict_same_property,P297404
 504770,Q1370455,inventory_number,P329,Q511899,P10,NBC 03726,missing_qualifier,Q511899
 504773,Q1370541,cdli_id,P692,P504773,,,missing,
@@ -242,6 +520,7 @@ cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_valu
 504789,Q1370428,cdli_id,P692,P504789,,,missing,
 504790,Q1370607,cdli_id,P692,P504790,,,missing,
 504791,Q1370513,cdli_id,P692,P504791,,,missing,
+504791,Q1370513,instance_of,P2,Q512006,,,conflict_same_property,Q512061
 504792,Q1370608,cdli_id,P692,P504792,,,missing,
 504794,Q1370609,cdli_id,P692,P504794,,,missing,
 504796,Q1370610,cdli_id,P692,P504796,,,missing,
@@ -251,3 +530,5 @@ cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_valu
 504803,Q1370615,cdli_id,P692,P504803,,,conflict_same_property,P297475
 504803,Q1370615,inventory_number,P329,Q511899,P10,NBC 03993,missing_qualifier,Q511899
 504805,Q1370616,cdli_id,P692,P504805,,,missing,
+505919,Q2146565,period,P853,Q512161,,,conflict_same_property,Q512162
+507436,Q2151204,period,P853,Q512163,,,conflict_same_property,Q512164

@@ -1,0 +1,9 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values,completion_check
+480121,Q894821,period,P853,Q512154,,,missing,,confirmed_live
+480121,Q894821,language,P18,Q471149,,,missing,,confirmed_live
+480121,Q894821,type_of_work,P121,Q10315,,,missing,,confirmed_live
+480121,Q894821,present_holding,P329,Q511931,,,missing,Q21880,confirmed_live
+480121,Q894821,research_project,P131,Q1894741,,,missing,Q893818,confirmed_live
+480121,Q894821,research_project,P131,Q389597,,,missing,Q893818,confirmed_live
+480121,Q894821,research_project,P131,Q393513,,,missing,Q893818,confirmed_live
+480121,Q894821,inventory_number,P329,Q511931,P10,HS 1512,missing,Q21880,confirmed_live
