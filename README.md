@@ -7,15 +7,13 @@ enriching CDLI cuneiform artifact records in FactGrid.
 
 Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-05.md).
 
-- Completed through **045**: **26,860 updates**, **52,047 claims added**.
-- Cumulative ledger: **46,377 written CDLI IDs** and two historical held outcomes.
-- Batch 045 includes one recovered result verified against live revision evidence.
-- **Batch 046 prepared/running:** 1,500 items, 2,769 expected main claims and
-  16 qualifiers. Active results are excluded from this checkpoint.
-- **436 window-027 candidates** await fresh review after 046. Preserve this
-  pending group before excluding manifests for new candidate selection.
-- After the pending group, next range is 310001–335000; exclude manifests
-  001–027 and cumulative outcomes. Holds and unmatched records remain unfinished.
+- Completed through **046**: **28,360 updates**, **54,816 claims added**.
+- Cumulative ledger: **47,877 written CDLI IDs** and two historical held outcomes.
+- Batch 046's CSRF rejection was retried successfully; all 1,500 rows are written.
+- **Batch 047 prepared/running:** 436 items, 763 expected main claims. Active
+  results are excluded. Window-027 pending files are represented by this batch.
+- After 047 reconciliation, next range is 310001–335000, excluding manifests
+  001–027 and cumulative outcomes. Historical holds/unmatched items remain work.
 - [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
   then ATF pages and P251 links together.
 
@@ -47,14 +45,14 @@ warning is documented in the resume guide.
 5. Reconcile the batch results, save the canonical CSV in this repository,
    rebuild the ledger, and checkpoint progress.
 
-This example checks completed batch 045 and should select zero rows:
+This example checks completed batch 046 and should select zero rows:
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_045_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_045_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_045_write_results.csv \
-  --plan work/completed_batch_045_plan.csv \
+  --artifacts published/pilots/resume_2026_10_18/batch_046_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/batch_046_statements.csv \
+  --results published/pilots/resume_2026_10_18/batch_046_write_results.csv \
+  --plan work/completed_batch_046_plan.csv \
   --only-existing-factgrid --preserve-update-labels --limit 10
 ```
 

@@ -1,0 +1,3 @@
+cdli_id,tw_qid,artifact_label,artifact_type,field_name,tw_pid,fg_pid,datatype,value,value_label,plan_status,source,note
+471603,NEEDS_QID,"RIME 4.03.09.01, ex. 02",cylinder,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+471639,NEEDS_QID,"CTN 2, 213",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,

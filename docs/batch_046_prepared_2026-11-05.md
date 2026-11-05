@@ -1,3 +1,5 @@
+> Historical preparation record. Batch 046 is complete after its CSRF retry.
+
 # Batch 046 prepared — November 5, 2026
 
 1,500 unique CDLI IDs and QIDs passed fresh identity and claim review, with
