@@ -1,5 +1,7 @@
 # Batch 049 prepared — 2026-11-05
 
+Batch 049 retry: 130 updates / 291 claims saved; 126 items remain after a CSRF rejection. See batch_049_retry_2026-11-05.md. Active results must be synchronized before another-machine resume.
+
 Fresh read-only review verified all 256 window-028 pending candidates. Batch 049
 expects 533 unique main claims and 13 inventory qualifiers. No live conflicts,
 missing-qualifier holds, internal single-value conflicts, or inventory placeholders

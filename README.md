@@ -1,5 +1,7 @@
 # FactGrid CDLI Artifact Workflow
 
+Batch 049 retry: 130 updates / 291 claims saved; 126 items remain after a CSRF rejection. See docs/batch_049_retry_2026-11-05.md. Active results must be synchronized before another-machine resume.
+
 Scripts, lookup tables, reviewed staging data, and resumable checkpoints for
 enriching CDLI cuneiform artifact records in FactGrid.
 
