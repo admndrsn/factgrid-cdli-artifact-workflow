@@ -1,3 +1,5 @@
+Historical: batch 049 is complete. See batch_049_completed_2026-11-05.md.
+
 # Batch 049 prepared — 2026-11-05
 
 Batch 049 retry: 130 updates / 291 claims saved; 126 items remain after a CSRF rejection. See batch_049_retry_2026-11-05.md. Active results must be synchronized before another-machine resume.

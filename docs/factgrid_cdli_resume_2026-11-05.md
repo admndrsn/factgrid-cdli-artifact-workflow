@@ -1,33 +1,31 @@
-# Current FactGrid CDLI handoff — 2026-11-05 (through batch 048)
-
-Batch 049 retry: 130 updates / 291 claims saved; 126 items remain after a CSRF rejection. See batch_049_retry_2026-11-05.md. Active results must be synchronized before another-machine resume.
+# Current FactGrid CDLI handoff — 2026-11-05 (through batch 049)
 
 ## Reconciled checkpoint
 
-Completed through 048: **30,296 successful updates**, **58,248 claims added**.
-Cumulative ledger: **49,813 written IDs**, one blocked_bad_sitelink and one
-rewrite_ambiguous. All 48 canonical new-Mac result files have written outcomes.
-Batch 048: 1,500 updates, 2,669 claims, zero remaining on resume dry run.
-The one-claim forecast difference was a duplicate language row, confirmed live.
-See batch_048_completed_2026-11-05.md and its completion-check evidence.
-Historical retry snapshots and revision-recovery evidence must never be counted
-as additional canonical results. The batch-041 Q2036070/P386408 language modeling
-hold remains unresolved; do not automatically retry its second language.
+Completed through 049: **30,552 successful updates**, **58,781 claims added**.
+Cumulative ledger: **50,069 written IDs**, one blocked_bad_sitelink and one
+rewrite_ambiguous. All 49 canonical new-Mac result files have written outcomes.
+Batch 049: 256 updates, 533 claims, zero remaining on resume dry run. It completed
+after CSRF/504 interruptions. Revision 21782647 confirms the recovered one-claim
+write to Q1994815; its skipped count remains unknown. See the completion note,
+recovery evidence and historical snapshots. Never count snapshots as new successes.
+Batch 048's one-claim forecast difference was a duplicate language source row.
+The batch-041 Q2036070/P386408 language modeling hold remains unresolved.
 
-## Prepared/running batch 049
+## Prepared/running batch 050
 
-256 items, 533 expected unique main claims and 13 inventory qualifiers.
-All window-028 pending candidates passed fresh review and the launcher dry run.
-Active results are excluded. Reconcile actual results before another-machine resume.
+512 items, 936 expected unique main claims and 46 inventory qualifiers.
+All selected items passed fresh review and a verified launcher dry run.
+Active results are excluded. Synchronize actual results before another-machine resume.
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_049_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_049_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_049_write_results.csv \
-  --plan work/batch_049_resume_plan.csv \
-  --factgrid-upload-table published/pilots/resume_2026_10_18/batch_049_upload_overrides.csv \
-  --only-existing-factgrid --preserve-update-labels --limit 256 --sleep 5
+  --artifacts published/pilots/resume_2026_10_18/batch_050_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/batch_050_statements.csv \
+  --results published/pilots/resume_2026_10_18/batch_050_write_results.csv \
+  --plan work/batch_050_resume_plan.csv \
+  --factgrid-upload-table published/pilots/resume_2026_10_18/batch_050_upload_overrides.csv \
+  --only-existing-factgrid --preserve-update-labels --limit 512 --sleep 5
 ```
 
 Only the user's write command adds --write. Omit --continue-on-row-error.
@@ -49,9 +47,11 @@ inventory placeholders. P10 is a qualifier on P329, not a main statement.
 
 ## Next selection
 
-After reconciling 049, continue within **310001–335000**, excluding review
-manifests **001–028** and cumulative outcomes. This range is not exhausted.
-Window-028 pending files belong to 049; earlier pending files are historical.
+After reconciling 050, advance to **335001–360000** (offset 335000, limit 25000),
+excluding review manifests **001–029** and cumulative outcomes. All mapped
+candidates in 310001–335000 have been reviewed. No eligible pending remainder;
+historical conflict holds and unmatched records remain unfinished work.
+Earlier pending files belong to completed batches; never replay independently.
 Use Python 3.12+ and requirements.txt; retain private credentials/current login.
 Source ZIP provenance remains in the November 1 handoff.
 
