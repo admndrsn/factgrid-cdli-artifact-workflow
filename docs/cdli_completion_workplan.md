@@ -63,14 +63,16 @@ steps for resumability. User accepted this sequence on November 3, 2026.
 
 ## Latest completed checkpoint and standing workflow
 
-Completed through 049: 30,552 updates, 58,781 claims, 50,069 cumulative written IDs.
-Batch 050 is prepared/running: 512 items, 936 expected claims, 46 qualifiers.
-After reconciliation, advance to 335001–360000 excluding manifests 001–029 and
-cumulative outcomes. Mapped candidates in 310001–335000 have all been reviewed;
-there is no eligible pending remainder. Holds and unmatched records remain work.
+Completed through 050: 31,064 updates, 59,717 claims, 50,581 cumulative written IDs.
+Batch 051 is prepared/running: 3,600 items, 7,204 expected claims, 160 qualifiers.
+User requested at least five hours; full completion is estimated at about 6¼ hours.
+After reconciliation, freshly review 732 window-030 pending candidates, then
+advance to 385001–410000 excluding manifests 001–030 and cumulative outcomes.
+Mapped candidates in 335001–385000 have all been reviewed. Holds/unmatched records
+remain unfinished work.
 
 On pasted terminal output, reconcile results, prepare the next freshly reviewed
 batch, provide the tested launcher immediately, then publish an immutable
-checkpoint while the user writes. Aim for 1,500 items, adjusting to finish small
-remainders/ranges. Never publish active results as completed. Count distinct
-property/value additions when forecasting, so duplicate source rows count once.
+checkpoint while the user writes. Default 1,500 items unless requested otherwise.
+Never publish active results as completed. Count distinct property/value additions
+when forecasting. Retain five-second pauses and stop-on-error behavior.

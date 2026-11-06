@@ -1,3 +1,5 @@
+Historical: batch 050 completed. See batch_050_completed_2026-11-05.md.
+
 # Batch 050 prepared — 2026-11-05
 
 512 existing items passed fresh live review, with 936 expected unique main claims
