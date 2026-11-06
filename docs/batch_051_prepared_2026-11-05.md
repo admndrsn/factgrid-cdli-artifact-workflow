@@ -1,3 +1,5 @@
+Historical: batch 051 completed. See batch_051_completed_2026-11-06.md.
+
 # Batch 051 overnight preparation — 2026-11-05
 
 User requested a batch running at least five hours. Selected 3,600 freshly reviewed
