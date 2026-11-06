@@ -1,3 +1,5 @@
+Historical: batch 053 completed. See batch_053_completed_2026-11-06.md.
+
 # Batch 053 prepared — 2026-11-06
 
 User requested a large batch for four hours away. Selected 2,300 freshly reviewed
