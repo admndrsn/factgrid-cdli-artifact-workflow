@@ -10,12 +10,12 @@ Batch 049 recovery evidence confirms its delayed one-claim write; skipped count
 unknown. Historical retry/recovery snapshots must never be counted again.
 The batch-041 Q2036070/P386408 language modeling hold remains unresolved.
 
-## Prepared/running batch 056
+## Prepared/running batch 056 — expanded
 
-**728 items**, **1,434 expected unique main claims**, **0 qualifiers**.
-All window-033 pending candidates passed fresh review and a verified dry run.
-Allow about 1h19m. Active results are excluded; synchronize actual results before
-another-machine resume.
+**3,000 items**, **5,943 expected unique main claims**, **2 qualifiers**.
+Includes 728 window-033 items and 2,272 freshly reviewed window-034 items.
+Expanded before writing for the user's five-hour absence. Allow about 5¼–5½ hours.
+Dry run passed; active results excluded. Synchronize results before another-machine resume.
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
@@ -24,7 +24,7 @@ python scripts/write_factgrid_cdli_artifact_items.py \
   --results published/pilots/resume_2026_10_18/batch_056_write_results.csv \
   --plan work/batch_056_resume_plan.csv \
   --factgrid-upload-table published/pilots/resume_2026_10_18/batch_056_upload_overrides.csv \
-  --only-existing-factgrid --preserve-update-labels --limit 728 --sleep 5
+  --only-existing-factgrid --preserve-update-labels --limit 3000 --sleep 5
 ```
 
 Only the user's write command adds --write. Omit --continue-on-row-error.
@@ -46,14 +46,12 @@ inventory placeholders. P10 is a qualifier on P329, not a main statement.
 
 ## Next selection
 
-After reconciling 056, continue within **1–110000**, excluding manifests
-**001–033** and cumulative outcomes. Window 033 was capped at 2,500 candidates;
-the range is not exhausted. Its pending files belong to 056. Earlier pending
-files are historical/completed; never replay independently.
-Window 031 reviewed the final source range 385001–421387: 803 complete, 500
-conflicts, zero eligible additions. Earlier offset handoffs were inaccurate;
-continue the coverage audit by explicit CDLI identities and exclusions.
-Holds and unmatched records remain unfinished work.
+After reconciling 056, freshly review 582 window-034 pending candidates.
+Then continue within **1–110000**, excluding manifests **001–034** and cumulative
+outcomes. The 3,200-candidate review did not exhaust the range. Window-033 pending
+files are represented by 056; earlier pending files are historical/completed.
+Historical conflict holds and unmatched records remain unfinished work.
+
 Use Python 3.12+ and requirements.txt; retain private credentials/current login.
 Source ZIP provenance remains in the November 1 handoff.
 

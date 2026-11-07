@@ -1,1 +1,7 @@
 cdli_id,tw_qid,artifact_label,artifact_type,field_name,tw_pid,fg_pid,datatype,value,value_label,plan_status,source,note
+106786,NEEDS_QID,"BiOr 26, 173 Gelinas",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+109173,NEEDS_QID,"DecChaldée pl. 41, no. 2",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+109174,NEEDS_QID,"DecChaldée pl. 41, no. 3",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+109176,NEEDS_QID,"DecChaldée pl. 41, no. 5",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+109177,NEEDS_QID,"DecChaldée pl. 41, no. 6",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+109357,NEEDS_QID,Fs Rinaldi 29,tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
