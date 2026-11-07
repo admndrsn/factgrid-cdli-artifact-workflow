@@ -1,3 +1,5 @@
+Historical: batch 054 completed. See batch_054_completed_2026-11-07.md.
+
 # Batch 054 prepared — 2026-11-06
 
 All 1,754 window-032 pending candidates passed fresh live review. Expected additions:

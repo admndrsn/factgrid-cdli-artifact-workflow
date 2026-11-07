@@ -1,3 +1,5 @@
+Historical handoff. Current guide: factgrid_cdli_resume_2026-11-07.md.
+
 # Current FactGrid CDLI handoff — 2026-11-06 (through batch 053)
 
 ## Reconciled checkpoint

@@ -1,0 +1,13 @@
+cdli_id,tw_qid,artifact_label,artifact_type,field_name,tw_pid,fg_pid,datatype,value,value_label,plan_status,source,note
+104735,NEEDS_QID,"Bulletin of the Museum of Art. Rhode Island School of Design  27/1, 41 1",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+104810,NEEDS_QID,"Babyloniaca 08, pl. 03, Pupil 01",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+104812,NEEDS_QID,"Babyloniaca 08, pl. 03, Pupil 03",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+104814,NEEDS_QID,"Babyloniaca 08, pl. 03, Pupil 05",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+104816,NEEDS_QID,"Babyloniaca 08, pl. 04, Pupil 07",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+104821,NEEDS_QID,"Babyloniaca 08, pl. 04, Pupil 12",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+104826,NEEDS_QID,"Babyloniaca 08, pl. 05, Pupil 17",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+104829,NEEDS_QID,"Babyloniaca 08, pl. 06, Pupil 20",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+104836,NEEDS_QID,"Babyloniaca 08, pl. 07, Pupil 27",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+104837,NEEDS_QID,"Babyloniaca 08, pl. 07, Pupil 28",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+104840,NEEDS_QID,"Babyloniaca 08, pl. 08, Pupil 31",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+104841,NEEDS_QID,"Babyloniaca 08, pl. 08, Pupil 32",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
