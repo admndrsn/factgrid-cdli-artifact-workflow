@@ -1,3 +1,5 @@
+Historical: batch 055 completed. See batch_055_completed_2026-11-07.md.
+
 # Batch 055 prepared — 2026-11-07
 
 1,500 freshly reviewed existing items, 2,929 expected unique main claims,
