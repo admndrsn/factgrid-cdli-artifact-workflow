@@ -1,3 +1,5 @@
+Historical: batch 058 completed. See batch_058_completed_2026-11-08.md.
+
 # Batch 058 prepared — 2026-11-08
 
 1,500 freshly reviewed existing items, 2,989 expected unique main claims,
