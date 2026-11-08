@@ -1,3 +1,5 @@
+Historical: batch 059 completed. See batch_059_completed_2026-11-08.md.
+
 # Batch 059 prepared — 2026-11-08
 
 All 712 window-035 pending candidates passed fresh live review. Expected additions:
