@@ -1,5 +1,7 @@
 # FactGrid CDLI Artifact Workflow
 
+Batch 056 retry: 1,226 updates / 2,421 claims saved; 1,774 items remain after a read timeout before writing. See docs/batch_056_retry_2026-11-07.md. Synchronize active results before another-machine resume.
+
 Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-07.md).
 
 - Completed through **055**: **40,950 updates**, **78,859 claims added**.

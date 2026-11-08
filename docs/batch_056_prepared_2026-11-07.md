@@ -1,5 +1,7 @@
 # Batch 056 expanded preparation — 2026-11-07
 
+Batch 056 retry: 1,226 updates / 2,421 claims saved; 1,774 items remain after a read timeout before writing. See batch_056_retry_2026-11-07.md. Synchronize active results before another-machine resume.
+
 Expanded before writing at the user's request for roughly five hours away.
 3,000 existing items: the original 728 window-033 candidates plus 2,272 freshly
 reviewed window-034 candidates. Expected additions: 5,943 unique main claims

@@ -1,5 +1,7 @@
 # Current FactGrid CDLI handoff — 2026-11-07 (through batch 055)
 
+Batch 056 retry: 1,226 updates / 2,421 claims saved; 1,774 items remain after a read timeout before writing. See batch_056_retry_2026-11-07.md. Synchronize active results before another-machine resume.
+
 ## Reconciled checkpoint
 
 Completed through 055: **40,950 successful updates**, **78,859 claims added**.
