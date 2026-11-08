@@ -1,0 +1,4 @@
+cdli_id,tw_qid,artifact_label,artifact_type,field_name,tw_pid,fg_pid,datatype,value,value_label,plan_status,source,note
+110466,NEEDS_QID,"Iraq 22, pl. 18 5 NT 490",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+110471,NEEDS_QID,"Iraq 22, pl. 20 6 NT 850",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+112169,NEEDS_QID,"JCS 35, 207 5",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,

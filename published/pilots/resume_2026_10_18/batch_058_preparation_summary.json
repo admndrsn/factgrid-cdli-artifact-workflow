@@ -1,0 +1,8 @@
+{
+  "items": 1500,
+  "expected_main_claims": 2989,
+  "expected_qualifiers": 24,
+  "omitted_inventory": 3,
+  "planned_conflict_ids": 0,
+  "pending": 712
+}
