@@ -2,10 +2,10 @@
 
 Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-08.md).
 
-- Completed through **059**: **46,744 updates**, **90,378 claims added**.
-- Cumulative ledger: **66,261 written CDLI IDs** and two historical held outcomes.
-- **Batch 060 prepared/running:** 1,500 items, 2,964 expected claims and 3 qualifiers. Active results excluded.
-- Next: freshly recheck 740 window-036 pending candidates, then continue within 1–110000 excluding manifests 001–036 and cumulative outcomes. Holds/unmatched records remain work.
+- Completed through **060**: **48,244 updates**, **93,342 claims added**.
+- Cumulative ledger: **67,761 written CDLI IDs** and two historical held outcomes.
+- **Batch 061 prepared/running:** 740 items, 1,465 expected claims and 0 qualifiers; about 1h20m–1h40m. Active results excluded.
+- After 061, continue within 1–110000 excluding manifests 001–036 and cumulative outcomes. The range is not exhausted; holds/unmatched records remain work.
 - [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
   then ATF pages and P251 links together.
 
@@ -37,14 +37,14 @@ warning is documented in the resume guide.
 5. Reconcile the batch results, save the canonical CSV in this repository,
    rebuild the ledger, and checkpoint progress.
 
-This example checks completed batch 059 and should select zero rows:
+This example checks completed batch 060 and should select zero rows:
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_059_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_059_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_059_write_results.csv \
-  --plan work/completed_batch_059_plan.csv \
+  --artifacts published/pilots/resume_2026_10_18/batch_060_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/batch_060_statements.csv \
+  --results published/pilots/resume_2026_10_18/batch_060_write_results.csv \
+  --plan work/completed_batch_060_plan.csv \
   --only-existing-factgrid --preserve-update-labels --limit 10
 ```
 
