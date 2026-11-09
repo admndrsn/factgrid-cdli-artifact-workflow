@@ -1,13 +1,11 @@
 # FactGrid CDLI Artifact Workflow
 
-Batch 061 retry (November 9): 1,020 updates / 2,008 claims saved; 2,580 items remain after a read timeout before writing. See docs/batch_061_retry_2026-11-09.md. Synchronize active results before another-machine resume.
+Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-09.md).
 
-Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-08.md).
-
-- Completed through **060**: **48,244 updates**, **93,342 claims added**.
-- Cumulative ledger: **67,761 written CDLI IDs** and two historical held outcomes.
-- **Batch 061 expanded/prepared:** 3,600 items, 7,117 expected claims and 1 qualifiers; about 6¼–8 hours. Active results excluded.
-- Next: freshly recheck 678 window-037 pending candidates, then continue within 1–110000 excluding manifests 001–037 and cumulative outcomes. Holds/unmatched records remain work.
+- Completed through **061**: **51,844 updates**, **100,459 claims added**.
+- Cumulative ledger: **71,361 written CDLI IDs** and two historical held outcomes.
+- **Batch 062 prepared/running:** 678 items, 1,355 expected claims and 0 qualifiers. Active results excluded.
+- After 062, continue within 1–110000 excluding manifests 001–037 and cumulative outcomes. The range is not exhausted; holds/unmatched records remain work.
 - [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
   then ATF pages and P251 links together.
 

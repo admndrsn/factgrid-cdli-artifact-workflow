@@ -1,3 +1,5 @@
+Historical: batch 061 completed. See batch_061_completed_2026-11-09.md.
+
 # Batch 061 expanded preparation — 2026-11-08
 
 Batch 061 retry (November 9): 1,020 updates / 2,008 claims saved; 2,580 items remain after a read timeout before writing. See batch_061_retry_2026-11-09.md. Synchronize active results before another-machine resume.
