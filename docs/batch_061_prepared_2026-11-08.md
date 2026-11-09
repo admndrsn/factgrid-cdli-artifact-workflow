@@ -1,18 +1,23 @@
-# Batch 061 prepared — 2026-11-08
+# Batch 061 expanded preparation — 2026-11-08
 
-All 740 window-036 pending candidates passed fresh live review. Expected additions:
-1,465 unique main claims and 0 inventory qualifiers. No internal single-value
-conflicts; 0 unknown inventory rows omitted. IDs/QIDs are unique,
-live CDLI identities match, and no cumulative outcomes overlap. The dry run selects
-740 updates and exactly reproduces the frozen plan. Estimated runtime: about
-1h20m–1h40m at batch 060's pace. This batch finishes the pending group.
+Expanded before writing at the user's request for roughly six to eight hours away.
+3,600 existing items: the original 740 window-036 candidates plus 2,860 freshly
+reviewed window-037 candidates. Expected additions: 7,117 unique main claims
+and 1 inventory qualifiers. At recent pace allow roughly 6¼–8 hours;
+server/session errors can still stop the run early. Five-second pacing retained.
 
-User runs run_batch_061.sh --write. Preserve labels/descriptions, five-second pauses,
-and stop-on-error. Active results are excluded. Synchronize actual results before
-another-machine resume. No FactGrid writes were made by the assistant.
+Selected CDLI IDs and QIDs are unique, identities match live, and no cumulative
+outcomes overlap. New candidates exclude review manifests 001–036. Planned
+single-value conflicts held: 0 IDs; inventory placeholders omitted:
+0. Dry run selects 3,600 updates and exactly reproduces the frozen
+statement plan. No result file existed when the preparation was expanded.
 
-After reconciling 061, continue within source positions 1–110000, excluding
-manifests 001–036 and cumulative outcomes. Window 036's 2,500-candidate limit
-did not exhaust the range. Its pending files now belong to 061 and must not be
-replayed independently. Window 031 found 803 complete and 500 conflicting items
-at the ZIP end, with no eligible additions. Holds and unmatched records remain work.
+Window 037 reviewed 4,000 candidates in source positions 1–110000. 678 eligible
+candidates remain in pending-recheck files. After reconciling 061, freshly review
+those first, then continue in 1–110000 excluding manifests 001–037 and cumulative
+outcomes. The range is not exhausted. Window-036 pending files belong to 061.
+Historical holds and unmatched records remain unfinished work.
+
+The same run_batch_061.sh --write command now selects 3,600 items. Preserve labels,
+descriptions and stop-on-error. Active results are excluded from publication;
+synchronize actual results before resuming on another machine. No assistant writes.

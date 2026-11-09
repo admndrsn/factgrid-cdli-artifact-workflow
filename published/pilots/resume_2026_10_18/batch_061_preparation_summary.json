@@ -1,6 +1,10 @@
 {
-  "items": 740,
-  "expected_main_claims": 1465,
-  "expected_qualifiers": 0,
-  "omitted_inventory": 0
+  "items": 3600,
+  "expected_main_claims": 7117,
+  "expected_qualifiers": 1,
+  "omitted_inventory": 0,
+  "planned_conflict_ids": 0,
+  "pending": 678,
+  "original_window_036_items": 740,
+  "added_window_037_items": 2860
 }
