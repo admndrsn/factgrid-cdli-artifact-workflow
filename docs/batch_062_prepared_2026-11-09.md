@@ -1,3 +1,5 @@
+Historical: batch 062 completed. See batch_062_completed_2026-11-09.md.
+
 # Batch 062 prepared — 2026-11-09
 
 All 678 window-037 pending candidates passed fresh live review. Expected additions:
