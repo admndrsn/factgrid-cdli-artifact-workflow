@@ -1,3 +1,5 @@
+Historical: batch 065 completed. See batch_065_completed_2026-11-10.md.
+
 # Batch 065 prepared — 2026-11-09
 
 Expanded at the user's request for an overnight run: **3,600 items**, **7,256 expected unique main claims**, **59 qualifiers**. Estimated runtime is 6¼–8 hours at recent speeds; duration is not guaranteed and errors stop the run.
