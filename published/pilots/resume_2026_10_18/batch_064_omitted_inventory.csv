@@ -1,0 +1,10 @@
+cdli_id,tw_qid,artifact_label,artifact_type,field_name,tw_pid,fg_pid,datatype,value,value_label,plan_status,source,note
+127275,NEEDS_QID,"RA 003, 130",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+127300,NEEDS_QID,"RA 008, 183 01",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+127301,NEEDS_QID,"RA 008, 184 02",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+127304,NEEDS_QID,"RA 008, 186 05",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+127311,NEEDS_QID,"RA 008, 191 12",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+127321,NEEDS_QID,"RA 008, 197 22",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+127649,NEEDS_QID,"RA 013, 018 1",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+127651,NEEDS_QID,"RA 013, 018 4",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+127654,NEEDS_QID,"RA 013, 021 7",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,

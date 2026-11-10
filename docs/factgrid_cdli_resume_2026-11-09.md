@@ -1,29 +1,30 @@
-# Current FactGrid CDLI handoff — 2026-11-09 (through batch 062)
+# Current FactGrid CDLI handoff — 2026-11-09 (through batch 063)
 
 ## Reconciled checkpoint
 
-Completed through 062: **52,522 successful updates**, **101,814 claims added**.
-Cumulative ledger: **72,039 written IDs**, one blocked_bad_sitelink and one
-rewrite_ambiguous. All 62 canonical new-Mac result files have written outcomes.
-Batch 062: 678 updates, 1,355 claims, 1h11m06s, no errors; zero remaining on resume.
+Completed through 063: **54,022 successful updates**, **104,797 claims added**.
+Cumulative ledger: **73,539 written IDs**, one blocked_bad_sitelink and one
+rewrite_ambiguous. All 63 canonical new-Mac result files have written outcomes.
+Batch 063: 1,500 updates, 2,983 claims, 2h37m14s, no errors; zero remaining on resume.
 Batch 049 recovery evidence confirms its delayed one-claim write; skipped count
-unknown. Never count historical retry/recovery snapshots again. The batch-041
-Q2036070/P386408 language modeling hold remains unresolved.
+unknown. Historical retry/recovery snapshots must never be counted again.
+The batch-041 Q2036070/P386408 language modeling hold remains unresolved.
 
-## Prepared/running batch 063
+## Prepared/running batch 064
 
-1,500 items, 2,983 expected unique main claims, 0 inventory qualifiers.
-Fresh review and verified dry run passed. Active results are excluded; synchronize
-actual results before another-machine resume.
+**678 items**, **1,343 expected unique main claims**, **0 qualifiers**.
+All window-038 pending candidates passed fresh review and a verified dry run.
+Allow about 1h12m. Active results are excluded; synchronize actual results before
+another-machine resume.
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_063_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_063_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_063_write_results.csv \
-  --plan work/batch_063_resume_plan.csv \
-  --factgrid-upload-table published/pilots/resume_2026_10_18/batch_063_upload_overrides.csv \
-  --only-existing-factgrid --preserve-update-labels --limit 1500 --sleep 5
+  --artifacts published/pilots/resume_2026_10_18/batch_064_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/batch_064_statements.csv \
+  --results published/pilots/resume_2026_10_18/batch_064_write_results.csv \
+  --plan work/batch_064_resume_plan.csv \
+  --factgrid-upload-table published/pilots/resume_2026_10_18/batch_064_upload_overrides.csv \
+  --only-existing-factgrid --preserve-update-labels --limit 678 --sleep 5
 ```
 
 Only the user's write command adds --write. Omit --continue-on-row-error.
@@ -45,13 +46,14 @@ inventory placeholders. P10 is a qualifier on P329, not a main statement.
 
 ## Next selection
 
-After reconciling 063, freshly review 678 window-038 pending candidates.
-Then continue within **1–110000**, excluding manifests **001–038** and cumulative
-outcomes. The 2,500-candidate review did not exhaust this range. Earlier pending
+After reconciling 064, continue within **1–110000**, excluding manifests
+**001–038** and cumulative outcomes. Window 038 was capped at 2,500 candidates;
+the range is not exhausted. Its pending files belong to 064. Earlier pending
 files are historical/completed; never replay independently.
-Window 031 reviewed the ZIP's final source range: 803 complete, 500 conflicts,
-zero eligible additions. Earlier offset handoffs were inaccurate; use explicit
-CDLI identities/exclusions. Holds and unmatched records remain unfinished work.
+Window 031 reviewed the final source range 385001–421387: 803 complete, 500
+conflicts, zero eligible additions. Earlier offset handoffs were inaccurate;
+continue the coverage audit by explicit CDLI identities and exclusions.
+Holds and unmatched records remain unfinished work.
 Use Python 3.12+ and requirements.txt; retain private credentials/current login.
 Source ZIP provenance remains in the November 1 handoff.
 
