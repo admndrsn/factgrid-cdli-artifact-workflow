@@ -63,11 +63,11 @@ steps for resumability. User accepted this sequence on November 3, 2026.
 
 ## Latest completed checkpoint and standing workflow
 
-Completed through 063: 54,022 updates, 104,797 claims, 73,539 cumulative written IDs.
-Batch 064 is prepared/running: 678 items, 1,343 expected claims, 0 qualifiers.
-After reconciliation, continue within 1–110000 excluding manifests 001–038 and
-cumulative outcomes. Window-032 pending files are represented by 064. The range
-is not exhausted. Holds and unmatched records remain unfinished work.
+Completed through 064: 54,700 updates, 106,140 claims, 74,217 cumulative written IDs.
+Batch 065 is prepared/running: 3,600 items, 7,256 expected claims, 59 qualifiers; approximately 6¼–8 hours.
+After reconciliation, freshly review window-039/040 pending candidates, then continue within
+1–110000 excluding manifests 001–040 and cumulative outcomes. The range is not exhausted.
+Holds and unmatched records remain unfinished work.
 
 On pasted terminal output, reconcile results, prepare the next freshly reviewed
 batch, provide the tested launcher immediately, then publish an immutable

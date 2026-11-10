@@ -2,10 +2,10 @@
 
 Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-09.md).
 
-- Completed through **063**: **54,022 updates**, **104,797 claims added**.
-- Cumulative ledger: **73,539 written CDLI IDs** and two historical held outcomes.
-- **Batch 064 prepared/running:** 678 items, 1,343 expected claims and 0 qualifiers; about 1h12m. Active results excluded.
-- After 064, continue within 1–110000 excluding manifests 001–038 and cumulative outcomes. The range is not exhausted; holds/unmatched records remain work.
+- Completed through **064**: **54,700 updates**, **106,140 claims added**.
+- Cumulative ledger: **74,217 written CDLI IDs** and two historical held outcomes.
+- **Batch 065 prepared/running:** 3,600 items, 7,256 expected claims and 59 qualifiers; roughly 6¼–8 hours. Active results excluded.
+- After 065, freshly review window-039/040 pending candidates, then continue within 1–110000 excluding manifests 001–040 and cumulative outcomes. The range is not exhausted; holds/unmatched records remain work.
 - [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
   then ATF pages and P251 links together.
 

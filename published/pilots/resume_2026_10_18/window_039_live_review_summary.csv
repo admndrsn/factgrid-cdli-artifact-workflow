@@ -1,0 +1,15 @@
+field_name,review_status,count
+cdli_id,already_live,2500
+finding_spot,already_live,283
+finding_spot,missing,2149
+instance_of,already_live,2500
+inventory_number,already_live,1481
+inventory_number,missing,30
+language,already_live,2500
+material,already_live,2500
+period,already_live,2500
+present_holding,already_live,1481
+present_holding,missing,30
+research_project,already_live,5292
+research_project,missing,2208
+type_of_work,already_live,2494
