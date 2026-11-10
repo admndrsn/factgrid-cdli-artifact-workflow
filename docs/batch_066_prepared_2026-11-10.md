@@ -1,3 +1,5 @@
+Historical: batch 066 completed. See batch_066_completed_2026-11-10.md.
+
 # Batch 066 prepared — 2026-11-10
 
 All 565 window-040 pending candidates passed fresh live review. Expected additions:
