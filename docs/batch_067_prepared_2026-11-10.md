@@ -1,3 +1,5 @@
+Historical: batch 067 completed. See batch_067_completed_2026-11-10.md.
+
 # Batch 067 prepared — 2026-11-10
 
 1,500 eligible items from fresh window-041 review, with 2,999 expected unique main claims and 0 inventory qualifiers. Estimated runtime: 2h37m at batch 066's pace, subject to server speed and stop-on-error.
