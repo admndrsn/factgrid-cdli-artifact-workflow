@@ -1,0 +1,5 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values
+142064,Q2064707,type_of_work,P121,Q146582,,,conflict_same_property,Q2170010
+200716,Q1360072,cdli_id,P692,P200716,,,missing,
+200716,Q1360072,language,P18,Q471149,,,conflict_same_property,Q471146
+200716,Q1360072,type_of_work,P121,Q394396,,,conflict_same_property,Q515470

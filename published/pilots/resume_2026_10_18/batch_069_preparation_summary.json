@@ -1,0 +1,10 @@
+{
+  "items": 5000,
+  "expected_main_claims": 9942,
+  "expected_qualifiers": 10,
+  "omitted_inventory": 24,
+  "planned_conflict_ids": 0,
+  "pending_by_window": {
+    "042": 714
+  }
+}
