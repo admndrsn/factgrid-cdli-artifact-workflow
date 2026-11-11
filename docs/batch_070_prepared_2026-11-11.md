@@ -1,3 +1,5 @@
+Historical: batch 070 completed. See batch_070_completed_2026-11-11.md.
+
 # Batch 070 prepared — 2026-11-11
 
 All 714 window-042 pending candidates passed fresh live review. Expected additions:
