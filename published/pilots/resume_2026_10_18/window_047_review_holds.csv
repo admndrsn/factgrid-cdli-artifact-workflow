@@ -1,0 +1,7 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values
+433633,Q2021688,cdli_id,P692,P433633,,,conflict_same_property,P000215
+433633,Q2021688,period,P853,Q512153,,,conflict_same_property,Q512134
+433633,Q2021688,finding_spot,P695,Q389658,,,conflict_same_property,Q390030
+433644,Q2019973,cdli_id,P692,P433644,,,conflict_same_property,P000071
+433644,Q2019973,period,P853,Q512153,,,conflict_same_property,Q512134
+433644,Q2019973,finding_spot,P695,Q389658,,,conflict_same_property,Q390030

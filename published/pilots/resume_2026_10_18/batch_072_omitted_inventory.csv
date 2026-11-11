@@ -1,0 +1,7 @@
+cdli_id,tw_qid,artifact_label,artifact_type,field_name,tw_pid,fg_pid,datatype,value,value_label,plan_status,source,note
+247592,NEEDS_QID,"RA 011, 061",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+247804,NEEDS_QID,"BagM 13, 029, W 20248,4",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+250338,NEEDS_QID,"UET 2, supp 13",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+250357,NEEDS_QID,"UET 2, supp 46",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+250388,NEEDS_QID,"RA 071, 102",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,
+250416,NEEDS_QID,"ABAW 143, 193",tablet,inventory_number,P10,P10,string,unknown,,ready,cdli_json,

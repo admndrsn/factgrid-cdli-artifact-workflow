@@ -1,0 +1,52 @@
+[
+  {
+    "source": "artifacts_000001_110000.csv",
+    "unreviewed_mapped": 0,
+    "unmatched_local": 48639
+  },
+  {
+    "source": "artifacts_110001_185000.csv",
+    "unreviewed_mapped": 0,
+    "unmatched_local": 48921
+  },
+  {
+    "source": "artifacts_185001_210000.csv",
+    "unreviewed_mapped": 0,
+    "unmatched_local": 15952
+  },
+  {
+    "source": "artifacts_210001_235000.csv",
+    "unreviewed_mapped": 0,
+    "unmatched_local": 19606
+  },
+  {
+    "source": "artifacts_235001_260000.csv",
+    "unreviewed_mapped": 0,
+    "unmatched_local": 21129
+  },
+  {
+    "source": "artifacts_260001_285000.csv",
+    "unreviewed_mapped": 2,
+    "unmatched_local": 21572
+  },
+  {
+    "source": "artifacts_285001_310000.csv",
+    "unreviewed_mapped": 0,
+    "unmatched_local": 21643
+  },
+  {
+    "source": "artifacts_310001_335000.csv",
+    "unreviewed_mapped": 0,
+    "unmatched_local": 20235
+  },
+  {
+    "source": "artifacts_335001_385000.csv",
+    "unreviewed_mapped": 0,
+    "unmatched_local": 40224
+  },
+  {
+    "source": "artifacts_385001_421387.csv",
+    "unreviewed_mapped": 0,
+    "unmatched_local": 33699
+  }
+]

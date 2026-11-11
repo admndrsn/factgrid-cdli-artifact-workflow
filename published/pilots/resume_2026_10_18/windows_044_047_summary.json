@@ -1,0 +1,24 @@
+{
+  "044": {
+    "selected_items": 8000,
+    "blocked_items": 11,
+    "items_needing_additions_without_conflicts": 0,
+    "items_already_complete": 7989
+  },
+  "045": {
+    "selected_items": 8304,
+    "blocked_items": 173,
+    "items_needing_additions_without_conflicts": 4267,
+    "items_already_complete": 3825
+  },
+  "047": {
+    "selected_items": 2,
+    "blocked_items": 2,
+    "items_needing_additions_without_conflicts": 0,
+    "items_already_complete": 0
+  },
+  "046": {
+    "selected_items": 0,
+    "source_positions": "110001\u2013185000"
+  }
+}

@@ -1,32 +1,32 @@
-# Current FactGrid CDLI handoff — 2026-11-11 (through batch 070)
+# Current FactGrid CDLI handoff — 2026-11-11 (through batch 071)
 
 ## Reconciled checkpoint
 
-Completed through 070: **66,820 successful updates**, **130,364 claims added**.
-Cumulative ledger: **86,337 written IDs**, one blocked_bad_sitelink and one
-rewrite_ambiguous. All 70 canonical new-Mac result files have written outcomes.
-Batch 070: 714 updates, 1,424 claims, 1h14m38s, no errors; zero remaining on resume.
+Completed through 071: **67,977 successful updates**, **132,678 claims added**.
+Cumulative ledger: **87,494 written IDs**, one blocked_bad_sitelink and one
+rewrite_ambiguous. All 71 canonical new-Mac result files have written outcomes.
+Batch 071: 1,157 updates, 2,314 claims, 2h00m54s, no errors; zero remaining on resume.
 Batch 049 recovery evidence confirms its delayed one-claim write; skipped count
 unknown. Historical retry/recovery snapshots must never be counted again.
 The batch-042 Q2036070/P386408 language modeling hold remains unresolved.
 
-## Prepared/running batch 071
+## Prepared/running batch 072
 
-**1,157 items**, **2,314 expected unique main claims**, **0 qualifiers**.
-Fresh window-043 review and dry run verified. Estimated runtime: 2h01m.
-Active results excluded; synchronize actual results before another-machine resume.
+**4,267 items**, **7,985 expected unique main claims**, **9 qualifiers**.
+Fresh review and dry run passed. Approximately 8½–10 hours with a six-second pause
+for this batch only; default remains five seconds. Active results excluded.
 
 ```bash
 python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_071_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_071_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_071_write_results.csv \
-  --plan published/pilots/resume_2026_10_18/batch_071_dry_run_plan.csv \
-  --factgrid-upload-table published/pilots/resume_2026_10_18/batch_071_upload_overrides.csv \
+  --artifacts published/pilots/resume_2026_10_18/batch_072_artifacts.csv \
+  --statements published/pilots/resume_2026_10_18/batch_072_statements.csv \
+  --results published/pilots/resume_2026_10_18/batch_072_write_results.csv \
+  --plan published/pilots/resume_2026_10_18/batch_072_dry_run_plan.csv \
+  --factgrid-upload-table published/pilots/resume_2026_10_18/batch_072_upload_overrides.csv \
   --only-existing-factgrid \
   --preserve-update-labels \
-  --limit 1157 \
-  --sleep 5
+  --limit 4267 \
+  --sleep 6
 ```
 
 Only the user adds --write. Omit --continue-on-row-error.
@@ -48,20 +48,9 @@ inventory placeholders. P10 is a qualifier on P329, not a main statement.
 
 ## Next selection
 
-After reconciling 071, no window-043 pending candidates remain.
-Then continue within **1–110000**, excluding manifests **001–043** and cumulative
-outcomes. The range is not exhausted. Earlier pending files are historical/completed.
-Window 031 reviewed the final source range 385001–421387: 803 complete, 500
-conflicts, zero eligible additions. Earlier offset handoffs were inaccurate;
-continue the coverage audit by explicit CDLI identities and exclusions.
-Holds and unmatched records remain unfinished work.
-Use Python 3.12+ and requirements.txt; retain private credentials/current login.
-Source ZIP provenance remains in the November 1 handoff.
+After reconciling 072, no pending eligible candidates remain from windows 044–047. The local-mapping coverage audit across source positions 1–421387 found no further unreviewed mapped candidates after these windows. This does not prove that unmatched source records lack live FactGrid items. Refresh live CDLI mappings and deduplicate unmatched records before a separately reviewed new-item pilot; reconcile existing holds independently. Do not create another batch by replaying reviewed or completed IDs.
 
-```bash
-python scripts/check_factgrid_api.py --timeout 15
-python scripts/build_factgrid_resume_ledger.py
-```
+See batch_072_prepared_2026-11-11.md, windows_044_047_summary.json and coverage_audit_2026_11_11.json. Source ZIP has 421,387 records; offsets are not completion markers. Retain historical holds, including Q2036070/P386408.
 
 ## Overall objective
 

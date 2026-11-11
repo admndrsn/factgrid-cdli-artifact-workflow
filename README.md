@@ -2,10 +2,10 @@
 
 Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-11.md).
 
-- Completed through **070**: **66,820 updates**, **130,364 claims added**.
-- Cumulative ledger: **86,337 written CDLI IDs** and two historical held outcomes.
-- **Batch 071 prepared/running:** 1,157 items, 2,314 expected claims and 0 qualifiers; about 2h01m. Active results excluded.
-- After 071, continue within 1–110000 excluding manifests 001–043 and cumulative outcomes. Range not exhausted; holds/unmatched records remain work.
+- Completed through **071**: **67,977 updates**, **132,678 claims added**.
+- Cumulative ledger: **87,494 written CDLI IDs** plus two historical held outcomes.
+- **Batch 072 prepared/running:** 4,267 items, 7,985 expected claims, 9 qualifiers; approximately 8½–10 hours with a six-second pause. Active results excluded.
+- After 072, refresh live mappings and review unmatched records/holds; the current mapped update queue is exhausted by the coverage audit. Corpus completion is not established.
 - [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
   then ATF pages and P251 links together.
 

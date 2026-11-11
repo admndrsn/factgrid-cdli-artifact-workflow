@@ -63,11 +63,10 @@ steps for resumability. User accepted this sequence on November 3, 2026.
 
 ## Latest completed checkpoint and standing workflow
 
-Completed through 070: 66,820 updates, 130,364 claims, 86,337 cumulative written IDs.
-Batch 071 is prepared/running: 1,157 items, 2,314 expected claims, 0 qualifiers; about 2h01m.
-After reconciliation, continue
-within 1–110000 excluding manifests 001–043 and cumulative outcomes.
-The range is not exhausted. Holds and unmatched records remain unfinished work.
+Completed through 071: 67,977 updates, 132,678 claims, 87,494 cumulative written IDs.
+Batch 072: 4,267 items, 7,985 expected claims and 9 qualifiers; approximately 8½–10h with a six-second pause for this run only.
+
+After reconciling 072, no pending eligible candidates remain from windows 044–047. The local-mapping coverage audit across source positions 1–421387 found no further unreviewed mapped candidates after these windows. This does not prove that unmatched source records lack live FactGrid items. Refresh live CDLI mappings and deduplicate unmatched records before a separately reviewed new-item pilot; reconcile existing holds independently. Do not create another batch by replaying reviewed or completed IDs.
 
 On pasted terminal output, reconcile results, prepare the next freshly reviewed
 batch, provide the tested launcher immediately, then publish an immutable

@@ -1,0 +1,12 @@
+cdli_id,factgrid_qid,field_name,property,value,qualifier_property,qualifier_value,review_status,live_values
+212374,Q894328,type_of_work,P121,Q394396,,,conflict_same_property,Q516473 | Q394396
+212719,Q2001402,period,P853,Q512142,,,conflict_same_property,Q512144
+213281,Q2064355,finding_spot,P695,Q2100040,,,conflict_same_property,Q89588 | Q2100040
+213393,Q2064427,finding_spot,P695,Q2100040,,,conflict_same_property,Q89588 | Q2100040
+213405,Q2064445,finding_spot,P695,Q2100040,,,conflict_same_property,Q89588 | Q2100040
+213448,Q2064487,finding_spot,P695,Q2100040,,,conflict_same_property,Q89588 | Q2100040
+213464,Q2064501,finding_spot,P695,Q2100040,,,conflict_same_property,Q89588 | Q2100040
+213472,Q2064507,finding_spot,P695,Q2100040,,,conflict_same_property,Q89588 | Q2100040
+216609,Q1370653,type_of_work,P121,Q388465,,,conflict_same_property,Q516649 | Q388465
+228418,Q1937883,cdli_id,P692,P228418,,,conflict_same_property,P228418 | P228431
+228431,Q1937883,cdli_id,P692,P228431,,,conflict_same_property,P228418 | P228431

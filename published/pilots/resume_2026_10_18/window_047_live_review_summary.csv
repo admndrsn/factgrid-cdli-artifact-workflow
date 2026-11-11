@@ -1,0 +1,10 @@
+field_name,review_status,count
+cdli_id,conflict_same_property,2
+finding_spot,conflict_same_property,2
+instance_of,already_live,2
+inventory_number,missing,1
+language,missing,2
+material,already_live,2
+period,conflict_same_property,2
+present_holding,missing,1
+research_project,already_live,6
