@@ -61,7 +61,8 @@ FACTGRID_PRESENT_HOLDING_PROPERTY = "P329"
 FACTGRID_RESEARCH_PROJECT_PROPERTY = "P131"
 TOKENWORKS_FACTGRID_QID = "Q1894741"
 DEFAULT_RESEARCH_PROJECT_QIDS = ",".join([TOKENWORKS_FACTGRID_QID, "Q389597", "Q393513"])
-SINGLE_VALUE_PROPERTIES = {"P2", "P18", "P121", "P401", "P692", "P695", "P853"}
+EXTERNAL_ENRICHMENT_PROPERTIES = {"P959", "P1173"}
+SINGLE_VALUE_PROPERTIES = {"P2", "P18", "P121", "P401", "P692", "P695", "P853"} | EXTERNAL_ENRICHMENT_PROPERTIES
 FACTGRID_OBJECT_TYPE_INSTANCE_OF = {
     "amulet": ("Q1083363", "Amulet"),
     "barrel": ("Q512054", "Clay barrel"),
@@ -718,11 +719,24 @@ def assign_reuse_qids(artifacts: pd.DataFrame, reuse_qids: list[str]) -> pd.Data
 def build_workset(args: argparse.Namespace) -> tuple[pd.DataFrame, pd.DataFrame]:
     artifacts = read_csv(args.artifacts)
     statements = read_csv(args.statements)
-    existing = merge_existing_qid_maps(
-        load_existing_factgrid_qids(args.factgrid_cdli),
-        load_prior_factgrid_qid_lookups(args.prior_factgrid_qid_lookup),
-        load_written_result_qids(args.results),
-    )
+    verified_mapping = getattr(args, "verified_existing_mapping", None)
+    if verified_mapping:
+        if not args.only_existing_factgrid or args.reuse_pool:
+            raise ValueError("A verified mapping requires update-only mode.")
+        mapping = read_csv(verified_mapping)
+        ids = mapping["cdli_id"].map(format_cdli_id)
+        qids = mapping["factgrid_qid"]
+        if (mapping.empty or ids.duplicated().any() or qids.duplicated().any()
+                or not ids.str.fullmatch(r"P[0-9]{6}").all()
+                or not qids.str.fullmatch(r"Q[1-9][0-9]*").all()):
+            raise ValueError("Expected a one-to-one verified CDLI-to-QID mapping.")
+        existing = dict(zip(ids, qids))
+    else:
+        existing = merge_existing_qid_maps(
+            load_existing_factgrid_qids(args.factgrid_cdli),
+            load_prior_factgrid_qid_lookups(args.prior_factgrid_qid_lookup),
+            load_written_result_qids(args.results),
+        )
     upload_overrides = load_factgrid_upload_overrides(args.factgrid_upload_table)
     collection_matches = load_collection_matches(args.collection_matches)
     results = read_csv(args.results)
@@ -733,11 +747,14 @@ def build_workset(args: argparse.Namespace) -> tuple[pd.DataFrame, pd.DataFrame]
         raise RuntimeError(f"No statement rows found in {args.statements}")
 
     artifacts["_cdli_key"] = artifacts["cdli_id"].map(clean)
-    artifacts["factgrid_qid"] = artifacts.apply(
-        lambda row: next((existing[k] for k in cdli_keys(row.get("cdli_id")) if k in existing), "")
-        or existing.get(normalize(row.get("label")), ""),
-        axis=1,
-    )
+    if verified_mapping:
+        artifacts["factgrid_qid"] = artifacts["_cdli_key"].map(format_cdli_id).map(existing).fillna("")
+    else:
+        artifacts["factgrid_qid"] = artifacts.apply(
+            lambda row: next((existing[k] for k in cdli_keys(row.get("cdli_id")) if k in existing), "")
+            or existing.get(normalize(row.get("label")), ""),
+            axis=1,
+        )
     artifacts["factgrid_action"] = artifacts["factgrid_qid"].map(lambda v: "update" if clean(v) else "create")
 
     if args.only_cdli_ids:
@@ -823,6 +840,20 @@ def build_item(
 ):
     qid = clean(artifact.get("factgrid_qid"))
     item = wbi.item.get(qid) if qid else wbi.item.new()
+    external_rows = item_plan[item_plan["fg_pid"].isin(EXTERNAL_ENRICHMENT_PROPERTIES)]
+    if not external_rows.empty:
+        expected_cdli = format_cdli_id(artifact.get("cdli_id"))
+        cdli_claims = item.claims.get(FACTGRID_CDLI_ID_PROPERTY)
+        active_ids = {claim_main_value(c) for c in cdli_claims if c.get_json().get("rank") != "deprecated"}
+        if (not qid or clean(artifact.get("factgrid_action")) != "update"
+                or active_ids != {expected_cdli}
+                or {claim_main_value(c) for c in cdli_claims} != {expected_cdli}):
+            raise RuntimeError(f"{qid} no longer has the expected P692 identity {expected_cdli}")
+        for prop, rows in external_rows.groupby("fg_pid"):
+            values = set(rows["value"])
+            existing_values = {claim_main_value(c) for c in item.claims.get(prop)}
+            if len(values) != 1 or existing_values - values:
+                raise RuntimeError(f"{qid} has a conflicting {prop} identifier")
     label = artifact_label_for(artifact)
     if qid and clean(artifact.get("factgrid_action")) == "rewrite":
         reset_loaded_item_for_reuse(item)
@@ -980,6 +1011,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--artifacts", type=Path, default=DEFAULT_ARTIFACTS)
     parser.add_argument("--statements", type=Path, default=DEFAULT_STATEMENTS)
+    parser.add_argument("--verified-existing-mapping", type=Path, help="Use only this one-to-one CDLI ID/QID mapping.")
     parser.add_argument("--factgrid-cdli", type=Path, default=DEFAULT_FACTGRID_CDLI)
     parser.add_argument(
         "--prior-factgrid-qid-lookup",

@@ -68,7 +68,7 @@ The completed launcher selects zero on resume. The refreshed P692 index leaves
 264,119 source IDs without an indexed match and 710 with ambiguous mappings.
 Continue verifying identities and field coverage before a new-item pilot.
 See [the live audit and BDTNS profiling](batch_072_completed_2026-11-11.md).
-BDTNS enrichment remains conditional on CDLI completion or explicit resequencing.
+The user requested adding safely matched BDTNS (P959) and eBL (P1173) IDs in the same reviewed CDLI updates. Begin with the [batch 073 combined pilot](batch_073_prepared_2026-11-11.md).
 
 On pasted terminal output, reconcile results, prepare the next freshly reviewed
 batch, provide the tested launcher immediately, then publish an immutable

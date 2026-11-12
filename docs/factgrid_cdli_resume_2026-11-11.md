@@ -31,7 +31,7 @@ inventory placeholders. P10 is a qualifier on P329, not a main statement.
 
 ## Next selection
 
-After 072, no pending eligible candidates remain from windows 044–047. The local-mapping coverage audit across source positions 1–421387 found no further unreviewed mapped candidates after these windows. This does not prove that unmatched source records lack live FactGrid items. Use the refreshed P692 audit to validate newly mapped items and investigate missing identities before a separately reviewed new-item pilot. Reconcile existing holds independently. BDTNS remains read-only pending CDLI completion or explicit resequencing. Do not create another batch by replaying reviewed or completed IDs.
+After 072, no pending eligible candidates remain from windows 044–047. The local-mapping coverage audit across source positions 1–421387 found no further unreviewed mapped candidates after these windows. This does not prove that unmatched source records lack live FactGrid items. Use the refreshed P692 audit to validate newly mapped items and investigate missing identities before a separately reviewed new-item pilot. Reconcile existing holds independently. The user has resequenced BDTNS and eBL enrichment to accompany reviewed CDLI updates. [Batch 073](batch_073_prepared_2026-11-11.md) is the first combined pilot and awaits user execution. Do not create another batch by replaying reviewed or completed IDs.
 
 See batch_072_prepared_2026-11-11.md, windows_044_047_summary.json and coverage_audit_2026_11_11.json. Source ZIP has 421,387 records; offsets are not completion markers. Retain historical holds, including Q2036070/P386408.
 

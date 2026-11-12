@@ -15,6 +15,7 @@ parser.add_argument('--exclude-items', type=Path, action='append', default=[])
 parser.add_argument('--read-batch-size', type=int, default=50)
 parser.add_argument('--artifacts', type=Path, required=True)
 parser.add_argument('--statements', type=Path, required=True)
+parser.add_argument('--verified-existing-mapping', type=Path)
 parser.add_argument('--results', type=Path, required=True)
 parser.add_argument('--limit', type=int, default=1500)
 options = parser.parse_args()
@@ -33,6 +34,7 @@ args = argparse.Namespace(
     artifacts=options.artifacts,
     statements=options.statements,
     results=options.results,
+    verified_existing_mapping=options.verified_existing_mapping,
     factgrid_cdli=writer.DEFAULT_FACTGRID_CDLI,
     prior_factgrid_qid_lookup=list(writer.DEFAULT_PRIOR_FACTGRID_QID_LOOKUPS),
     factgrid_upload_table=writer.DEFAULT_FACTGRID_UPLOAD_TABLE,
@@ -96,6 +98,12 @@ for _,artifact in items.iterrows():
         values=[value(c.get('mainsnak',{})) for c in existing]
         if 'missing' in entity or not entity:
             status='missing_entity'
+        elif options.verified_existing_mapping and prop == writer.FACTGRID_CDLI_ID_PROPERTY and (
+            set(values) != {expected} or not any(c.get('rank') != 'deprecated' for c in matching)
+        ):
+            status='conflict_same_property'
+        elif prop in writer.EXTERNAL_ENRICHMENT_PROPERTIES and any(v != expected for v in values):
+            status='conflict_same_property'
         elif prop in writer.SINGLE_VALUE_PROPERTIES and any(v and v != expected for v in values):
             status='conflict_same_property'
         elif matching:
