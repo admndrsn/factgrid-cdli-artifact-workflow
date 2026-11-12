@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 import json
 import sys
 import time
@@ -13,6 +14,7 @@ parser = argparse.ArgumentParser(description='Read-only live claim review for ex
 parser.add_argument('--output-dir', type=Path, required=True)
 parser.add_argument('--exclude-items', type=Path, action='append', default=[])
 parser.add_argument('--read-batch-size', type=int, default=50)
+parser.add_argument('--read-workers', type=int, choices=range(1, 9), default=1)
 parser.add_argument('--artifacts', type=Path, required=True)
 parser.add_argument('--statements', type=Path, required=True)
 parser.add_argument('--verified-existing-mapping', type=Path)
@@ -58,35 +60,58 @@ if items.empty:
     raise SystemExit(0)
 qids = list(dict.fromkeys(items.factgrid_qid))
 entities={}
-session=requests.Session()
-session.headers['User-Agent']='CDLI-FactGrid-resume-read-review/1.0'
-for start in range(0,len(qids),options.read_batch_size):
-    response=session.get(writer.FACTGRID_API,params={'action':'wbgetentities','ids':'|'.join(qids[start:start+options.read_batch_size]),'props':'claims|labels','languages':'en','format':'json'},timeout=25)
-    response.raise_for_status()
+batches = [qids[i:i + options.read_batch_size] for i in range(0, len(qids), options.read_batch_size)]
+
+def read_entities(batch):
+    for attempt in range(3):
+        try:
+            response = requests.get(
+                writer.FACTGRID_API,
+                params={'action': 'wbgetentities', 'ids': '|'.join(batch),
+                        'props': 'claims|labels', 'languages': 'en', 'format': 'json'},
+                headers={'User-Agent': 'CDLI-FactGrid-resume-read-review/1.0'},
+                timeout=35,
+            )
+            if response.status_code in {429, 502, 503, 504} and attempt < 2:
+                delay = response.headers.get('Retry-After', '')
+                time.sleep(int(delay) if delay.isdigit() else 3 * (attempt + 1))
+                continue
+            response.raise_for_status()
+            break
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == 2:
+                raise
+            time.sleep(3 * (attempt + 1))
     try:
-        data=response.json()
+        data = response.json()
     except ValueError:
-        raise RuntimeError(f'FactGrid did not return API JSON: status={response.status_code}, content-type={response.headers.get('content-type')}, URL={response.url}. Stop and obtain supported API access; do not bypass a browser challenge.') from None
-    if 'error' in data: raise RuntimeError(data['error'])
-    expected = set(qids[start:start+options.read_batch_size])
+        content_type = response.headers.get('content-type')
+        raise RuntimeError(f'FactGrid did not return API JSON: status={response.status_code}, content-type={content_type}') from None
+    if 'error' in data:
+        raise RuntimeError(data['error'])
     received = data.get('entities', {})
-    if not expected.issubset(received):
+    if not set(batch).issubset(received):
         raise RuntimeError('API response omitted requested entities; review is incomplete.')
-    entities.update(received)
-    print(f'Read {min(start+options.read_batch_size,len(qids))}/{len(qids)} FactGrid items',flush=True)
     time.sleep(0.5)
+    return received
+
+with ThreadPoolExecutor(max_workers=options.read_workers) as executor:
+    for received in executor.map(read_entities, batches):
+        entities.update(received)
+        print(f'Read {len(entities)}/{len(qids)} FactGrid items', flush=True)
 (outputdir/'candidate_live_entities.json').write_text(json.dumps(entities,ensure_ascii=False))
 
 def value(snak):
     return writer.normalize_claim_datavalue(snak.get('datavalue',{}).get('value',''))
 
 rows=[]
+plans_by_cdli = dict(tuple(plan.groupby("cdli_id", sort=False)))
 for _,artifact in items.iterrows():
     cdli=artifact.cdli_id
     qid=artifact.factgrid_qid
     entity=entities.get(qid,{})
     claims=entity.get('claims',{})
-    item_plan=plan[plan.cdli_id.eq(cdli)]
+    item_plan=plans_by_cdli.get(cdli, plan.iloc[:0])
     checks=[(r.field_name,r.fg_pid,r.value,'','') for _,r in item_plan.iterrows() if r.field_name!='inventory_number']
     checks.extend(('research_project','P131',project,'','') for project in writer.parse_qid_list(writer.DEFAULT_RESEARCH_PROJECT_QIDS))
     inventories=list(item_plan.loc[item_plan.field_name.eq('inventory_number'),'value'])

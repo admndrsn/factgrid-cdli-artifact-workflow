@@ -1,0 +1,23 @@
+{
+  "reviewed": 4900,
+  "eligible": 4892,
+  "selected": 4400,
+  "holds": 8,
+  "hold_reasons": {
+    "P853_conflict_same_property": 8
+  },
+  "planned_both_ids": 3732,
+  "planned_bdtns_only": 668,
+  "expected_new_main_claims": 8603,
+  "expected_by_property": {
+    "P1173": 3732,
+    "P959": 4400,
+    "P695": 224,
+    "P131": 238,
+    "P853": 1,
+    "P329": 5,
+    "P18": 1,
+    "P121": 1,
+    "P401": 1
+  }
+}
