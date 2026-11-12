@@ -1,3 +1,5 @@
+Historical: batch078 completed; see batch_078_completed_2026-11-12.md.
+
 # Batch 078 prepared — 2026-11-12
 
 Fresh review of the 400 eligible pending candidates from batch 077 found 400 eligible, zero held. Frozen batch: 400 existing-item updates, 800 expected main claims (400 P695 finding spots and 400 P131 project claims), zero qualifiers. No new BDTNS/eBL additions in this group.
