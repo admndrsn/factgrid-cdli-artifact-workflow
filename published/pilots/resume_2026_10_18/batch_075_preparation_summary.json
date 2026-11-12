@@ -1,0 +1,15 @@
+{
+  "reviewed": 492,
+  "eligible": 492,
+  "selected": 492,
+  "holds": 0,
+  "hold_reasons": {},
+  "planned_both_ids": 0,
+  "planned_bdtns_only": 492,
+  "expected_new_main_claims": 656,
+  "expected_by_property": {
+    "P695": 76,
+    "P959": 492,
+    "P131": 88
+  }
+}
