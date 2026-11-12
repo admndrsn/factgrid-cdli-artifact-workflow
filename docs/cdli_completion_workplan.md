@@ -63,12 +63,12 @@ steps for resumability. User accepted this sequence on November 3, 2026.
 
 ## Latest completed checkpoint and standing workflow
 
-Completed through 074: 76,764 updates, 149,649 claims and 96,281 cumulative written IDs.
+Completed through 075: 77,256 updates, 150,305 claims and 96,773 cumulative written IDs.
 The completed launcher selects zero on resume. The refreshed P692 index leaves
 264,119 source IDs without an indexed match and 710 with ambiguous mappings.
 Continue verifying identities and field coverage before a new-item pilot.
 See [the live audit and BDTNS profiling](batch_072_completed_2026-11-11.md).
-The user requested adding safely matched BDTNS (P959) and eBL (P1173) IDs in the same reviewed CDLI updates. Batch 074 completed, and [batch 075](batch_075_prepared_2026-11-12.md) is prepared for its remaining eligible candidates.
+The user requested adding safely matched BDTNS (P959) and eBL (P1173) IDs in the same reviewed CDLI updates. Batch 075 completed the remaining eligible candidates from the prior review. [Batch 076](batch_076_prepared_2026-11-12.md) continues with explicit eBL and BDTNS matches.
 
 On pasted terminal output, reconcile results, prepare the next freshly reviewed
 batch, provide the tested launcher immediately, then publish an immutable

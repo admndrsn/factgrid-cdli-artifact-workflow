@@ -1,0 +1,17 @@
+{
+  "reviewed": 735,
+  "eligible": 735,
+  "selected": 735,
+  "holds": 0,
+  "hold_reasons": {},
+  "planned_both_ids": 2,
+  "planned_bdtns_ids": 41,
+  "planned_ebl_ids": 696,
+  "expected_new_main_claims": 797,
+  "expected_by_property": {
+    "P1173": 696,
+    "P959": 41,
+    "P131": 33,
+    "P695": 27
+  }
+}

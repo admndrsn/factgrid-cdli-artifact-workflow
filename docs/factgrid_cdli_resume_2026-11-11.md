@@ -1,9 +1,9 @@
-# Current FactGrid CDLI handoff — 2026-11-11 (through batch 074)
+# Current FactGrid CDLI handoff — 2026-11-11 (through batch 075)
 
 ## Reconciled checkpoint
 
-Completed through 074: **76,764 successful updates**, **149,649 claims added**.
-Cumulative ledger: **96,281 written IDs**, one blocked_bad_sitelink and one
+Completed through 075: **77,256 successful updates**, **150,305 claims added**.
+Cumulative ledger: **96,773 written IDs**, one blocked_bad_sitelink and one
 rewrite_ambiguous. Batch 072 completed in 10h00m11s on the final progress meter
 with 4,267 updates, 7,985 claims added and 40,613 skipped. The result CSV matches
 the terminal success lines and the resume dry run selected zero.
@@ -31,7 +31,7 @@ inventory placeholders. P10 is a qualifier on P329, not a main statement.
 
 ## Next selection
 
-After 072, no pending eligible candidates remain from windows 044–047. The local-mapping coverage audit across source positions 1–421387 found no further unreviewed mapped candidates after these windows. This does not prove that unmatched source records lack live FactGrid items. Use the refreshed P692 audit to validate newly mapped items and investigate missing identities before a separately reviewed new-item pilot. Reconcile existing holds independently. The user has resequenced BDTNS and eBL enrichment to accompany reviewed CDLI updates. [Batch 073](batch_073_prepared_2026-11-11.md) completed with 120 successful updates, 383 claims added and zero remaining on resume. Batch 074 completed with 4,400 updates and 8,603 claims in 7h54m35s. [Batch 075](batch_075_prepared_2026-11-12.md) is prepared for the 492 remaining eligible candidates from that review. Do not create another batch by replaying reviewed or completed IDs.
+After 072, no pending eligible candidates remain from windows 044–047. The local-mapping coverage audit across source positions 1–421387 found no further unreviewed mapped candidates after these windows. This does not prove that unmatched source records lack live FactGrid items. Use the refreshed P692 audit to validate newly mapped items and investigate missing identities before a separately reviewed new-item pilot. Reconcile existing holds independently. The user has resequenced BDTNS and eBL enrichment to accompany reviewed CDLI updates. [Batch 073](batch_073_prepared_2026-11-11.md) completed with 120 successful updates, 383 claims added and zero remaining on resume. Batch 074 completed with 4,400 updates and 8,603 claims in 7h54m35s. Batch 075 completed the 492 remaining eligible candidates from that review. [Batch 076](batch_076_prepared_2026-11-12.md) is prepared using the refreshed identity index and explicit eBL and BDTNS source references. Do not create another batch by replaying reviewed or completed IDs.
 
 See batch_072_prepared_2026-11-11.md, windows_044_047_summary.json and coverage_audit_2026_11_11.json. Source ZIP has 421,387 records; offsets are not completion markers. Retain historical holds, including Q2036070/P386408.
 
