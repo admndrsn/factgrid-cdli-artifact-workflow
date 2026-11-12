@@ -1,3 +1,5 @@
+Historical preparation: batch077 completed; see batch_077_completed_2026-11-12.md.
+
 # Batch 076 reconciled and batch 077 prepared
 
 Batch 076 completed 735 updates in 1h21m19s, adding 797 main claims and

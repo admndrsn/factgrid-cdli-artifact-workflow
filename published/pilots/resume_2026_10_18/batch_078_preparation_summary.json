@@ -1,0 +1,10 @@
+{
+  "reviewed": 400,
+  "selected": 400,
+  "expected_new_main_claims": 800,
+  "expected_qualifiers": 0,
+  "expected_by_property": {
+    "P131": 400,
+    "P695": 400
+  }
+}
