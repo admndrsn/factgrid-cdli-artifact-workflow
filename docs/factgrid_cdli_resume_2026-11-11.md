@@ -1,35 +1,18 @@
-# Current FactGrid CDLI handoff — 2026-11-11 (through batch 071)
+# Current FactGrid CDLI handoff — 2026-11-11 (through batch 072)
 
 ## Reconciled checkpoint
 
-Completed through 071: **67,977 successful updates**, **132,678 claims added**.
-Cumulative ledger: **87,494 written IDs**, one blocked_bad_sitelink and one
-rewrite_ambiguous. All 71 canonical new-Mac result files have written outcomes.
-Batch 071: 1,157 updates, 2,314 claims, 2h00m54s, no errors; zero remaining on resume.
-Batch 049 recovery evidence confirms its delayed one-claim write; skipped count
-unknown. Historical retry/recovery snapshots must never be counted again.
-The batch-042 Q2036070/P386408 language modeling hold remains unresolved.
+Completed through 072: **72,244 successful updates**, **140,663 claims added**.
+Cumulative ledger: **91,761 written IDs**, one blocked_bad_sitelink and one
+rewrite_ambiguous. Batch 072 completed in 10h00m11s on the final progress meter
+with 4,267 updates, 7,985 claims added and 40,613 skipped. The result CSV matches
+the terminal success lines and the resume dry run selected zero.
 
-## Prepared/running batch 072
+Batch 049 recovery evidence confirms its delayed one-claim write. Historical
+retry snapshots must never be counted again. The batch-041 Q2036070/P386408
+language modeling hold remains unresolved.
 
-**4,267 items**, **7,985 expected unique main claims**, **9 qualifiers**.
-Fresh review and dry run passed. Approximately 8½–10 hours with a six-second pause
-for this batch only; default remains five seconds. Active results excluded.
-
-```bash
-python scripts/write_factgrid_cdli_artifact_items.py \
-  --artifacts published/pilots/resume_2026_10_18/batch_072_artifacts.csv \
-  --statements published/pilots/resume_2026_10_18/batch_072_statements.csv \
-  --results published/pilots/resume_2026_10_18/batch_072_write_results.csv \
-  --plan published/pilots/resume_2026_10_18/batch_072_dry_run_plan.csv \
-  --factgrid-upload-table published/pilots/resume_2026_10_18/batch_072_upload_overrides.csv \
-  --only-existing-factgrid \
-  --preserve-update-labels \
-  --limit 4267 \
-  --sleep 6
-```
-
-Only the user adds --write. Omit --continue-on-row-error.
+See [the reconciliation and live coverage audit](batch_072_completed_2026-11-11.md).
 
 ## Standing workflow
 
@@ -48,7 +31,7 @@ inventory placeholders. P10 is a qualifier on P329, not a main statement.
 
 ## Next selection
 
-After reconciling 072, no pending eligible candidates remain from windows 044–047. The local-mapping coverage audit across source positions 1–421387 found no further unreviewed mapped candidates after these windows. This does not prove that unmatched source records lack live FactGrid items. Refresh live CDLI mappings and deduplicate unmatched records before a separately reviewed new-item pilot; reconcile existing holds independently. Do not create another batch by replaying reviewed or completed IDs.
+After 072, no pending eligible candidates remain from windows 044–047. The local-mapping coverage audit across source positions 1–421387 found no further unreviewed mapped candidates after these windows. This does not prove that unmatched source records lack live FactGrid items. Use the refreshed P692 audit to validate newly mapped items and investigate missing identities before a separately reviewed new-item pilot. Reconcile existing holds independently. BDTNS remains read-only pending CDLI completion or explicit resequencing. Do not create another batch by replaying reviewed or completed IDs.
 
 See batch_072_prepared_2026-11-11.md, windows_044_047_summary.json and coverage_audit_2026_11_11.json. Source ZIP has 421,387 records; offsets are not completion markers. Retain historical holds, including Q2036070/P386408.
 
