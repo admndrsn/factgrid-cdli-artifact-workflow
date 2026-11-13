@@ -1,0 +1,15 @@
+{
+  "reviewed": 1500,
+  "eligible": 864,
+  "selected": 864,
+  "holds": 636,
+  "hold_reasons": {
+    "P121_conflict_same_property": 573,
+    "P2_conflict_same_property": 21,
+    "P853_conflict_same_property": 42
+  },
+  "expected_new_main_claims": 864,
+  "expected_by_property": {
+    "P1085": 864
+  }
+}

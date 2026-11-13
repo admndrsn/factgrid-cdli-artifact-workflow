@@ -2,10 +2,10 @@
 
 Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-11.md).
 
-- Completed through **078**: **79,891 updates**, **154,903 claims added**.
-- Cumulative ledger: **99,408 written CDLI IDs** plus two historical held outcomes.
+- Completed through **079**: **81,391 updates**, **157,901 claims added**.
+- Cumulative ledger: **100,908 written CDLI IDs** plus two historical held outcomes.
 - [Batch 072 reconciliation and live coverage audit](docs/batch_072_completed_2026-11-11.md).
-- [Batch 078 completed](docs/batch_078_completed_2026-11-12.md); [batch 079 prepared](docs/batch_079_prepared_2026-11-12.md): 1,500 items, 3,000 expected claims, about 2h37m. Active results excluded.
+- [Batch 079 reconciled and Old Assyrian batch 080 prepared](docs/batch_080_oa_prepared_2026-11-13.md).
 - [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
   then ATF pages and P251 links together.
 

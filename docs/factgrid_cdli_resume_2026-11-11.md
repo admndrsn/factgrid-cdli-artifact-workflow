@@ -41,3 +41,7 @@ Complete CDLI items and statements first, including new unmatched items and
 review holds. Then create/verify ATF Document pages and add P251 links together.
 Prepare URL mappings first without adding links to missing pages. See
 cdli_completion_workplan.md and the reference CDLI-ATF-L-Q894483.
+
+## November 13 checkpoint
+
+[Batch 079 reconciled and Old Assyrian batch 080 prepared](batch_080_oa_prepared_2026-11-13.md).
