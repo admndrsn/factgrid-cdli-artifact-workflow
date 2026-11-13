@@ -6,7 +6,7 @@ Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-11.md).
 - Cumulative ledger: **100,908 written CDLI IDs** plus two historical held outcomes.
 - [Batch 072 reconciliation and live coverage audit](docs/batch_072_completed_2026-11-11.md).
 - [Batch 079 reconciled and Old Assyrian batch 080 prepared](docs/batch_080_oa_prepared_2026-11-13.md).
-- [Batch 080 reconciled and batch 081 prepared](docs/batch_081_oa_prepared_2026-11-13.md).
+- [Old Assyrian batch 081 completed](docs/batch_081_oa_completed_2026-11-13.md). Batches 080–081 added 1,448 OARE IDs.
 - [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
   then ATF pages and P251 links together.
 
