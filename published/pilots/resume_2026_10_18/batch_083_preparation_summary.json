@@ -1,13 +1,13 @@
 {
-  "reviewed": 400,
-  "eligible": 400,
-  "selected": 400,
+  "reviewed": 5000,
+  "eligible": 5000,
+  "selected": 4480,
   "holds": 0,
   "hold_reasons": {},
-  "expected_new_main_claims": 816,
+  "expected_new_main_claims": 9005,
   "expected_by_property": {
-    "P131": 400,
-    "P695": 400,
-    "P329": 16
+    "P131": 4480,
+    "P695": 4480,
+    "P329": 45
   }
 }
