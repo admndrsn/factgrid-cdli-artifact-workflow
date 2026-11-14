@@ -47,3 +47,5 @@ cdli_completion_workplan.md and the reference CDLI-ATF-L-Q894483.
 [Batch 079 reconciled and Old Assyrian batch 080 prepared](batch_080_oa_prepared_2026-11-13.md).
 
 [Batch 082 reconciled and batch 083 prepared](batch_083_prepared_2026-11-13.md).
+
+[Batch 083 reconciled and batch 084 prepared](batch_084_prepared_2026-11-14.md).
