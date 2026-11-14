@@ -45,3 +45,5 @@ cdli_completion_workplan.md and the reference CDLI-ATF-L-Q894483.
 ## November 13 checkpoint
 
 [Batch 079 reconciled and Old Assyrian batch 080 prepared](batch_080_oa_prepared_2026-11-13.md).
+
+[Batch 082 reconciled and batch 083 prepared](batch_083_prepared_2026-11-13.md).
