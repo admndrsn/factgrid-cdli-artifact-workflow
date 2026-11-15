@@ -1,0 +1,18 @@
+{
+  "reviewed": 2294,
+  "eligible": 2286,
+  "selected": 2286,
+  "holds": 8,
+  "hold_reasons": {
+    "inventory_placeholder": 6,
+    "P18_conflict_same_property": 1,
+    "P853_conflict_same_property": 1
+  },
+  "expected_new_main_claims": 4569,
+  "expected_by_property": {
+    "P131": 2279,
+    "P695": 2286,
+    "P853": 2,
+    "P329": 2
+  }
+}
