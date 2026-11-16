@@ -14,7 +14,10 @@ checkpoint = ROOT / 'published/pilots/resume_2026_10_18'
 paths = sorted((ROOT / 'published/pilots').glob('factgrid_cdli_artifact_write_results*.csv'))
 old_count = len(paths)
 paths += [checkpoint / 'pilot_write_results.csv']
-enrichment_paths = sorted(checkpoint.glob('batch_*_oa_write_results.csv'))
+enrichment_paths = sorted(
+    path for suffix in ('oa', 'bdtns')
+    for path in checkpoint.glob(f'batch_*_{suffix}_write_results.csv')
+)
 paths += sorted(set(checkpoint.glob('batch_*_write_results.csv')) - set(enrichment_paths))
 frames = []
 for path in paths:
@@ -41,7 +44,7 @@ print(f'New-Mac successful updates: {len(written):,}')
 print(f'New-Mac claims added: {written.claims_written.astype(int).sum():,}')
 print(f'Wrote {args.output}')
 
-# Old Assyrian enrichment can legitimately revisit a completed CDLI item.
+# Identifier enrichment can legitimately revisit a completed CDLI item.
 # Keep its results in the canonical per-batch files and out of the CDLI ledger.
 for path in enrichment_paths:
     enrichment = pd.read_csv(path, dtype=str).fillna('')
