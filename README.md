@@ -7,7 +7,7 @@ Start with [the current resume guide](docs/factgrid_cdli_resume_2026-11-11.md).
 - [Batch 072 reconciliation and live coverage audit](docs/batch_072_completed_2026-11-11.md).
 - [Batch 079 reconciled and Old Assyrian batch 080 prepared](docs/batch_080_oa_prepared_2026-11-13.md).
 - [Old Assyrian batch 081 completed](docs/batch_081_oa_completed_2026-11-13.md). Batches 080–081 added 1,448 OARE IDs.
-- [BDTNS batch 110 reconciled and batch 111 prepared](docs/batch_111_prepared_2026-11-24.md).
+- [BDTNS batch 111 reconciled and batch 112 prepared](docs/batch_112_prepared_2026-11-24.md).
 - [Completion workplan](docs/cdli_completion_workplan.md): items/statements first,
   then ATF pages and P251 links together.
 

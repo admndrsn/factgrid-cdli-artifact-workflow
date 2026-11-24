@@ -1,0 +1,11 @@
+{
+  "reviewed": 1800,
+  "eligible": 1800,
+  "selected": 1500,
+  "holds": 0,
+  "hold_reasons": {},
+  "expected_new_main_claims": 1500,
+  "expected_by_property": {
+    "P959": 1500
+  }
+}
